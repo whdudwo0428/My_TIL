@@ -30,5 +30,5 @@
     - 
     - mAP 등 성능 평가 지표 공부
 - 1월 23일
-    - OverFeat 논문리뷰 / 참고블로그
+    - [OverFeat 논문리뷰](https://arxiv.org/pdf/1312.6229) / [참고블로그](https://herbwood.tistory.com/7)
     - 기본 CNN 동작 원리 학습 (Padding, Strid, Pooling, 각 Layer 내 원리)
