@@ -16,12 +16,12 @@
           
 - 1월 11일
     - Lidar, Camera 등 기술 탐구
-        - / ADAS SNN GELU 3D point cloud이런거 둘러보고
+        - /
     - 교수님이 주신 논문 둘러보면서 gpt돌리고 막 gpt코딩하고 
 - 1월 12일
     - CV 작성법 및 포트폴리오 연구
 - 1월 13일
-- 
+    - ADAS SNN GELU 3D point cloud이런거 둘러보고 
 - 1월 14일
     - SLAM과 같은 3D Maping 간단히 돌아봄?
     - 망막 원추세포 눈 스펙트럼 시각수용체, 빨강파랑 주파수
@@ -51,11 +51,11 @@
     - 자동 모자이크 처리 프로그램 구상
 - 1월 21일
     - 축구경기 탐지를 위한 공부였음
-- 1월 22일
+**- 1월 22일**
     - Object Detection과 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획 / [참고git](https://github.com/rafaelpadilla/Object-Detection-Metrics)
     - [DETR 논문 review](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     - [R-CNN 논문 review](https://arxiv.org/pdf/1311.2524) / [참고블로그](https://herbwood.tistory.com/5)
-- 1월 23일
+- **1월 23일**
     - [OverFeat 논문 review](https://arxiv.org/pdf/1312.6229) / [참고블로그](https://herbwood.tistory.com/7)
     - 기본 CNN 동작 원리를 기존보다 깊게 탐구 (Padding, Strid, Pooling, 각 Layer 내 원리)
 
