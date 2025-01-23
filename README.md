@@ -61,6 +61,7 @@
     - Project3.Detection_Soccer 구조도 작성 및 모델 선별
         - 데이터셋 선별 후 모델 선별과정에서 다양한 Object Detection 모델들 리스트업
     - 논문 리뷰 로드맵 / [참고git](https://github.com/rafaelpadilla/Object-Detection-Metrics)
+    - - [DETR 논문 review1](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     
 - **1월 22일**
     - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획 
