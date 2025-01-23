@@ -9,7 +9,7 @@
     - 강화학습 이론과 알고리즘 공부
         - 파이썬으로 간단한 GridWolrd를 만들고 경로최적화 문제 실습
               - Q-Learning과 SARSA 구현,ε-탐욕 정책, Q-테이블 학습, 업데이트 공식, 강화학습 내 파이퍼파라미터 등 이해.
-    - 자율주행에 대한 기술들을 A to Z 정리 : (TIL_0110](https://github.com/whdudwo0428/My_TIL/blob/main/TIL_0110.md)
+    - 자율주행에 대한 기술들을 A to Z 정리 : [TIL_0110](https://github.com/whdudwo0428/My_TIL/blob/main/TIL_0110.md)
           
 - **1월 11일**
     - Lidar, Camera 등 기술 탐구
