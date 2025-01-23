@@ -64,7 +64,8 @@
     - [DETR 논문 review1](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     
 - **1월 22일**
-    - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획 
+    - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획
+    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     - [R-CNN 논문 review](https://arxiv.org/pdf/1311.2524) / [참고블로그](https://herbwood.tistory.com/5)
       
 - **1월 23일**
