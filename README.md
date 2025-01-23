@@ -66,7 +66,7 @@
     - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획 
     - [DETR 논문 review](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     - [R-CNN 논문 review](https://arxiv.org/pdf/1311.2524) / [참고블로그](https://herbwood.tistory.com/5)
-    - 
+      
 - **1월 23일**
     - [OverFeat 논문 review](https://arxiv.org/pdf/1312.6229) / [참고블로그](https://herbwood.tistory.com/7)
     - 기존에 조금씩 햇갈리던 기본 CNN 동작 원리를 기존보다 깊게 탐구 (Padding, Strid, Pooling, 각 Layer 내 원리)
