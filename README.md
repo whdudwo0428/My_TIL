@@ -96,7 +96,7 @@
       
 - **1월 29일**
     - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
-    - [논문 review]() / [참고블로그]()
+    - [Mask R-CNN 논문 review](https://arxiv.org/pdf/1703.06870) / [참고블로그](https://herbwood.tistory.com/20?category=856250)
 
 
 이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
