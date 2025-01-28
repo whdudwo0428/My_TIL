@@ -89,10 +89,14 @@
       
 - **1월 27일**
     - [FPN 논문 review](https://arxiv.org/pdf/1612.03144) / [참고블로그](https://herbwood.tistory.com/18)
-    - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
+        - FPN 자체가 새로운 개념보단 이전 모델들을 잘 조합해 성능을 높인거다보니 다른 논문을 공부할 때에 비해 내가 어떤걸 모르고 아는지를 좀 더 명확히 할 수 있었음. 해서 아래 내용을 더 익숙해지는데 집중함
+        - CNN 내 다양한 Layer들(fc,coonv,Reorg, ResidualConn 등)의 원리부터 Bottom-up, Top-down Pathway, Lateral Connetion 구조 등 다양한 구조적 개념
+        - K-means Clustering 을 공부하며 이전 논문을 리뷰하며 공부했던 수학개념들을 다시 복슴(주로 Loss내 공식에서 찾아봤던 지시함수, 이중합산 같은 선형대수적 내용)
+        - PS) FPN을 리뷰하며 이전 논문들도 다시 돌아가서 찾는 경우가 많았고 이제 뭐가 뭔지 좀 알아듣는 느낌
       
 - **1월 28일**
-    - [논문 review]() / [참고블로그]()
+    - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
+    - 
     - [논문 review]() / [참고블로그]()
       
 - **1월 29일**
