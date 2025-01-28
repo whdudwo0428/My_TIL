@@ -95,7 +95,7 @@
         - PS) FPN을 리뷰하며 이전 논문들도 다시 돌아가서 찾는 경우가 많았고 이제 뭐가 뭔지 좀 알아듣는 느낌
       
 - **1월 29일**
-    - [논문 review]() / [참고블로그]()
+    - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
     - [논문 review]() / [참고블로그]()
 
 
