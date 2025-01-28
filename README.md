@@ -75,8 +75,29 @@
     - OverFeat의 개념을 바탕으로  Two stage detector -> One stage detector 핵심 차이를 공부
     - [Fast R-CNN 논문 review](https://arxiv.org/pdf/1504.08083) / [참고블로그](https://herbwood.tistory.com/8)
 
-
-
+- **1월 24일**
+    - [Faster R-CNN 논문 review](https://arxiv.org/pdf/1506.01497) / [참고블로그](https://herbwood.tistory.com/10)
+    - [OHEM 논문 review](https://arxiv.org/pdf/1604.03540) / [참고블로그](https://herbwood.tistory.com/12)
+      
+- **1월 25일**
+    - [YOLO v1 논문 review](https://arxiv.org/pdf/1506.02640) / [참고블로그](https://herbwood.tistory.com/13)
+    - [SSD 논문 review](https://arxiv.org/pdf/1512.02325) / [참고블로그](https://herbwood.tistory.com/15)
+      
+- **1월 26일**
+    - [R-FCN 논문 review](https://arxiv.org/pdf/1605.06409) / [참고블로그](https://herbwood.tistory.com/16)
+    - [YOLO v2 논문 review](https://arxiv.org/pdf/1612.08242) / [참고블로그](https://herbwood.tistory.com/17)
+      
+- **1월 27일**
+    - [FPN 논문 review](https://arxiv.org/pdf/1612.03144) / [참고블로그](https://herbwood.tistory.com/18)
+    - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
+      
+- **1월 28일**
+    - [논문 review]() / [참고블로그]()
+    - [논문 review]() / [참고블로그]()
+      
+- **1월 29일**
+    - [논문 review]() / [참고블로그]()
+    - [논문 review]() / [참고블로그]()
 
 
 이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
