@@ -87,16 +87,25 @@
     - [R-FCN 논문 review](https://arxiv.org/pdf/1605.06409) / [참고블로그](https://herbwood.tistory.com/16)
     - [YOLO v2 논문 review](https://arxiv.org/pdf/1612.08242) / [참고블로그](https://herbwood.tistory.com/17)
       
-- **1월 27, 28일**
+- **1월 27,28일**
     - [FPN 논문 review](https://arxiv.org/pdf/1612.03144) / [참고블로그](https://herbwood.tistory.com/18)
         - FPN 자체가 새로운 개념보단 이전 모델들을 잘 조합해 성능을 높인거다보니 다른 논문을 공부할 때에 비해 내가 어떤걸 모르고 아는지를 좀 더 명확히 할 수 있었음. 해서 시간투자를 좀 해서 기존 모델들을 복습하고, 아래 내용을 처럼 기본이 되는 내용들을 더 익숙해지는데 집중함
         - CNN 내 다양한 Layer들(fc,coonv,Reorg, ResidualConn 등)의 원리부터 Bottom-up, Top-down Pathway, Lateral Connetion 구조 등 다양한 구조적 개념
         - K-means Clustering 을 공부하며 이전 논문을 리뷰하며 공부했던 수학개념들을 다시 복습(주로 Loss내 공식에서 찾아봤던 지시함수, 특이값분해, 이중합산 같은 선형대수적 내용)
         - PS) FPN을 리뷰하며 이전 논문들도 다시 돌아가서 찾는 경우가 많았고 이제 뭐가 뭔지 좀 알아듣는 느낌
       
-- **1월 29일**
+- **1월 29,30일**
     - [RetinaNet 논문 review](https://arxiv.org/pdf/1708.02002) / [참고블로그](https://herbwood.tistory.com/19)
     - [Mask R-CNN 논문 review](https://arxiv.org/pdf/1703.06870) / [참고블로그](https://herbwood.tistory.com/20?category=856250)
+ 
 
-
-이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
+- **1월 31일**
+    - [YOLO v3 논문 review](https://arxiv.org/pdf/1804.02767) / [참고블로그](https://herbwood.tistory.com/21)
+    - [RefineDet 논문 review](https://arxiv.org/pdf/1711.06897) / [참고블로그](https://herbwood.tistory.com/22)
+    - [M2Det 논문 review](https://arxiv.org/pdf/1811.04533) / [참고블로그](https://herbwood.tistory.com/23)
+    - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
+    - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
+      
+    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
+    -
+    - 이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
