@@ -5,12 +5,15 @@
 ## 1️⃣ 자주 쓰이는 형용사 (Adjectives)
 
 ### 📌 모델 구조 및 특성 관련
-- **hierarchical** | (계층적인)
-- **modular**      | (모듈화된)
-- **scalable**     | (확장 가능한)
-- **robust**       | (강건한, 견고한)
-- **adaptive**     | (적응적인)
-- **lightweight**  | (경량화된)
+| 영어 단어      | 뜻                    |
+|---------------|---------------------|
+| hierarchical  | 계층적인             |
+| modular      | 모듈화된             |
+| scalable     | 확장 가능한           |
+| robust       | 강건한, 견고한        |
+| adaptive     | 적응적인             |
+| lightweight  | 경량화된             |
+
 - **versatile**    | (다목적의, 다양한 용도에 적합한)
 - **autonomous**   | (자율적인)
 - **end-to-end**   | (종단간의)
