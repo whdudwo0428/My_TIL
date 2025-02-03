@@ -115,7 +115,7 @@
     - 다양한 **Data Augmentation** 기법의 수학적 원리를 중점적으로 공부하고, OpenCV 코드를 분석하며 구현 방식까지 살펴봄 + RGP-D를 중심으로 image processing에 대한 개념을 쌓고 더 깊게 공부해 솔직히 대충 짚고 넘겼던 channel에 대한 개념을 제대로 이해 할 수 있었음
         - 자연스럽게 생성모델(Generative model)에 대한 정보를 접하게 되어 어떤게 있는지 찾아봄. object detection, segmentation 이후 관련 공부와 프로젝트 진행하고싶음 [생성모델 관련 논문 커리큘럼 추천](https://donghyun99.tistory.com/24)
     - **VQ-VAE**    [Neural Discrete Representation Learning 논문](https://arxiv.org/pdf/1711.00937)
-        - Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> 3일에 flow matchin까지 공부해보도록
+        - Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> 3일에 flow matching까지 공부해보도록
         - 인코더-디코더 구조와 원리(FCN, U-net이나 객체탐지 공부할 땐 그냥 저수준부터 고수준까지 특징 추출하고 복원하는 것, 네트워크 구조 정도 수준으로 얕게 이해했었는데 이번에 제대로 공부함)
         - AE, Scalar/Vector Quantization 같은 하위 개념부터 차근차근 공부함 //그런데 솔직히 discretization랑 Scalar Quantization 차이 아직도 납득이 안됨...
 
