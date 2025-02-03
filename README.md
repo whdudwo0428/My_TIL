@@ -122,7 +122,7 @@
 
 - **2월 2일**
     - 오늘도 날도 영단어로 시작...
-    - [Neural ODE](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
+    - [Neural ODE 논문 review](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
         - ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
         - 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
 
