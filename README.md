@@ -103,17 +103,16 @@
     - [YOLO v3 논문 review](https://arxiv.org/pdf/1804.02767) / [참고블로그](https://herbwood.tistory.com/21)
     - [RefineDet 논문 review](https://arxiv.org/pdf/1711.06897) / [참고블로그](https://herbwood.tistory.com/22)
         - RefineDet 논문을 읽으면서 ARM과 ODM의 개별적인 역할은 명확하게 설명되었지만, ODM에서 각 스케일에 나온 정보를 어떻게 최종적으로 통합하는지(multi-scale feature에서 나온 여러 prediction을 어떻게 최종적으로 통합하는지/Multi-scale Feature에서 가져오는 정보의 조합 방식, Bounding Box Regression 과정 등) 명확하지 않아 직접 코드를 Scratch하여 이해하는 과정이 필요했음.
-논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌 받았다.
+논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌을 받았다.
     - [M2Det 논문 review](https://arxiv.org/pdf/1811.04533) / [참고블로그](https://herbwood.tistory.com/23)
 
  
 - **2월 1일**
     - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
-    - 
+        - YOLOv4에서는 개인적으로 새로운 개념과 다양한 기법들이 대거 도입된 느낌을 받아 처음 객체탐지 모델 논문을 읽었을 때 처럼 막막한 기분이 들었다. (한줄마다 새로운 개념과 단어들이 계속 나오는... 심지어 그때보다 더 복잡하다...) YOLOv3같은 기존 논문들까지는어느정도 특정 모듈의 개선을 중심으로 발전시켰던 분명 심플한 디자인의 모델이었던것 같은데 말입니다. 특히 Bos, BoF 같은 새로운 개념을 접하며 이전 네트워크 개선에 대한 공부 뿐만 아니라 성능 향상에 기여하는 다양한 요소와 기반지식들을 체계적으로 공부하고 넘어가야할 필요성을 느꼈다. Bos, BoF뿐만 아니라 CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 더 복잡한 개념들을 접하며 너무 힘들었던 review였다...
+    - ㅁㅇㄹㄴ
       
 - **2월 2일**
-    - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
-    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     - 
 - **2월 3일**
     - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
