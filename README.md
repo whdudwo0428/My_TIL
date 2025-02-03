@@ -123,6 +123,7 @@
     - **Neural ODE** [논문](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
         - ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
         - 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
+        - ODE solver 
     - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
       
     - __init__ 같은 코드 파일 구조부터 파이썬 기술 같은거 좀 봤는데 솔직히 졸면서 봤음 한 5번째 프로젝트 할때쯤 신경써보기 시작하면 될듯?
