@@ -60,7 +60,7 @@
 - **1월 21일**
     - Project3.Detection_Soccer 구조도 작성 및 모델 선별
         - 데이터셋 선별 후 모델 선별과정에서 다양한 Object Detection 모델들 리스트업
-    - 논문 리뷰 로드맵 / [참고git](https://github.com/rafaelpadilla/Object-Detection-Metrics)
+    - 논문 리뷰 로드맵 / [참고git](https://github.com/hoya012/deep_learning_object_detection)
     - [DETR 논문 review1](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     
 - **1월 22일**
@@ -102,34 +102,33 @@
 - **1월 31일**
     - [YOLO v3 논문 review](https://arxiv.org/pdf/1804.02767) / [참고블로그](https://herbwood.tistory.com/21)
     - [RefineDet 논문 review](https://arxiv.org/pdf/1711.06897) / [참고블로그](https://herbwood.tistory.com/22)
-        - RefineDet 
+        - RefineDet 논문을 읽으면서 ARM과 ODM의 개별적인 역할은 명확하게 설명되었지만, ODM에서 각 스케일에 나온 정보를 어떻게 최종적으로 통합하는지(multi-scale feature에서 나온 여러 prediction을 어떻게 최종적으로 통합하는지/Multi-scale Feature에서 가져오는 정보의 조합 방식, Bounding Box Regression 과정 등) 명확하지 않아 직접 코드를 Scratch하여 이해하는 과정이 필요했음.
+논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌 받았다.
     - [M2Det 논문 review](https://arxiv.org/pdf/1811.04533) / [참고블로그](https://herbwood.tistory.com/23)
-    - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
-    - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
-      
-    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
-    -
-    - 이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
+
  
 - **2월 1일**
-    - ㅁㄴㅇㄹ
+    - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
+    - 
       
 - **2월 2일**
-    - ㅁㄴㅇㄹ
+    - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
+    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     - 
 - **2월 3일**
-    - ㅁㄴㅇㄹ
-    - 
+    - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
+    - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
+
+      
 - **2월 4일**
     - ㅁㄴㅇㄹ
-    - 
+
+      
 - **2월 5일**
     - ㅁㄴㅇㄹ
-- **2월 6일**
 
-- 
+- **2월 6일**
     - ㅁㄴㅇㄹ
  
-    - 
 - **2월 7일**
     - ㅁㄴㅇㄹ
