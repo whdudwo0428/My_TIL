@@ -119,6 +119,7 @@
         - Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> 3일에 flow matching까지 공부해보도록
         - 인코더-디코더 구조와 원리(FCN, U-net이나 객체탐지 공부할 땐 그냥 저수준부터 고수준까지 특징 추출하고 복원하는 것, 네트워크 구조 정도 수준으로 얕게 이해했었는데 이번에 제대로 공부함)
         - AE, Scalar/Vector Quantization 같은 하위 개념부터 차근차근 공부함 //그런데 솔직히 discretization랑 Scalar Quantization 차이 아직도 납득이 안됨...
+        - Residual VQ
     - **Neural ODE** [논문](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
         - ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
         - 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
