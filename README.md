@@ -102,6 +102,7 @@
 - **1월 31일**
     - [YOLO v3 논문 review](https://arxiv.org/pdf/1804.02767) / [참고블로그](https://herbwood.tistory.com/21)
     - [RefineDet 논문 review](https://arxiv.org/pdf/1711.06897) / [참고블로그](https://herbwood.tistory.com/22)
+        - RefineDet 
     - [M2Det 논문 review](https://arxiv.org/pdf/1811.04533) / [참고블로그](https://herbwood.tistory.com/23)
     - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
     - [EfficientDet 논문 review](https://arxiv.org/pdf/1911.09070) / [참고블로그](https://herbwood.tistory.com/25)
@@ -109,3 +110,26 @@
     - [DETR 논문 review2](https://arxiv.org/pdf/2005.12872) / [참고블로그](https://herbwood.tistory.com/26)
     -
     - 이미지를 광학문자로 인식 처리하는 방법 RNN도 트랜스포머 이런거?
+ 
+- **2월 1일**
+    - ㅁㄴㅇㄹ
+      
+- **2월 2일**
+    - ㅁㄴㅇㄹ
+    - 
+- **2월 3일**
+    - ㅁㄴㅇㄹ
+    - 
+- **2월 4일**
+    - ㅁㄴㅇㄹ
+    - 
+- **2월 5일**
+    - ㅁㄴㅇㄹ
+- **2월 6일**
+
+- 
+    - ㅁㄴㅇㄹ
+ 
+    - 
+- **2월 7일**
+    - ㅁㄴㅇㄹ
