@@ -136,9 +136,74 @@
 - **2월 3일**
     - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
     - 1일, 2일 공부 내용 복습
-    - CNN 마지막으로 아직도 깔끔하게 정리 안된 내용들 공부(stride같은거)
-    - 4일~ 계획짜기
-추천 논문 및 학습 로드맵 정리
+    - CNN 추가 공부 (계속해서 CNN 기본기가 굉장히 약함 앞으로도 지속적으로 공부할 수 있도록 준비)
+    - 세미나 주제로 정할 3D object Detection에 관련된 논문 searching
+        - [추천 논문](https://github.com/maudzung/Awesome-Autonomous-Driving-Papers) 및 학습 로드맵 정리
+        - 3D point cloud / LiDAR / Voxel Grid / 3D object Detection / 
+
+- **2월 4일**
+    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비
+    - 
+  
+- **2월 5일**
+    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비 및 발표
+        - Receptive field, ~wise 개념 공부특히 수학 공부를 정말 많이함. 지난 이틀간 [임커밋님의 유튜브채널](https://www.youtube.com/@%EC%9E%84%EC%BB%A4%EB%B0%8B/videos)을 정말 많이 보고 참고함.
+
+- **2월 1일, 2일**    
+    - [YOLO v4 논문 review](https://arxiv.org/pdf/2004.10934v1) / [참고블로그](https://herbwood.tistory.com/24)
+        - YOLOv4에서는 개인적으로 새로운 개념과 다양한 기법들이 대거 도입된 느낌을 받아 처음 객체탐지 모델 논문을 읽었을 때 처럼 막막한 기분이 들었다. (한줄마다 새로운 개념과 단어들이 계속 나오는... 심지어 그때보다 더 복잡하다...) YOLOv3같은 기존 논문들까지는어느정도 특정 모듈의 개선을 중심으로 발전시켰던 분명 심플한 디자인의 모델이었던것 같은데 말입니다. 특히 Bos, BoF 같은 새로운 개념을 접하며 이전 네트워크 개선에 대한 공부 뿐만 아니라 성능 향상에 기여하는 다양한 요소와 기반지식들을 체계적으로 공부하고 넘어가야할 필요성을 느꼈다. Bos, BoF뿐만 아니라 CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 더 복잡한 개념들을 접하며 너무 힘들었던 review였다...
+    - 영단어(논문 읽을 때 영어 단어 때문에 좀 더딘게 느껴졌기에 관련분야 논문에서 많이 쓰이는 형용사와 동사, 공부하는 분야 관련 논문에 많이 언급되는 형용사, 동사, 고유명사들 정리)
+    - 다양한 **Data Augmentation** 기법의 수학적 원리를 중점적으로 공부하고, OpenCV 코드를 분석하며 구현 방식까지 살펴봄 + RGB를 중심으로 image processing에 대한 개념을 쌓고 더 깊게 공부해 솔직히 대충 짚고 넘겼던 channel에 대한 개념을 제대로 이해 할 수 있었음
+        - 자연스럽게 생성모델(Generative model)에 대한 정보를 접하게 되어 어떤게 있는지 찾아봄. object detection, segmentation 이후 관련 공부와 프로젝트 진행하고싶음 [생성모델 관련 논문 커리큘럼 추천](https://donghyun99.tistory.com/24)
+    - **VQ-VAE**    [논문](https://arxiv.org/pdf/1711.00937)
+        - Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> 3일에 flow matching까지 공부해보도록
+        - 인코더-디코더 구조와 원리(FCN, U-net이나 객체탐지 공부할 땐 그냥 저수준부터 고수준까지 특징 추출하고 복원하는 것, 네트워크 구조 정도 수준으로 얕게 이해했었는데 이번에 제대로 공부함)
+        - AE, Scalar/Vector Quantization 같은 하위 개념부터 차근차근 공부함 //그런데 솔직히 discretization랑 Scalar Quantization 차이 아직도 납득이 안됨...
+        - Residual VQ
+    - **Neural ODE** [논문](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
+        - ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
+        - 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
+        - ODE solver 
+    - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
+      
+    - __init__ 같은 코드 파일 구조부터 파이썬 기술 같은거 좀 봤는데 솔직히 졸면서 봤음 한 5번째 프로젝트 할때쯤 신경써보기 시작하면 될듯?
+    - Diffusion(DDPM)도 공부했는데 솔직히 하나도 모르겠음 나중에 다시 공부해야함... 아래 선행 되어야할 개념들을 정리해두겠음 언젠간 GAN 공부한 이후 다시 도전
+        - (Continuous) Stochastic Process((연속)확률 과정), Markov Process, 확률 미분 방정식(SDE)
+        - Noise Schedule, Variance Schedule
+        - VAE, GAN 같은 생성모델 기반개념 잡기
+
+ 
+- **2월 3일**
+    - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
+    - 1일, 2일 공부 내용 복습
+    - CNN 추가 공부 (계속해서 CNN 기본기가 굉장히 약함 앞으로도 지속적으로 공부할 수 있도록 준비)
+    - 세미나 주제로 정할 3D object Detection에 관련된 논문 searching
+        - [추천 논문](https://github.com/maudzung/Awesome-Autonomous-Driving-Papers) 및 학습 로드맵 정리
+        - 3D point cloud / LiDAR / Voxel Grid / 3D object Detection 해당 카테고리에 기본 개념들에 대해 공부 (앞으로는 이것저것 찾아볼 때 어떤걸 찾아봤는지 정리하는 습관을 가져야겠음...)
+
+- **2월 4일**
+    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비
+        - 정말 하루종일 세미나 준비만해서 Network의 architecture, idea 필요한 지식을 두루두루 공부했다...3일~5일까지 밤새면서 공부하고 준비했다. ㅜㅜ 
+  
+- **2월 5일**
+    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비 및 발표
+        - 세미나 준비 기간이 2일정도로 제한되어있기에 거의 잠도 안자고 공부하고 ppt를 제작했다. 때문에 초안 수준의 ppt로 완성도가 낮았지만 핵심 내용과 말하고싶던 내용 누락 없이 구성하는 정도에는 도달했다. 갑자기 발표 시간이 4시간 정도 앞당겨지는 바람에 script 준비를 하나도 못했지만 최대한 내용 이해를 목적으로 공부했던 터라 준비했던 내용을 70% 정도는 발표할 수 있었던 것 같았다. 첫 세미나라 너무 떨렸기에 발표 중에 절고 가슴이 뛰어서 너무 속상했다... 하지만 레벨업한게 느껴졌다는 주변 칭찬을 들어 꽤 만족스러웠던 첫 세미나였다. ppt만드는 능력만 높인다면 다음엔 더 잘 준비할 수 있을 것 같다. (학부 때 거의 발표를 맡고 ppt는 피드백하는 역할이었는데 후회된다...) 아래는 내가 세미나 도중 매끄럽게 설명하지 못하거나 질문 받았을 때 잘 모르겠는 개념들을 정리해놓았다. 오늘 안에 최대한 공부하고 집 갈 예정! 
+        - Receptive field, ~wise 개념 공부
+
+ 
+    - Lab searching, CV 작성, email 준비
+
+- **2월 6일**
+
+- 
+- **2월 7일**
+ㅡ  
+- 
+- **2월 8일**
+
+
+
+
 
 
 # 🔥 추천 논문 목록
@@ -231,16 +296,3 @@
 - 3D Object Detection의 최신 연구를 체계적으로 학습하고, **자율주행 및 LiDAR 기반 AI 연구와 연결**  
 - GitHub 코드 분석을 통해 논문 구현을 직접 실행해보고, 연구 발전 방향을 탐색  
 
-      
-- **2월 4일**
-    - 세미나용 ppt 만들기...
-
-      
-- **2월 5일**
-    - 지금까지 공부한 내용 전부 다 세미나 발표
-
-- **2월 6일**
-    - ㅁㄴㅇㄹ
- 
-- **2월 7일**
-    - ㅁㄴㅇㄹ
