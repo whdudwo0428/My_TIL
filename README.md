@@ -150,7 +150,8 @@
     
 - **2월 6일**
     - CNN 기본기
-    - Receptive field + Dilated/Atrous Convolution + Segmentation 한번에 공부 : [Dilated Convolutional 논문](https://arxiv.org/pdf/1511.07122) review
+    - Receptive field + Dilated/Atrous Convolution + Segmentation 한번에 공부
+        - [Dilated Convolutional 논문](https://arxiv.org/pdf/1511.07122) review / [참고블로그](https://kevin-rain.tistory.com/111)
     - 해상도에 대한 모든 것
     - 미국 가기 전 **내가 지금까지 공부한 내용들을 정리하고 체득하는 시간이 필요**할 거 같음 지금까지 **공부한 내용 복기**!
     - Lab searching, CV, contect-email 준비
