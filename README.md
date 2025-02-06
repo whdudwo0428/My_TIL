@@ -59,50 +59,50 @@
     - Project3.Detection_Soccer 구조도 작성 및 모델 선별
         - 데이터셋 선별 후 모델 선별과정에서 다양한 Object Detection 모델들 리스트업
     - 논문 리뷰 로드맵 / [참고git](https://github.com/hoya012/deep_learning_object_detection)
-    - [DETR 논문](https://arxiv.org/pdf/2005.12872)review1 / [참고블로그](https://herbwood.tistory.com/26)
+    - [DETR 논문](https://arxiv.org/pdf/2005.12872) review1 / [참고블로그](https://herbwood.tistory.com/26)
     
 - **1월 22일**
     - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획
-    - [DETR 논문](https://arxiv.org/pdf/2005.12872)review2 / [참고블로그](https://herbwood.tistory.com/26)
-    - [R-CNN 논문](https://arxiv.org/pdf/1311.2524)review / [참고블로그](https://herbwood.tistory.com/5)
+    - [DETR 논문](https://arxiv.org/pdf/2005.12872) review2 / [참고블로그](https://herbwood.tistory.com/26)
+    - [R-CNN 논문](https://arxiv.org/pdf/1311.2524) review / [참고블로그](https://herbwood.tistory.com/5)
       
 - **1월 23일**
-    - [OverFeat 논문](https://arxiv.org/pdf/1312.6229)review / [참고블로그](https://herbwood.tistory.com/7)
+    - [OverFeat 논문](https://arxiv.org/pdf/1312.6229) review / [참고블로그](https://herbwood.tistory.com/7)
         - 기존에 조금씩 햇갈리던 기본 CNN 동작 원리를 기존보다 깊게 탐구 (Padding, Strid, Pooling, 각 Layer 내 원리)
         - Git에 지금까지의 TIL작성하며 어떤 내용을 공부했나 다시 정리하고 읽어봄
         - OverFeat의 개념을 바탕으로  Two stage detector -> One stage detector 핵심 차이를 공부
-    - [Fast R-CNN 논문](https://arxiv.org/pdf/1504.08083)review / [참고블로그](https://herbwood.tistory.com/8)
+    - [Fast R-CNN 논문](https://arxiv.org/pdf/1504.08083) review / [참고블로그](https://herbwood.tistory.com/8)
 
 - **1월 24일**
-    - [Faster R-CNN 논문](https://arxiv.org/pdf/1506.01497)review / [참고블로그](https://herbwood.tistory.com/10)
-    - [OHEM 논문](https://arxiv.org/pdf/1604.03540)review / [참고블로그](https://herbwood.tistory.com/12)
+    - [Faster R-CNN 논문](https://arxiv.org/pdf/1506.01497) review / [참고블로그](https://herbwood.tistory.com/10)
+    - [OHEM 논문](https://arxiv.org/pdf/1604.03540) review / [참고블로그](https://herbwood.tistory.com/12)
       
 - **1월 25일**
-    - [YOLO v1 논문](https://arxiv.org/pdf/1506.02640)review / [참고블로그](https://herbwood.tistory.com/13)
-    - [SSD 논문](https://arxiv.org/pdf/1512.02325)review / [참고블로그](https://herbwood.tistory.com/15)
+    - [YOLO v1 논문](https://arxiv.org/pdf/1506.02640) review / [참고블로그](https://herbwood.tistory.com/13)
+    - [SSD 논문](https://arxiv.org/pdf/1512.02325) review / [참고블로그](https://herbwood.tistory.com/15)
       
 - **1월 26일**
-    - [R-FCN 논문](https://arxiv.org/pdf/1605.06409)review / [참고블로그](https://herbwood.tistory.com/16)
-    - [YOLO v2 논문](https://arxiv.org/pdf/1612.08242)review / [참고블로그](https://herbwood.tistory.com/17)
+    - [R-FCN 논문](https://arxiv.org/pdf/1605.06409) review / [참고블로그](https://herbwood.tistory.com/16)
+    - [YOLO v2 논문](https://arxiv.org/pdf/1612.08242) review / [참고블로그](https://herbwood.tistory.com/17)
       
 - **1월 27,28일**
-    - [FPN 논문](https://arxiv.org/pdf/1612.03144)review / [참고블로그](https://herbwood.tistory.com/18)
+    - [FPN 논문](https://arxiv.org/pdf/1612.03144) review / [참고블로그](https://herbwood.tistory.com/18)
         - FPN 자체가 새로운 개념보단 이전 모델들을 잘 조합해 성능을 높인거다보니 다른 논문을 공부할 때에 비해 내가 어떤걸 모르고 아는지를 좀 더 명확히 할 수 있었음. 해서 시간투자를 좀 해서 기존 모델들을 복습하고, 아래 내용을 처럼 기본이 되는 내용들을 더 익숙해지는데 집중함
         - CNN 내 다양한 Layer들(fc,coonv,Reorg, ResidualConn 등)의 원리부터 Bottom-up, Top-down Pathway, Lateral Connetion 구조 등 다양한 구조적 개념
         - K-means Clustering 을 공부하며 이전 논문을 리뷰하며 공부했던 수학개념들을 다시 복습(주로 Loss내 공식에서 찾아봤던 지시함수, 특이값분해, 이중합산 같은 선형대수적 내용)
         - PS) FPN을 리뷰하며 이전 논문들도 다시 돌아가서 찾는 경우가 많았고 이제 뭐가 뭔지 좀 알아듣는 느낌
       
 - **1월 29,30일**
-    - [RetinaNet 논문](https://arxiv.org/pdf/1708.02002)review / [참고블로그](https://herbwood.tistory.com/19)
-    - [Mask R-CNN 논문](https://arxiv.org/pdf/1703.06870)review / [참고블로그](https://herbwood.tistory.com/20?category=856250)
+    - [RetinaNet 논문](https://arxiv.org/pdf/1708.02002) review / [참고블로그](https://herbwood.tistory.com/19)
+    - [Mask R-CNN 논문](https://arxiv.org/pdf/1703.06870) review / [참고블로그](https://herbwood.tistory.com/20?category=856250)
  
 
 - **1월 31일**
-    - [YOLO v3 논문](https://arxiv.org/pdf/1804.02767)review / [참고블로그](https://herbwood.tistory.com/21)
-    - [RefineDet 논문](https://arxiv.org/pdf/1711.06897)review / [참고블로그](https://herbwood.tistory.com/22)
+    - [YOLO v3 논문](https://arxiv.org/pdf/1804.02767) review / [참고블로그](https://herbwood.tistory.com/21)
+    - [RefineDet 논문](https://arxiv.org/pdf/1711.06897) review / [참고블로그](https://herbwood.tistory.com/22)
         - RefineDet 논문을 읽으면서 ARM과 ODM의 개별적인 역할은 명확하게 설명되었지만, ODM에서 각 스케일에 나온 정보를 어떻게 최종적으로 통합하는지(multi-scale feature에서 나온 여러 prediction을 어떻게 최종적으로 통합하는지/Multi-scale Feature에서 가져오는 정보의 조합 방식, Bounding Box Regression 과정 등) 명확하지 않아 직접 코드를 Scratch하여 이해하는 과정이 필요했음.
 논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌을 받았다.
-    - [M2Det 논문](https://arxiv.org/pdf/1811.04533)review / [참고블로그](https://herbwood.tistory.com/23)
+    - [M2Det 논문](https://arxiv.org/pdf/1811.04533) review / [참고블로그](https://herbwood.tistory.com/23)
 
 2월 1일, 2일은 이것 저것 손 닿는대로 싹다 찾고 읽고 이해하고하느라 게시한 내용 말고 다양한 내용을 공부했는데 다 적긴 힘듬...
 특히 수학 공부를 정말 많이함. 지난 이틀간 [임커밋님의 유튜브채널](https://www.youtube.com/@%EC%9E%84%EC%BB%A4%EB%B0%8B/videos)을 정말 많이 보고 참고함.
