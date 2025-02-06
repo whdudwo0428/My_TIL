@@ -1,8 +1,6 @@
 ## Today I Learned
 - 1월 23일 작성시작
 - 1월 11일 이후 공부한 내용들만 포함
-- 좋은 TIL 저장소 예시
-    - [예시1](https://github.com/Highjune/TIL)
 
 ---
 - **1월 11일**
