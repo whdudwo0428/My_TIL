@@ -149,8 +149,9 @@
         - 논문 내 Sparse 4D Tensor를 설명하며 각 Layer나 block에서 Data의 구조(차원)에 대한 개념이 약한게 느껴졌다, resource가 정말 많이 투자됨 ㅠㅠ = 자료구조와 알고리즘에 이어 해당 내용을 공부할 수 있는 keyword를 찾아 공부하도록! (2월8일,9일에 공부계획)
     
 - **2월 6일**
-    - **Receptive field + CNN기본기**, **~wise operations**, **Skip Connection**
+    - CNN 기본기
     - Receptive field + Dilated/Atrous Convolution + Segmentation 한번에 공부 : [Dilated Convolutional 논문](https://arxiv.org/pdf/1511.07122) review
+    - 해상도에 대한 모든 것
     - 미국 가기 전 **내가 지금까지 공부한 내용들을 정리하고 체득하는 시간이 필요**할 거 같음 지금까지 **공부한 내용 복기**!
     - Lab searching, CV, contect-email 준비
 
