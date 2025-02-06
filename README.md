@@ -166,93 +166,21 @@
 
 
 
-# 🔥 추천 논문 목록
-
-### 1️⃣ **VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection**
-📌 **학회:** CVPR 2018  
-📌 **주요 기여:**  
-- 3D Point Cloud 데이터를 **Voxel 변환 후 CNN을 적용**하는 최초의 방법  
-- 이후 **SECOND, PointPillars** 등의 연구가 이를 개선하여 발전  
- 
-📌 **추천 이유:**  
-- **CNN과 다양한 Layer 구조** (Conv, FC, Residual Conn, Pooling, Padding, Stride 등) 개념을 활용 가능  
-- **One-stage vs Two-stage Detector 차이**, Bounding Box Regression, Multi-scale Feature 개념과 연계  
-- 기존 LiDAR Detection 방식 (**Point-based → Voxel-based**) 대비 CNN을 적극적으로 활용  
-- 이후 연구들(**SECOND, PointPillars**)로 확장되며, 3D Object Detection의 핵심 기초 개념이 되는 논문  
-
-🔗 **논문 링크:** [VoxelNet Paper](https://arxiv.org/abs/1711.06396)  
-🔗 **GitHub 코드:** [VoxelNet Implementation](https://github.com/charlesq34/VoxelNet)  
-
----
-
-### 2️⃣ **PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection**
-📌 **학회:** CVPR 2020  
-📌 **주요 기여:**  
+ ### **PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection**
 - **Point-based Feature**와 **Voxel-based Feature**를 결합하여 **3D Object Detection의 정확도를 향상**  
-- **KITTI, Waymo 데이터셋**에서 우수한 성능 기록  
-- 이후 연구(**PV-RCNN++, Voxel-RCNN**)에서 확장 및 활용  
-
-📌 **추천 이유:**  
 - LiDAR 신호 처리 (**ToF, FMCW, Solid-State LiDAR**), SLAM, 3D Mapping 등과 연관  
 - **FPN, Residual Connection, Multi-scale Feature** 등의 개념을 활용  
-- Waymo Open Dataset과 KITTI에서 **실전 자율주행과 연결성이 높음**  
-- 최신 연구들이 이 논문을 기반으로 발전했으며, 이를 이해하면 후속 연구도 쉽게 접근 가능  
-
 🔗 **논문 링크:** [PV-RCNN Paper](https://arxiv.org/abs/1912.13192)  
 🔗 **GitHub 코드:** [PV-RCNN Implementation](https://github.com/open-mmlab/OpenPCDet)  
 
----
-
-### 3️⃣ **PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud**
-📌 **학회:** CVPR 2019  
-📌 **주요 기여:**  
+### **PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud**
 - **PointNet++ 기반 Region Proposal 방식 적용**, LiDAR 점 구름에서 직접 3D 객체 감지  
-- **Proposal Refinement**을 통해 Localization 정확도 증가  
-
-📌 **추천 이유:**  
-- CNN 기반 Object Detection (**YOLO, Faster R-CNN, R-FCN** 등), Bounding Box Regression, **Two-stage vs One-stage Detector 차이** 등을 공부한 경험과 연관  
 - **Feature Pyramid Networks (FPN), Multi-scale Feature Extraction 개념 활용 가능**  
 - 기존 VoxelNet과 달리 **Voxel 변환 없이 PointNet 기반 Feature Extraction 수행**  
-- **Faster R-CNN 등의 Two-stage 구조와 연결**, 기존 Object Detection 개념을 활용하여 쉽게 접근 가능  
-
 🔗 **논문 링크:** [PointRCNN Paper](https://arxiv.org/abs/1812.04244)  
 🔗 **GitHub 코드:** [PointRCNN Implementation](https://github.com/sshaoshuai/PointRCNN)  
 
----
 
-## 📌 **추천 논문 학습 로드맵**
-### 🏆 **학습 순서**
-1️⃣ **VoxelNet → PV-RCNN → PointRCNN** 순으로 읽기  
-- **VoxelNet:** CNN과 3D Detection의 기본 개념 학습  
-- **PV-RCNN:** VoxelNet을 발전시킨 모델로 이해가 쉬움  
-- **PointRCNN:** Faster R-CNN 기반 Two-stage Detector 개념과 연결  
-
-2️⃣ **논문 속 개념을 기존 공부한 내용과 연결**  
-- **VoxelNet** → CNN 구조 (Pooling, Stride, Residual Connection 등) 활용  
-- **PV-RCNN** → SLAM, LiDAR 기술, Multi-scale Feature 학습과 연결  
-- **PointRCNN** → Two-stage Detector (Faster R-CNN 개념과 연계)  
-
-3️⃣ **논문 구현 코드 분석 (GitHub 검색 및 baseline 코드 실행)**  
-- PV-RCNN과 PointRCNN은 **PyTorch 기반 코드 제공**, GitHub에서 실행 및 분석 가능  
-- VoxelNet도 TensorFlow/PyTorch 기반 코드가 많아 활용 가능  
-
----
-
-## ✅ **우선순위**
-1️⃣ **PV-RCNN** → **LiDAR, SLAM, CNN, Multi-scale Feature 등 네가 공부한 개념이 가장 많이 적용됨**  
-2️⃣ **VoxelNet** → **CNN 기반 Feature Extraction을 공부했으니, Voxel 변환과 CNN 구조를 결합하는 개념이 익숙할 것**  
-3️⃣ **PointRCNN** → **Faster R-CNN 기반의 Two-stage Detector이며, Bounding Box Regression을 익혔으니 이해하기 쉬움**  
-
----
-
-## 🚀 **추가 참고 자료**
-- **LiDAR 기반 3D Object Detection 개요:** [Awesome 3D Object Detection](https://github.com/kyoungseok-kim/Awesome-3D-Object-Detection)  
 - **SLAM과 자율주행 관련 논문 정리:** [Awesome-SLAM](https://github.com/AtsushiSakai/Awesome-SLAM)  
-- **딥러닝과 자율주행 기술 관련 서적:** [Deep Learning for Autonomous Driving](https://www.deeplearningbook.org/)  
 
----
-
-## 🎯 **목표**
-- 3D Object Detection의 최신 연구를 체계적으로 학습하고, **자율주행 및 LiDAR 기반 AI 연구와 연결**  
-- GitHub 코드 분석을 통해 논문 구현을 직접 실행해보고, 연구 발전 방향을 탐색  
 
