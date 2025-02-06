@@ -163,10 +163,11 @@
 
 근 미래 해야할 것들 정리
 1) VoxelNet PPT 완성시키고 스크립트 짜서 세미나 유튜브 올려보기!
-
-
-
-
+2) Receptive Field + Dilated Convolution을 공부하려 함
+- [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122)
+- [DeepLabV3: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://arxiv.org/pdf/1606.00915)
+    - 1번 논문은 그냥 review블로그 읽고 빠르게 이해하고 2번을 세세하게 review -> 의료데이터 다루기 위한 초본
+3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
 
  ### **PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection**
