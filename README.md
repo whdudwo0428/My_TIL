@@ -153,13 +153,14 @@
     - 해상도(resolution)에 대한 모든 것
     - Receptive field + Dilated/Atrous Convolution + Segmentation 한번에 공부
         - [Dilated Convolutional 논문](https://arxiv.org/pdf/1511.07122) review / [참고블로그](https://kevin-rain.tistory.com/111)
-    - Skip Connection -> ResNet으로 한번에 공부하고자 함
-        - [ResNet 논문](https://arxiv.org/pdf/1512.03385) review
+    - Skip Connection
     - 미국 가기 전 **내가 지금까지 공부한 내용들을 정리하고 체득하는 시간이 필요**할 거 같음 지금까지 **공부한 내용 복기**!
     
 
 - **2월 7일**
     - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
+    - Skip Connection -> ResNet으로 한번에 공부하고자 함
+        - [ResNet 논문](https://arxiv.org/pdf/1512.03385) review
     - Lab searching, CV, contect-email 초안 검사받기!
   
 - **2월 8일**
