@@ -169,7 +169,13 @@
 
 - **2월 9일**
     - Aggregation methods
-    - Lab searching, contect-email 3개 만들기 => 교수님들 논문/연구 서칭
+    - sending Contect Email : 한양대 데이터사이언스 Casey Bennett
+    - Aggregation methods / Ensemble Learning: Boosting, Bagging - Bootstrap
+    - 다양한 feature extraction techniques 간단히 읽어보기
+        - 이미지에서의 특징 추출 (Computer Vision): SIFT HOG LBP
+        - 텍스트에서의 특징 추출 (Natural Language Processing) : TF-IDF Word2Vec GloVE
+        - 음성에서의 특징 추출 (Speech Recognition) : MFCC Chroma Features + PCA
+    - Point Density variance imbalance
  
 
   
