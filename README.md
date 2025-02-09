@@ -168,14 +168,13 @@
     - Lab searching, contect-email 초안완성 => 교수님 별 tuning하기하기
 
 - **2월 9일**
-    - Aggregation methods
     - sending Contect Email : 한양대 데이터사이언스 Casey Bennett
     - Aggregation methods / Ensemble Learning: Boosting, Bagging - Bootstrap
     - 다양한 feature extraction techniques 간단히 읽어보기
         - 이미지에서의 특징 추출 (Computer Vision): SIFT HOG LBP
         - 텍스트에서의 특징 추출 (Natural Language Processing) : TF-IDF Word2Vec GloVE
-        - 음성에서의 특징 추출 (Speech Recognition) : MFCC Chroma Features + PCA
-    - Point Density variance imbalance
+        - 음성에서의 특징 추출 (Speech Recognition) : MFCC(cepstrum) Chroma Features + PCA
+        - 후감 특징 추출도 추가 공부해보기 (전자코 이런게 있던데...)
  
 
   
