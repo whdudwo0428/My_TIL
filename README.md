@@ -183,7 +183,8 @@
         - cosine similarity / SVD / KL Divergence / Bayes' theorem
         - 먼저 블로그에서 Transformer review 한번 읽으며 막힌 부분 체크 [1](https://wikidocs.net/31379), [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
         - [NPL a2z 정리 된 사이트](https://wikidocs.net/21694) 오늘부터 해당글을 기준으로 진도 나갈 예정
-
+            - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
+        - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
 
     ## **NLP => tranformer 공부 순서 **
 - 단어 임베딩 (Word Embedding)
