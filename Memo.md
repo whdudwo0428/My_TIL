@@ -15,7 +15,7 @@
 - Transformer
   - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
 -----
-Transformer 공부 이후 vision부터 끝낸 뒤 다시 NLP로
+## Transformer 공부 이후 base로 한 Detection부터 끝낸 뒤 다시 NLP로
 - Vision Transformer (ViT) → DETR → Swin Transformer (Vision 연구)
 - DETR-YOLOv7-DINO
 - Transformer → BERT → GPT-3 → T5 (NLP 연구)
