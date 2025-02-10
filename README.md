@@ -176,8 +176,9 @@
         - 음성에서의 특징 추출 (Speech Recognition) : MFCC(cepstrum) Chroma Features + PCA
         - 후감 특징 추출도 추가 공부해보기 (전자코 이런게 있던데...)
  
-
-  
+- **2월 10일**
+    - 연구실 서칭 / 석박사 통합으로 지원하자. 나 연구자가 되고싶어...
+    - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
 
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
