@@ -185,7 +185,7 @@
             - RoadMap
                 - 먼저 두 블로그에서 논문 리뷰한거 한번 보고 [1](https://wikidocs.net/31379) [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
                 - 해당 사전개념들 공부하고 본격적으로 논문 review
-
+-----
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
 
