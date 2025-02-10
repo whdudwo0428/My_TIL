@@ -177,15 +177,66 @@
         - 후감 특징 추출도 추가 공부해보기 (전자코 이런게 있던데...)
  
 - **2월 10일**
-    - 연구실 서칭 / 석박사 통합으로 지원하자. 나 연구자가 되고싶어...
-    - Transformer: Attention Is All You Need을 위한 사전 학습
+    - 연구실 서칭 / 석박사 통합으로 지원하자. 나 진지하게 연구자가 되고싶어...
+    - 미국가서 공부할 것들 정리
+    - Transformer를 위한 학습 로드맵: LNP -> Transformer -> Vision/NLP based Transformer based
         - cosine similarity / SVD / KL Divergence / Bayes' theorem
-        - seq2seq, Attention 메커니즘
-        - RNN / LSTM / GRU
-            - RoadMap
-                - 먼저 두 블로그에서 논문 리뷰한거 한번 보고 [1](https://wikidocs.net/31379) [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
-                - 해당 사전개념들 공부하고 본격적으로 논문 review
+        - 먼저 블로그에서 Transformer review 한번 읽으며 막힌 부분 체크 [1](https://wikidocs.net/31379), [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
+        - 단어 임베딩 (Word Embedding)
+          - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
+          - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
+          - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
+
+
+    ## **NLP => tranformer 공부 순서 **
+- 단어 임베딩 (Word Embedding)
+  - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
+  - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
+  - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
+- 순환신경망 RNN
+  - [RNN (1986)](https://arxiv.org/pdf/2308.09728)
+  - [LSTM (1997)](https://arxiv.org/pdf/2105.06756)
+  - [GRU (2014)](https://arxiv.org/pdf/1406.1078)
+  - [GLU (2016)]()
+- 시퀀스 변환 (Sequence-to-Sequence)
+  - [Seq2Seq (2014)](https://arxiv.org/pdf/1409.3215)
+  - [Bahdanau Attention (2015)](https://arxiv.org/pdf/1409.0473)
+  - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
+- Transformer
+  - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
+ 
+    
 -----
+2월 11일~18일 미국견학 일정
+- **2월 10일**
+    - 비행 중 : [영단어](https://gomcine.tistory.com/entry/IT-%EC%98%81%EC%96%B4-%EB%8B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%98%81%EC%96%B4-%EB%8B%A8%EC%96%B4-%EC%A0%95%EB%A6%AC)
+    - 
+    - 
+- **2월 11일**
+    - 1
+    - 
+- **2월 12일**
+    - 1
+    - 
+- **2월 13일**
+    - 1
+      
+- **2월 14일**
+    - 1
+    -  
+- **2월 15일**
+    - 1
+    - 
+- **2월 16일**
+    - 1
+    - 
+- **2월 17일**
+    - 1
+- **2월 18일**
+     - 비행 중 : [영단어](https://gomcine.tistory.com/entry/IT-%EC%98%81%EC%96%B4-%EB%8B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%98%81%EC%96%B4-%EB%8B%A8%EC%96%B4-%EC%A0%95%EB%A6%AC)
+-----
+
+
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
 
