@@ -1,4 +1,35 @@
-1st. transformer 공부
+## **NLP => tranformer 공부 순서 **
+- 단어 임베딩 (Word Embedding)
+  - [Word2Vec (2013)]()
+  - [GloVe (2014)]()
+  - [FastText (2016)]()
+- 순환신경망 RNN
+  - [RNN (1986)]()
+  - [LSTM (1997)]()
+  - [GRU (2014)]()
+  - [GLU (2016)]()
+- 시퀀스 변환 (Sequence-to-Sequence)
+  - [Seq2Seq (2014)]()
+  - [Attention Mechanism (2015)]()
+  - [Bahdanau Attention (2015)]()
+  - [Luong Attention (2015)]()
+- Transformer
+  - [Transformer (2017)]()
+
+이후 NlP순서
+ELMo (2018) → 문맥에 따라 변하는 워드 임베딩
+ULMFiT (2018) → 전이 학습(Transfer Learning) 적용
+5️⃣ 사전 학습 모델 (Pretrained Language Models)
+BERT (2019) → 양방향 학습(Bidirectional)
+GPT-1 (2018) → 단방향(Left-to-Right) 학습
+GPT-2 (2019) → 크기 확장, zero-shot 학습
+6️⃣ 범용 NLP 모델 (Generalized NLP Models)
+T5 (2019) → Text-to-Text 모델
+GPT-3 (2020) → Few-shot 학습
+7️⃣ 대화형 AI 및 최신 모델 (Conversational AI & Recent Advances)
+ChatGPT (2022) → 대화형 모델
+LLaMA (2023) → 효율적인 오픈소스 언어 모델
+
 
 1. DETR (2020) - End-to-End Object Detection with Transformers
 주요 기여 (Contribution):
@@ -228,31 +259,3 @@ PointPillars: Fast Encoders for Object Detection from Point Clouds (2019)
 PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection (2020)
 3DETR: A Transformer-based End-to-End 3D Object Detection Model (2021)
 BEVFormer: Learning Bird’s Eye View Representation via Transformer (2022)
-
-## **NLP 공부 순서 **
-1️⃣ 단어 임베딩 (Word Embedding)
-Word2Vec (2013)
-GloVe (2014)
-FastText (2016) → 서브워드(subword) 기반 임베딩
-2️⃣ 순환 신경망 (Recurrent Neural Networks, RNN)
-RNN → 기본적인 순환 신경망 (단기 기억 문제)
-LSTM (1997, 본격적인 사용 2014 이후) → 장기 의존성 해결
-GRU (2014) → LSTM보다 간결한 구조
-GLU (Gated Linear Units) (2016) → 게이트 메커니즘으로 학습 효율 향상
-3️⃣ 시퀀스 변환 (Sequence-to-Sequence)
-Seq2Seq 모델 (2014)
-Attention Mechanism (2015)
-4️⃣ 트랜스포머 기반 모델 (Transformer-based Models)
-Transformer (2017) → Self-Attention 기반
-ELMo (2018) → 문맥에 따라 변하는 워드 임베딩
-ULMFiT (2018) → 전이 학습(Transfer Learning) 적용
-5️⃣ 사전 학습 모델 (Pretrained Language Models)
-BERT (2019) → 양방향 학습(Bidirectional)
-GPT-1 (2018) → 단방향(Left-to-Right) 학습
-GPT-2 (2019) → 크기 확장, zero-shot 학습
-6️⃣ 범용 NLP 모델 (Generalized NLP Models)
-T5 (2019) → Text-to-Text 모델
-GPT-3 (2020) → Few-shot 학습
-7️⃣ 대화형 AI 및 최신 모델 (Conversational AI & Recent Advances)
-ChatGPT (2022) → 대화형 모델
-LLaMA (2023) → 효율적인 오픈소스 언어 모델
