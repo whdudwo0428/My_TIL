@@ -1,20 +1,19 @@
 ## **NLP => tranformer 공부 순서 **
 - 단어 임베딩 (Word Embedding)
-  - [Word2Vec (2013)]()
-  - [GloVe (2014)]()
-  - [FastText (2016)]()
+  - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
+  - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
+  - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
 - 순환신경망 RNN
-  - [RNN (1986)]()
-  - [LSTM (1997)]()
-  - [GRU (2014)]()
+  - [RNN (1986)](https://arxiv.org/pdf/2308.09728)
+  - [LSTM (1997)](https://arxiv.org/pdf/2105.06756)
+  - [GRU (2014)](https://arxiv.org/pdf/1406.1078)
   - [GLU (2016)]()
 - 시퀀스 변환 (Sequence-to-Sequence)
-  - [Seq2Seq (2014)]()
-  - [Attention Mechanism (2015)]()
-  - [Bahdanau Attention (2015)]()
-  - [Luong Attention (2015)]()
+  - [Seq2Seq (2014)](https://arxiv.org/pdf/1409.3215)
+  - [Bahdanau Attention (2015)](https://arxiv.org/pdf/1409.0473)
+  - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
 - Transformer
-  - [Transformer (2017)]()
+  - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
 
 이후 NlP순서
 ELMo (2018) → 문맥에 따라 변하는 워드 임베딩
