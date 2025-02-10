@@ -182,10 +182,7 @@
     - Transformer를 위한 학습 로드맵: LNP -> Transformer -> Vision/NLP based Transformer based
         - cosine similarity / SVD / KL Divergence / Bayes' theorem
         - 먼저 블로그에서 Transformer review 한번 읽으며 막힌 부분 체크 [1](https://wikidocs.net/31379), [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
-        - 단어 임베딩 (Word Embedding)
-          - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
-          - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
-          - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
+        - [NPL 개요](https://wikidocs.net/21694) 오늘부터 해당글을 기준으로 진도 나갈 예정
 
 
     ## **NLP => tranformer 공부 순서 **
