@@ -31,6 +31,13 @@ ChatGPT (2022) → 대화형 모델
 LLaMA (2023) → 효율적인 오픈소스 언어 모델
 
 
+
+1️⃣ Vision Transformer (ViT) → DETR → Swin Transformer (Vision 연구)
+2️⃣ Transformer → BERT → GPT-3 → T5 (NLP 연구)
+3️⃣ CLIP → ALIGN → Flamingo (Vision + NLP 융합)
+4️⃣ Decision Transformer → Perceiver → RETRO (Transformer의 확장)
+5️⃣ 최신 경량화 Transformer (Linformer, Reformer 등)
+
 1. DETR (2020) - End-to-End Object Detection with Transformers
 주요 기여 (Contribution):
 최초로 Transformer 기반 Object Detection 모델을 제안.
