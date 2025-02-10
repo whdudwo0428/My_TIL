@@ -14,6 +14,14 @@
   - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
 - Transformer
   - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
+-----
+Transformer 공부 이후 vision부터 끝낸 뒤 다시 NLP로
+- Vision Transformer (ViT) → DETR → Swin Transformer (Vision 연구)
+- DETR-YOLOv7-DINO
+- Transformer → BERT → GPT-3 → T5 (NLP 연구)
+- CLIP → ALIGN → Flamingo (Vision + NLP 융합)
+- Decision Transformer → Perceiver → RETRO (Transformer의 확장)
+- 최신 경량화 Transformer (Linformer, Reformer 등)
 
 이후 NlP순서
 ELMo (2018) → 문맥에 따라 변하는 워드 임베딩
@@ -30,12 +38,6 @@ ChatGPT (2022) → 대화형 모델
 LLaMA (2023) → 효율적인 오픈소스 언어 모델
 
 
-
-1️⃣ Vision Transformer (ViT) → DETR → Swin Transformer (Vision 연구)
-2️⃣ Transformer → BERT → GPT-3 → T5 (NLP 연구)
-3️⃣ CLIP → ALIGN → Flamingo (Vision + NLP 융합)
-4️⃣ Decision Transformer → Perceiver → RETRO (Transformer의 확장)
-5️⃣ 최신 경량화 Transformer (Linformer, Reformer 등)
 
 1. DETR (2020) - End-to-End Object Detection with Transformers
 주요 기여 (Contribution):
