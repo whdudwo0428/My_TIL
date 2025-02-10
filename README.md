@@ -178,7 +178,13 @@
  
 - **2월 10일**
     - 연구실 서칭 / 석박사 통합으로 지원하자. 나 연구자가 되고싶어...
-    - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
+    - Transformer: Attention Is All You Need을 위한 사전 학습
+        - cosine similarity / SVD / KL Divergence / Bayes' theorem
+        - Attention 메커니즘
+        - RNN / LSTM / GRU
+            - RoadMap
+                - 먼저 두 블로그에서 논문 리뷰한거 한번 보고 [1](https://wikidocs.net/31379) [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
+                - 해당 사전개념들 공부하고 본격적으로 논문 review
 
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
