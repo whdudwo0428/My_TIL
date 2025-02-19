@@ -187,17 +187,16 @@
         - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
  
 - **2월 11일~18일 미국견학 일정**
-    - pdf 3 파일 분량의 NLP 기본 개념 공부
-        - [NPL 교재](https://wikidocs.net/21694)
-            - 02. 데이터 전처리
-            - 03. 언어모델 종류 / 확률 기반 모델
-            - 04. 카운트 기반 모델
-            - 05. 벡터 유사도
-            - 06. 머신러닝 기본 복슴
-            - 07. 딥러닝 기본 복습
-            - 08. RNN base
-            - 09. Word embedding
-            - 10. NLP 실습 / 다양한 task별 구현 논리
+  - [NPL 교재](https://wikidocs.net/21694)
+    - Chapter 02. 데이터 전처리
+      - Chapter 03. 언어모델 종류 / 확률 기반 모델
+        - Chapter 04. 카운트 기반 모델
+        - Chapter 05. 벡터 유사도
+        - Chapter 06. 머신러닝 기본 복슴
+        - Chapter 07. 딥러닝 기본 복습
+        - Chapter 08. RNN base
+        - Chapter 09. Word embedding
+        - Chapter 10. NLP 실습 / 다양한 task별 구현 논리
     - 시카고 듀플대학 석사 연구실 컨택 => 영어공부 시작해보자... 목표 토플 80점
         - 초등영단어1 700
         - 초등영단어2 800
@@ -207,8 +206,8 @@
     - 밀린 한국 일정들 처리하느라 바쁠 예정...
     - 중학 영단어 1000 : 600~1000
     - [NPL 교재](https://wikidocs.net/21694)
-        - 11. NLP를 위한 CNN
-          12. Tagging Task
+        - Chapter 11. NLP를 위한 CNN
+        - Chapter 12. Tagging Task
          
 - **2월 20일**
     - 중학 영단어 1000 복습 / 중등 수능필수영단어 1800 :
