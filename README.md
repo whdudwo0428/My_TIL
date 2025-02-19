@@ -185,25 +185,8 @@
         - [NPL a2z 정리 된 사이트](https://wikidocs.net/21694) 오늘부터 해당글을 기준으로 진도 나갈 예정
             - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
         - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
-
-#### **NLP => tranformer 공부 순서 **
-- 단어 임베딩 (Word Embedding)
-  - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
-  - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
-  - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
-- 순환신경망 RNN
-  - [RNN (1986)](https://arxiv.org/pdf/2308.09728)
-  - [LSTM (1997)](https://arxiv.org/pdf/2105.06756)
-  - [GRU (2014)](https://arxiv.org/pdf/1406.1078)
-  - [GLU (2016)]()
-- 시퀀스 변환 (Sequence-to-Sequence)
-  - [Seq2Seq (2014)](https://arxiv.org/pdf/1409.3215)
-  - [Bahdanau Attention (2015)](https://arxiv.org/pdf/1409.0473)
-  - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
-- Transformer
-  - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
  
-- 2월 11일~18일 미국견학 일정
+- **2월 11일~18일 미국견학 일정**
     - pdf 3 파일 분량의 NLP 기본 개념 공부
         - [NPL 교재](https://wikidocs.net/21694)
             - 02. 데이터 전처리
@@ -244,7 +227,23 @@
 
 -----
 
-
+#### **NLP => tranformer 공부 순서 **
+- 단어 임베딩 (Word Embedding)
+  - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
+  - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
+  - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
+- 순환신경망 RNN
+  - [RNN (1986)](https://arxiv.org/pdf/2308.09728)
+  - [LSTM (1997)](https://arxiv.org/pdf/2105.06756)
+  - [GRU (2014)](https://arxiv.org/pdf/1406.1078)
+  - [GLU (2016)]()
+- 시퀀스 변환 (Sequence-to-Sequence)
+  - [Seq2Seq (2014)](https://arxiv.org/pdf/1409.3215)
+  - [Bahdanau Attention (2015)](https://arxiv.org/pdf/1409.0473)
+  - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
+- Transformer
+  - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
+  - 
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
 
 
