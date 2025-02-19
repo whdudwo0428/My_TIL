@@ -186,7 +186,7 @@
             - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
         - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
 
-## **NLP => tranformer 공부 순서 **
+#### **NLP => tranformer 공부 순서 **
 - 단어 임베딩 (Word Embedding)
   - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
   - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
@@ -203,7 +203,7 @@
 - Transformer
   - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
  
-## 2월 11일~18일 미국견학 일정) 시카고 듀플대학 석사 연구실 컨택 => 영어공부 ㅠㅠ
+#### 2월 11일~18일 미국견학 일정) 시카고 듀플대학 석사 연구실 컨택 => 영어공부 ㅠㅠ
 - pdf 3 파일 분량의 NLP 기본 개념 공부
     - [NPL 교재](https://wikidocs.net/21694)
         - 02. 데이터 전처리
@@ -219,7 +219,7 @@
   - 초등영단어1 700
     - 초등영단어2 800
      - 중학 영단어 1000 : 1~600
-
+-----
 - **2월 19일**
     - 밀린 한국 일정들 처리하느라 바쁠 예정...
     - 중학 영단어 1000 : 600~1000
