@@ -205,25 +205,27 @@
 - **2월 19일**
     - 밀린 한국 일정들 처리하느라 바쁠 예정...
     - 중학 영단어 1000 : 600~1000
-    - [NPL 교재](https://wikidocs.net/21694)
-        - Chapter 11. NLP를 위한 CNN
-        - Chapter 12. Tagging Task
          
 - **2월 20일**
-    - 중학 영단어 1000 복습 / 중등 수능필수영단어 1800 :
-    - [NPL 교재](https://wikidocs.net/21694)
-        - 13. Sub Tokenzizer
-          12. Encoder-Decoder Architecture with RNN
+    - 중학 영단어 1000 복습
+    - 중등 수능필수영단어 1800 :
+
          
 - **2월 21일**
     - 중등 수능필수영단어 1800 :
-    - [NPL 교재](https://wikidocs.net/21694)
-        - 14. **Attention Mechanism**
-          15. **Transformer**
+
          
 
 
-
+    - [NPL 교재](https://wikidocs.net/21694)
+        - Chapter 11. NLP를 위한 CNN
+        - Chapter 12. Tagging Task
+    - [NPL 교재](https://wikidocs.net/21694)
+        - 14. **Attention Mechanism**
+          15. **Transformer**
+    - [NPL 교재](https://wikidocs.net/21694)
+        - 13. Sub Tokenzizer
+          12. Encoder-Decoder Architecture with RNN
 -----
 
 #### **NLP => tranformer 공부 순서 **
