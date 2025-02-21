@@ -213,6 +213,7 @@
 
          
 - **2월 21일**
+    - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
     - 중등 수능필수영단어 1800 : 240개 복습 +
 
 - **2월 22일**
