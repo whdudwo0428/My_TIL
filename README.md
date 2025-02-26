@@ -186,7 +186,7 @@
             - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
         - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
  
-- **2월 11일~18일 미국견학 일정**
+- **2월 11일~18일 : 미국견학**
   - [NPL 교재](https://wikidocs.net/21694)
     - Chapter 02. 데이터 전처리
       - Chapter 03. 언어모델 종류 / 확률 기반 모델
@@ -201,7 +201,7 @@
         - 초등영단어1 700
         - 초등영단어2 800
         - 중학 영단어 1000 : 1~600
------
+
 - **2월 19일**
     - 남은 2월동안 영어단어만 공부!
     - 밀린 한국 일정들 처리하느라 바쁠 예정...
