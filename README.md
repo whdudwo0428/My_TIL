@@ -212,12 +212,59 @@
     - 중등 수능필수영단어 1800 : 240개
 
          
-- **2월 21일**
+- **2월 21일~25일**
     - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
-    - 중등 수능필수영단어 1800 : 240개 복습 +
+    - 중등 수능필수영단어 1800 : 매일 복습하고 진도 반복
 
-- **2월 22일**
-    - 중등 수능필수영단어 1800 : 240개 복습 +
+- **2월 26일**~
+    - Word Master 고등 Basic (1150) : 매일 복습하고 진도 반복
+    - 이번에는 유상        - 음성에서의 특징 추출 (Speech Recognition) : MFCC(cepstrum) Chroma Features + PCA
+        - 후감 특징 추출도 추가 공부해보기 (전자코 이런게 있던데...)
+ 
+- **2월 10일**
+    - 연구실 서칭 / 석박사 통합으로 지원하자. 나 진지하게 연구자가 되고싶어...
+    - 미국가서 공부할 것들 정리
+    - Transformer를 위한 학습 로드맵: LNP -> Transformer -> Vision/NLP based Transformer based
+        - cosine similarity / SVD / KL Divergence / Bayes' theorem
+        - 먼저 블로그에서 Transformer review 한번 읽으며 막힌 부분 체크 [1](https://wikidocs.net/31379), [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
+        - [NPL 교재](https://wikidocs.net/21694) 오늘부터 해당글을 기준으로 진도 나갈 예정
+            - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
+        - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
+ 
+- **2월 11일~18일 미국견학 일정**
+  - [NPL 교재](https://wikidocs.net/21694)
+    - Chapter 02. 데이터 전처리
+      - Chapter 03. 언어모델 종류 / 확률 기반 모델
+        - Chapter 04. 카운트 기반 모델
+        - Chapter 05. 벡터 유사도
+        - Chapter 06. 머신러닝 기본 복슴
+        - Chapter 07. 딥러닝 기본 복습
+        - Chapter 08. RNN base
+        - Chapter 09. Word embedding
+        - Chapter 10. NLP 실습 / 다양한 task별 구현 논리
+    - 시카고 듀플대학 석사 연구실 컨택 => 영어공부 시작해보자... 목표 토플 80점
+        - 초등영단어1 700
+        - 초등영단어2 800
+        - 중학 영단어 1000 : 1~600
+-----
+- **2월 19일**
+    - 남은 2월동안 영어단어만 공부!
+    - 밀린 한국 일정들 처리하느라 바쁠 예정...
+    - 중학 영단어 1000 : 600~1000
+         
+- **2월 20일**
+    - 중학 영단어 1000 복습
+    - 중등 수능필수영단어 1800 : 240개
+
+         
+- **2월 21일~25일**
+    - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
+    - 중등 수능필수영단어 1800 : 매일 복습하고 진도 반복
+
+- **2월 26일**~
+    - Word Master 고등 Basic (1150) : 매일 복습하고 진도 반복
+    - 품사파생어도 다 같이 외우고, 예문 뜻 자연스럽게 해석될 정도로 확인
+
 
 - **2월 22일**
     - 중등 수능필수영단어 1800 : 240개 복습 +
