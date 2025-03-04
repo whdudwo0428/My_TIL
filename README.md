@@ -224,22 +224,30 @@
     - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
     - 중등 수능필수영단어 1800 : 매일 복습하고 진도 반복
 
-- **2월 26일 ~ 3월 7일**
+- **2월 26일 ~ 3월 3일**
     - Word Master 고등 Basic: 매일 복습하고 진도 반복
     - 품사파생어도 다 같이 외우고, 모든 예문 자연스럽게 읽힐 때까지 끊어읽기 연습
+ 
+- **3월 4일 ~ 3월 10일**
+    - Word Master 고등 Basic
+        - 4일 : Day 1~20 복습 + 21,22
+        - 5일 : Day 1~22 복습 + 23,24
+        - 6일 : Day 1~24 복습 + 25,26
+        - 7일 : Day 1~26 복습 + 27,28
+        - 8일 : Day 1~28 복습 + 29,30
+        - 9일 : Day 1~30 복습
+        - 10일 : Day 20~30 복습
+    - **논문 준비(rPPG) 시작** //5월 SCI 목표
+        - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review
+        - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
+            - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
+        - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
+        - 
+- **3월 11일 ~ 3월 13일**
+    - 매일 Word Master 고등 Basic: 20~30 복습 + 13일에 전체 문제풀기
 
-- **3월 8일 ~ 3월 9일**
-    - Word Master 고등 Basic: 마지막 복습, 안외워진 단어만 정리해서 프린트하고 외우기
-    - 2024 수능 영어듣기 3주 Project 시작
-    - 영어 발음연습
-
-
-
-- **4월 1일**
-    - 중등 수능필수영단어 1800 : 240개 복습 +
-
-
-
+- **3월 14일 ~** 
+    - IELTS VOCA 시작
 
 
 
