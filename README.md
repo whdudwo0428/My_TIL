@@ -237,7 +237,9 @@
         - 8일 : Day 1~28 복습 + 29,30
         - 9일 : Day 1~30 복습
         - 10일 : Day 20~30 복습
-    - **논문 준비(rPPG) 시작** //5월 SCI 목표
+    - **논문 준비(rPPG) 시작** //5월 SCI 목
+        - 5일 : 사전지식쌓기!
+            - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
         - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
