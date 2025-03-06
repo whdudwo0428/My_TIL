@@ -244,7 +244,7 @@
             - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참고 블로그 1](https://kyujinpy.tistory.com/147)
         - 6일 : 사전지식쌓기...
             - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [S4 논문](https://arxiv.org/pdf/2111.00396) review / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [S4 논문](https://arxiv.org/pdf/2111.00396) review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
         - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
