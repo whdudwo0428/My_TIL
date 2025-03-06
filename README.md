@@ -240,12 +240,13 @@
     - **논문 준비(rPPG) 시작** //5월 SCI 목
         - 5일 : 사전지식쌓기!
             - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
-            - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
             - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참고 블로그 1](https://kyujinpy.tistory.com/147)
         - 6일 : 사전지식쌓기...
-            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [S4 논문](https://arxiv.org/pdf/2111.00396) review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참조 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-        - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review
+            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [S4 논문](https://arxiv.org/pdf/2111.00396) review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review / [참고 블로그 1] / [참고 블로그 2]
+            - 
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
