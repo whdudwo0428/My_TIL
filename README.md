@@ -240,13 +240,16 @@
     - **논문 준비(rPPG) 시작** //5월 SCI 목
         - 5일 : 사전지식쌓기!
             - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
-            - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참고 블로그 1](https://kyujinpy.tistory.com/147)
+            - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/147)
         - 6일 : 사전지식쌓기...
-            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) review / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [S4 논문](https://arxiv.org/pdf/2111.00396) review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review / [참고 블로그 1] / [참고 블로그 2]
+            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [S4 논문](https://arxiv.org/pdf/2111.00396) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+            - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/149)
+                - HiPPO ~ Mamba까지 쉬운 수준에서 "이런 이런 기능을 갖기위해 모델을 이렇게 구성하고 대충 이런 논문이다" 같은 러프한 수준에서는 납득하고 넘어가겠는데, 구체적으로 아키텍쳐나 수식 하나하나를 뜯어보며 이해하려고 하는 순간 그 구조의 논리적 전개가 안됨. 아직 이걸 읽을 레벨이 아니란 느낌 생각보다 Mamba 모델을 대략적으로도 이해하는 것 자체가 꽤 오래 걸릴것같음... 기간 신경쓰지말고, 시간 충분히 두고 하위 개념 하나하나 익숙해지면서(비젼논문 처음 읽었던것처럼) step by step 으로 해보자...
             - 
+
+
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
