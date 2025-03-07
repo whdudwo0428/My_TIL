@@ -232,11 +232,11 @@
     - Word Master 고등 Basic
         - 4일 : Day 1~20 복습 + 21,22
         - 5일 : X
-        - 6일 : Day 1~24 복습 + 23,24
-        - 7일 : Day 1~26 복습 + 25,26
-        - 8일 : Day 1~28 복습 + 27,28
-        - 9일 : Day 1~30 복습 + 29,30
-        - 10일 : Day 20~30 복습
+        - 6일 : Day 23
+        - 7일 : Day 24
+        - 8일 : Day 25, 26, 27
+        - 9일 : Day 28, 29, 30
+        - 10일 : Day 1~30 복습
     - **논문 준비(rPPG) 시작** //5월 SCI 목
         - 5일 : 사전지식쌓기!
             - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
