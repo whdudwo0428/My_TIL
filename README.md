@@ -237,8 +237,7 @@
         - [LSSL 논문](https://arxiv.org/pdf/2008.07669)  review / [참고 블로그 1](https://kyujinpy.tistory.com/147) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
         - [S4 논문](https://arxiv.org/pdf/2111.00396)  review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
         - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 읽어봄 / [참고 블로그 1](https://kyujinpy.tistory.com/149)
-        - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk)
-            - 해당 유튜브를 바탕으로 노트정리!
+        - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk) : 해당 유튜브를 바탕으로 노트정리!
 
 - **3월 9일 ~ 3월 8일**
     - Word Master 고등 Basic : Day 1~20 복습 + 21,22
