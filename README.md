@@ -228,26 +228,24 @@
     - Word Master 고등 Basic: 매일 복습하고 진도 반복
     - 품사파생어도 다 같이 외우고, 모든 예문 자연스럽게 읽힐 때까지 끊어읽기 연습
  
-- **3월 4일 ~ 3월 10일**
-    - Word Master 고등 Basic
-        - 4일 : Day 1~20 복습 + 21,22
-        - 5일 : X
-        - 6일 : Day 23
-        - 7일 : Day 24
-        - 8일 : Day 25, 26, 27
-        - 9일 : Day 28, 29, 30
-        - 10일 : Day 1~30 복습
-    - **논문 준비(rPPG) 시작** //5월 SCI 목
-        - 5일 : 사전지식쌓기!
-            - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
-            - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/147)
-        - 6일 : 사전지식쌓기...
-            - [LSSL 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [S4 논문](https://arxiv.org/pdf/2111.00396) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
-            - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/149)
-                - HiPPO ~ Mamba까지 쉬운 수준에서 "이런 이런 기능을 갖기위해 모델을 이렇게 구성하고 대충 이런 논문이다" 같은 러프한 수준에서는 납득하고 넘어가겠는데, 구체적으로 아키텍쳐나 수식 하나하나를 뜯어보며 이해하려고 하는 순간 그 구조의 논리적 전개가 안됨. 아직 이걸 읽을 레벨이 아니란 느낌 생각보다 Mamba 모델을 대략적으로도 이해하는 것 자체가 꽤 오래 걸릴것같음... 기간 신경쓰지말고, 시간 충분히 두고 하위 개념 하나하나 익숙해지면서(비젼논문 처음 읽었던것처럼) step by step 으로 해보자...
-        - Mamba의 포지션, 탄생 배경, SSM 완전 이해 [참고 유튜브](https://www.youtube.com/watch?v=JjxBNBzDbNk)
+- **3월 4일 ~ 3월 8일** : **논문준비, 5월 SCI 목표**
+    - Word Master 고등 Basic : Day 1~20 복습 + 21,22
+    - Mamba Preliminary!
+        - HiPPO ~ Mamba까지 쉬운 수준에서 "이런 이런 기능을 갖기위해 모델을 이렇게 구성하고 대충 이런 논문이다" 같은 러프한 수준에서는 납득하고 넘어가겠는데, 구체적으로 아키텍쳐나 수식 하나하나를 뜯어보며 이해하려고 하는 순간 그 구조의 논리적 전개가 안됨. 아직 이걸 읽을 레벨이 아니란 느낌 생각보다 Mamba 모델을 대략적으로도 이해하는 것 자체가 꽤 오래 걸릴것같음... 기간 신경쓰지말고, 시간 충분히 두고 하위 개념 하나하나 익숙해지면서(비젼논문 처음 읽었던것처럼) step by step 으로 해보자...
+        - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, H4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
+        - [HiPPO 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review  / [참고 블로그 1](https://kyujinpy.tistory.com/146) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+        - [LSSL 논문](https://arxiv.org/pdf/2008.07669) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/147) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+        - [S4 논문](https://arxiv.org/pdf/2111.00396) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/148) / [참고 블로그 2](https://velog.io/@euisuk-chung/Structured-State-Space-Models-for-Deep-Sequence-Modeling)
+        - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 review / [참고 블로그 1](https://kyujinpy.tistory.com/149)
+        - Mamba의 Positioning, 탄생 배경, SSM 완전 이해 [참고 유튜브](https://www.youtube.com/watch?v=JjxBNBzDbNk)
+            - 해당 유튜브를 바탕으로 노트정리!
+
+- **3월 9일 ~ 3월 8일**
+    - Word Master 고등 Basic : Day 1~20 복습 + 21,22
+    - 9일 : Mamba Preliminary 복습, Selective Copying + Adaptive Kernel, 동적 SSM filter
+        
+
+
 
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
