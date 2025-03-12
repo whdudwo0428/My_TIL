@@ -255,7 +255,7 @@
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
         - 
 - **3월 11일 ~ 3월 13일**
-    - 매일 Word Master 고등 Basic: 20~30 복습 + 13일에 전체 문제풀기
+    - Word Master 고등 Basic: 13~25 복습
 
 - **3월 14일 ~** 
     - IELTS VOCA 시작
