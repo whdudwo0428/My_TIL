@@ -240,14 +240,16 @@
         - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk) : 해당 유튜브를 바탕으로 노트정리!
     -  Adaptive Kernel, 동적 SSM filter 추가로 공부하기
       
-- **3월 10일 ~ 3월 13일**
+- **3월 10일 ~ 3월 12일**
     - Word Master 고등 Basic : 1~20 계속 반복
     - Mamba 세미나 준비 ppt제작, 더 자세히 공부
       
     - 11일 : [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/)
         - Deepseek LLM model
     
-  
+ - **3월 13일 ~ 3월 16일** 
+    - Word Master 고등 Basic : 21~25 계속 반복
+    - Mamba 복습, 세미나 준비 ppt제작, 더 자세히 공부
 
 
 
@@ -255,10 +257,6 @@
             - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
     
-
-- **3월 14일 ~ 3월 16일** 
-    - Word Master 고등 Basic : 20~30 계속 반복
-    - Mamba 복습, 세미나 준비 ppt제작, 더 자세히 공부
 
 - **3월 17일** 
     - IELTS 영단어 시작
