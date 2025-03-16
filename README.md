@@ -228,8 +228,8 @@
     - Word Master 고등 Basic: 매일 복습하고 진도 반복
     - 품사파생어도 다 같이 외우고, 모든 예문 자연스럽게 읽힐 때까지 끊어읽기 연습
  
-- **3월 4일 ~ 3월 9일** : **논문준비, 5월 SCI 목표**
-    - Word Master 고등 Basic : Day 1~20 복습 + 21~25
+- **3월 4일 ~ 3월 12일** : **논문준비, 5월 SCI 목표**
+    - Word Master 고등 Basic : Day 1~25 반복
     - Mamba Preliminary!
         - HiPPO ~ Mamba까지 쉬운 수준에서 "이런 이런 기능을 갖기위해 모델을 이렇게 구성하고 대충 이런 논문이다" 같은 러프한 수준에서는 납득하고 넘어가겠는데, 구체적으로 아키텍쳐나 수식 하나하나를 뜯어보며 이해하려고 하는 순간 그 구조의 논리적 전개가 안됨. 아직 이걸 읽을 레벨이 아니란 느낌 생각보다 Mamba 모델을 대략적으로도 이해하는 것 자체가 꽤 오래 걸릴것같음... 기간 신경쓰지말고, 시간 충분히 두고 하위 개념 하나하나 익숙해지면서(비젼논문 처음 읽었던것처럼) step by step 으로 해보자...
         - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, H4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
@@ -239,27 +239,23 @@
         - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 읽어봄 / [참고 블로그 1](https://kyujinpy.tistory.com/149)
         - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk) : 해당 유튜브를 바탕으로 노트정리!
     -  Adaptive Kernel, 동적 SSM filter 추가로 공부하기
-      
-- **3월 10일 ~ 3월 12일**
-    - Word Master 고등 Basic : 1~20 계속 반복
-    - Mamba 세미나 준비 ppt제작, 더 자세히 공부
+    -  Mamba 공부
       
     - 11일 : [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/)
         - Deepseek LLM model
     
  - **3월 13일 ~ 3월 16일** 
-    - Word Master 고등 Basic : 21~25 계속 반복
-    - Mamba 복습, 세미나 준비 ppt제작, 더 자세히 공부
-
+    - Word Master 고등 Basic : 13~30 계속 반복
 
 
         - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
-            - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
+        - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
     
 
-- **3월 17일** 
-    - IELTS 영단어 시작
+- **3월 17일 ~ 3월 20일** 
+    - Word Master 고등 Basic : 26~30 계속 반복
+    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 세미나 준비
 
 -----
 
