@@ -254,7 +254,8 @@
     
 
 - **3월 17일 ~ 3월 20일** 
-    - Word Master 고등 Basic : 26~30 계속 반복
+    - 수업시간 : Word Master 고등 Basic : 26~30 계속 반복
+    - 근로시간 : English Grammar in USE : unit 1~2 (18일 화요일 시작)
     - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 세미나 준비
 
 -----
