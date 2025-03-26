@@ -247,19 +247,24 @@
  - **3월 13일 ~ 3월 16일** 
     - Word Master 고등 Basic : 13~30 계속 반복
 
-
-        - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
-        - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
-        - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
-    
-
-- **3월 17일 ~ 3월 20일** 
+- **3월 17일 ~ 3월 25일** 
     - 수업시간 : Word Master 고등 Basic : 26~30 계속 반복
-    - 근로시간 : English Grammar in USE : unit 1~2 (18일 화요일 시작)
-    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 세미나 준비
+    - 근로시간 : English Grammar in USE : (18일 화요일 시작) / 동사 시제별로 암기해두기
+    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 세미나 준비 (2025-03-25 완료)
+ 
+- **3월 26일 ~ 3월 28일**
+    - [Mamba code 구현](https://github.com/state-spaces/mamba) 공부
+    - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) 간단하게 review
+    - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
+
 
 -----
+- [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
+        - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
+        - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
 
+
+  
 #### **NLP => tranformer 공부 순서 **
 - 단어 임베딩 (Word Embedding)
   - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
