@@ -251,7 +251,7 @@
 - **3월 17일 ~ 3월 25일** 
     - 수업시간 : Word Master 고등 Basic : 26~30 계속 반복
     - 근로시간 : English Grammar in USE : (18일 화요일 시작) / 동사 시제별로 암기해두기
-    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review 세미나 (2025-03-25 완료)
+    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review 세미나 (2025-03-27 2차 세미나까지 완료)
  
 - **3월 26일 ~ 3월 28일**
     - [Mamba code 구현](https://github.com/state-spaces/mamba) 공부
