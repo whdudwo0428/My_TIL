@@ -257,8 +257,8 @@
     - 토익기출 VOCA 영단어 암기
     - [Mamba code 구현](https://github.com/state-spaces/mamba) 공부
     - rPPG 기본 공부
-    - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review - 4월 3일 완료
-    - [Physmamba 2 논문](https://arxiv.org/pdf/2408.01077) review
+    - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review : Mamba-1 기반 PhysMamba / 4월 3일 완료
+    - [Physmamba 2 논문](https://arxiv.org/pdf/2408.01077) review : Mamba-2 기반 PhysMamba
     - 
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
