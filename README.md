@@ -250,12 +250,15 @@
     - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review : Mamba-1 기반 PhysMamba
     - [Physmamba 2 논문](https://arxiv.org/pdf/2408.01077) review : Mamba-2 기반 PhysMamba
 
-- **3월 28일 ~ 4월 3일**
-    - 토익기출 VOCA 영단어 암기 : Day 1~10 계속 복습 최소 3회독
+- **4월 4일**
+    - 토익기출 VOCA 영단어 암기 : Day 1~5 복습
     - Transformer 공부 제대로 하기
-        - [Bahdanau Attention 논문](https://arxiv.org/pdf/1409.0473) review
-        - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025)
-        - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
+    - [Bahdanau Attention 논문](https://arxiv.org/pdf/1409.0473) review
+    - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025) review
+
+ - **4월 5일**
+    - 토익기출 VOCA 영단어 암기 : Day 5~10 복습
+    - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
      
 
 
