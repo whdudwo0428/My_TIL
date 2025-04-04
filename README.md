@@ -201,15 +201,8 @@
         - 초등영단어1 700
         - 초등영단어2 800
         - 중학 영단어 1000 : 1~600
-        - 
-- **영어공부 계획**
-    - 0. 핸드폰 영문설정, 유튜브로 영어듣기 등 영어 최대한 접하기 앞으로도 계속
-    - 1. only 영단어 : 중학교 영단어 3000개
-      2. 영어단어+예문+읽기(발음, 끊어읽기) : 고등학교 영단어 1150개 -> 1주일동안 일회독, 1주일 지나고 한번 더 일회독
-      3. 문법공부 집중 + OO영단어 //3월달에 끝내보기
-      4. 문법심화 + 유튜브 CNN골라서 shadowing //4월달
-      5. 토플 영단어 + 토플 리딩 기본서 + 어플들로 실제표현, 발음 등 연습
-      6. 진짜 토플준비
+          
+         
 - **2월 19일**
     - 남은 2월동안 영어단어만 공부!
     - 밀린 한국 일정들 처리하느라 바쁠 예정...
@@ -218,7 +211,6 @@
 - **2월 20일**
     - 중학 영단어 1000 복습
     - 중등 수능필수영단어 1800 : 240개
-
          
 - **2월 21일 ~ 2월 25일**
     - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
@@ -241,9 +233,7 @@
         - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk) : 해당 유튜브를 바탕으로 노트정리!
     -  Adaptive Kernel, 동적 SSM filter 추가로 공부하기
     -  Mamba 공부
-      
-    - 11일 : [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/)
-        - Deepseek LLM model
+    
     
  - **3월 13일 ~ 3월 16일** 
     - Word Master 고등 Basic : 13~30 계속 반복
@@ -253,13 +243,22 @@
     - 근로시간 : English Grammar in USE : (18일 화요일 시작) / 동사 시제별로 암기해두기
     - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review 세미나 (2025-03-27 2차 세미나까지 완료)
  
-- **3월 28일 ~ 3월 31일**
-    - 토익기출 VOCA 영단어 암기
+- **3월 28일 ~ 4월 3일**
+    - 토익기출 VOCA 영단어 암기 : Day 1~10
     - [Mamba code 구현](https://github.com/state-spaces/mamba) 공부
     - rPPG 기본 공부
-    - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review : Mamba-1 기반 PhysMamba / 4월 3일 완료
+    - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review : Mamba-1 기반 PhysMamba
     - [Physmamba 2 논문](https://arxiv.org/pdf/2408.01077) review : Mamba-2 기반 PhysMamba
-    - 
+
+- **3월 28일 ~ 4월 3일**
+    - 토익기출 VOCA 영단어 암기 : Day 1~10 계속 복습 최소 3회독
+    - Transformer 공부 제대로 하기
+        - [Bahdanau Attention 논문](https://arxiv.org/pdf/1409.0473) review
+        - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025)
+        - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
+     
+
+
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
 
@@ -288,3 +287,6 @@
   - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
   - 
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
+
+    - 11일 : [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/)
+        - Deepseek LLM model
