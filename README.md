@@ -261,7 +261,8 @@
     - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
         - [Positional Encoding 참고 블로그](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
         - [Transformer Code 실습](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Attention_is_All_You_Need_Tutorial_(German_English).ipynb)
-
+    - Titans preview !!!
+      
  - **4월 6일**
     - 토익기출 VOCA 영단어 암기 : Day 8~10 복습
     - Paper Review : [Simplified State Space Layers for Sequence Modeling](https://arxiv.org/pdf/2208.04933)
