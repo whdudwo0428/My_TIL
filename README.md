@@ -257,10 +257,27 @@
     - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025) review
 
  - **4월 5일**
-    - 토익기출 VOCA 영단어 암기 : Day 5~10 복습
+    - 토익기출 VOCA 영단어 암기 : Day 5~7 복습
     - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
         - [Positional Encoding 참고 블로그](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
         - [Transformer Code 실습](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Attention_is_All_You_Need_Tutorial_(German_English).ipynb)
+
+ - **4월 6일**
+    - 토익기출 VOCA 영단어 암기 : Day 8~10 복습
+    - Paper Review : [Simplified State Space Layers for Sequence Modeling](https://arxiv.org/pdf/2208.04933)
+        - 정독 : 특히 HiPPO-free MIMO SSM recurrence 확실하게
+    - Paper Review / : [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/pdf/1909.13231)
+        - 정독 : Test-Time Momory update 개념 확실하게! self-supervision + online adaptation 구조 파악
+    - Paper Review : [Memorizing Transformers](https://arxiv.org/pdf/2203.08913)
+        - 정독 : Titans의 memory 메커니즘이 기존 external memory 방식과 어떻게 다른지를 파악, recall/retrieval 구조 참고용
+    - Paper Review : [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/pdf/2307.08621)
+        - 구조만 정리 요약위주 : attention-free memory retention 구조
+    - **Paper Review** : [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/pdf/2405.21060)
+    - Paper Review : [MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts](https://arxiv.org/pdf/2401.04081)
+    - **Paper Review** : [Titans: Learning to Memorize at Test Time](https://arxiv.org/pdf/2501.00663)
+    - Paper Review : [Using Fast Weights to Attend to the Recent Past](https://arxiv.org/pdf/1610.06258)
+        - fast memory writing 개념만 요약
+
 
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
