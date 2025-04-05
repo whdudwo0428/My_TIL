@@ -259,7 +259,7 @@
  - **4월 5일**
     - 토익기출 VOCA 영단어 암기 : Day 5~10 복습
     - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
-     
+        - [Positional Encoding 참고 블로그](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
 
 
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
