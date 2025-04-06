@@ -1,7 +1,0 @@
-## Learning to (Learn at Test Time): RNNs with Expressive Hidden States
-
-- 순환신경망 모델의 hidden state update 방식은 test time에서 새로운 정보를 빠르게 반영하기 어렵다.
-- Expressive RNN (eRNN)을 통해 test time에서 자체적으로 경사하강법을 통해 Loss를 업데이트하도록 meta learning을 하겠다.
-
-즉, hidden state를 학습 가능한 parameter처럼 작동하도록 자기지도적 머신러닝 모델로 구성하려는 것이다.
-(hidden state를 model within a model 처럼 구상하려 하는 것)
