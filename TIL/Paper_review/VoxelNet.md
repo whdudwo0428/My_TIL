@@ -8,7 +8,7 @@
 
 ### Solution Approach
 - VoxelNet은 point cloud를 **voxel로 분할**한 뒤, 각 voxel 안의 point set에 대해 **PointNet 기반의 feature extractor**를 적용하고, 이를 **3D CNN으로 연결**해 전체 공간의 feature map을 구성함.
-- 그 후 **Region Proposal Network(RPN)**을 이용해 **3D 객체 탐지 결과를 출력하는 end-to-end 구조**를 제안한다.
+- 그 후 **Region Proposal Network**(RPN)을 이용해 **3D 객체 탐지 결과를 출력하는 end-to-end 구조**를 제안한다.
 
 ### Methodology Details
 
