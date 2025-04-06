@@ -99,7 +99,6 @@
 ---
 
 ## 2025-01-21
-
 ### Project 3 설계 및 논문 읽기 시작
 - Project3.Detection_Soccer 구조 설계 및 모델 후보 리스트업
   - 다양한 Object Detection 모델 정리 및 비교
@@ -121,7 +120,6 @@
 ---
 
 ## 2025-01-23
-
 ### CNN 구조 및 객체 탐지 프레임워크 이해도 향상
 - **Paper Review : OverFeat** (Integrated Recognition, Localization and Detection using Convolutional Networks)
 - CNN 동작 원리 깊게 탐구 (Padding, Stride, Pooling, 각 Layer 내 연산 등)
@@ -132,28 +130,24 @@
 ---
 
 ## 2025-01-24
-
 - **Paper Review : Faster R-CNN** (Towards Real-Time Object Detection with Region Proposal Networks)
 - **Paper Review : OHEM** (Training Region-based Object Detectors with Online Hard Example Mining)
 
 ---
 
 ## 2025-01-25
-
 - **Paper Review : YOLO v1** (You Only Look Once: Unified, Real-Time Object Detection)
 - **Paper Review : SSD** (Single Shot MultiBox Detector)
 
 ---
 
 ## 2025-01-26
-
 - **Paper Review : R-FCN** (Object Detection via Region-based Fully Convolutional Networks)
 - **Paper Review : YOLO v2** (YOLO9000: Better, Faster, Stronger)
 
 ---
 
 ## 2025-01-27 ~ 01-28
-
 - **Paper Review : FPN** (Feature Pyramid Networks for Object Detection)
 - FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
 - 이 기회에 시간을 좀 더 써서 예전 모델들을 복습하고, 기본 개념들을 내 것으로 만드는 데 집중했음  
@@ -164,14 +158,12 @@
 ---
 
 ## 2025-01-29 ~ 01-30
-
 - **Paper Review : RetinaNet** (Focal Loss for Dense Object Detection)
 - **Paper Review : Mask R-CNN** (Mask R-CNN)
 
 ---
 
 ## 2025-01-31
-
 - **Paper Review : YOLO v3** (YOLOv3: An Incremental Improvement)
 - **Paper Review : RefineDet** (Single-Shot Refinement Neural Network for Object Detection)
   - ARM과 ODM의 개별 역할은 명확했지만, ODM에서 각 스케일 정보를 어떻게 최종적으로 통합하는지는 애매했음  
@@ -182,7 +174,6 @@
 
 ---
 ## 2025-02-01 ~ 02-02
-
 - **Paper Review : YOLO v4** (YOLOv4: Optimal Speed and Accuracy of Object Detection)  
   - YOLOv4는 새로운 개념과 기법이 너무 많이 나와서 처음 YOLOv1~3을 봤을 때보다 더 복잡하고 어려운 느낌이었음  
   - 특히 BoS, BoF, CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 새로운 개념들을 접하며 처음 보는 단어와 구조가 너무 많아 막막했음  
@@ -223,7 +214,6 @@
 ---
 
 ## 2025-02-03
-
 - 2월 1~2일 공부 내용 복습
 - CNN 기본기 추가 학습 (앞으로도 지속적으로 다질 계획)
 - 세미나 주제로 3D Object Detection 관련 논문들 서칭
@@ -234,7 +224,6 @@
 ---
 
 ## 2025-02-04
-
 - **Paper Review : VoxelNet** (End-to-End Learning for Point Cloud Based 3D Object Detection)  
   - 하루 종일 세미나 준비만 함  
   - Architecture, 아이디어, 주변 필요 지식들을 전반적으로 공부  
@@ -243,7 +232,6 @@
 ---
 
 ## 2025-02-05
-
 - VoxelNet 세미나 발표
   - 세미나 준비 시간이 2일로 짧았지만, 내용 구성 자체는 만족스럽게 마무리  
   - 발표 시간이 갑자기 앞당겨져서 script를 준비 못 했는데도, 내가 이해하고 공부한 내용을 70% 정도는 설명할 수 있었던 것 같음  
@@ -258,10 +246,10 @@
 ---
 
 ## 2025-02-06
-
 - CNN 기본기 복습
 - 해상도(resolution)에 대한 이론 전반 정리
-- Receptive field, Dilated/Atrous Convolution, Segmentation 한 번에 정리  
+- Receptive field, Dilated/Atrous Convolution, Segmentation 한 번에 정리
+  
 - **Paper Review : Dilated Convolution** (Multi-Scale Context Aggregation by Dilated Convolutions)
 - Skip Connection 개념 정리
 - 미국 가기 전, 내가 지금까지 공부한 내용을 종합적으로 정리하고 체득하는 시간 필요하다고 느낌
@@ -269,23 +257,21 @@
 ---
 
 ## 2025-02-07
-
 - 영단어 정리 (Vocabulary.md)
 - Skip Connection → ResNet으로 이어서 정리
+  
 - **Paper Review : ResNet** (Deep Residual Learning for Image Recognition)
 - Lab 서칭, CV, contact email 초안 피드백 받음
 
 ---
 
 ## 2025-02-08
-
 - Detect-seg-blur 프로젝트용 적절한 데이터 탐색
 - 연구실 contact email 초안 완성 후 교수님별로 튜닝
 
 ---
 
 ## 2025-02-09
-
 - Contact Email 전송: 한양대 데이터사이언스 Casey Bennett 교수님
 - Aggregation methods / Ensemble Learning 정리
   - Boosting, Bagging, Bootstrap
@@ -297,18 +283,17 @@
 
 ---
 ## 2025-02-10
-
 - 연구실 서칭 및 석박사 통합 과정으로 진지하게 준비하기로 결심
 - 미국에서 공부할 것들 정리
 - Transformer 학습 로드맵 수립: LNP → Transformer → NLP/Vision 기반 확장
   - cosine similarity, SVD, KL Divergence, Bayes' theorem 개념 정리
   - Transformer 관련 블로그 리뷰하며 막히는 부분 체크
   - NLP 교재 진도 시작 (데이터 전처리, 언어 모델, BoW, TF-IDF 등)
+  - 
 - Project4. PDF → LDA 변환 진행
 
 ---
 ## 2025-02-11 ~ 02-18
-
 - [NLP 교재](https://wikidocs.net/21694) 진도
   - Chapter 02. 데이터 전처리
   - Chapter 03~10. 언어모델, 확률 기반 모델, 카운트 기반 모델, 벡터 유사도, 머신러닝/딥러닝 기본, RNN, Word embedding, NLP 실습
@@ -320,21 +305,18 @@
 ---
 
 ## 2025-02-19
-
 - 2월 남은 기간 동안 영어 단어 암기 집중  
 - 중학 영단어 1000 (600~1000)
 
 ---
 
 ## 2025-02-20
-
 - 중학 영단어 1000 복습  
 - 중등 수능필수 영단어 1800 : 240개 학습
 
 ---
 
 ## 2025-02-21 ~ 02-25
-
 - 영어 어원 블로그 참고하며 어휘 암기  
 - 중등 수능필수 영단어 1800 반복 복습
 
@@ -375,7 +357,8 @@
 
 ## 2025-03-17 ~ 03-27
 - 수업시간: Word Master 고등 Basic 26~30 반복  
-- 근로시간: English Grammar in Use → 동사 시제별 암기  
+- 근로시간: English Grammar in Use → 동사 시제별 암기
+  
 - **Paper Review : Mamba** (2차 세미나까지 발표 완료)
 
 ---
