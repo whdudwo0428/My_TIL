@@ -1,5 +1,5 @@
 ## VQ-VAE: Neural Discrete Representation Learning  
-#### 2025-04-06 / [https://arxiv.org/abs/1711.00937](https://arxiv.org/abs/1711.00937)
+#### 2025-02-01 / [https://arxiv.org/abs/1711.00937](https://arxiv.org/abs/1711.00937)
 
 ### Problem Statement
 - Variational Autoencoder(VAE)와 일반 Autoencoder는 잠재 공간(latent space)을 **연속적 공간(continuous space)**으로 정의하기 때문에, **텍스트, 음성, 구조적 데이터**와 같은 **이산적(discrete) 표현이 본질적인 데이터**를 효과적으로 다루기 어렵다.
