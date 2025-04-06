@@ -1,5 +1,5 @@
 ## Learning to Learn at Test Time: RNNs with Expressive Hidden States  
-#### 2025-04-06 / [https://arxiv.org/pdf/2407.04620](https://arxiv.org/pdf/2407.04620)
+#### 2025-04-06
 
 ### Problem Statement
 - 일반적인 순환 신경망(RNN)은 고정된 매개변수를 사용하여 시퀀스를 처리하며, 테스트 시점에서는 학습된 동작만을 수행한다. 즉, 새로운 상황이나 태스크에 적응하는 능력이 제한된다.
