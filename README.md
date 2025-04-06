@@ -1,6 +1,5 @@
 ## 2025-01-11
-
-### 강화학습 이론과 알고리즘 공부
+- **강화학습** 이론과 알고리즘 공부
 - 파이썬으로 간단한 GridWorld를 만들고 경로 최적화 문제 실습
 - Q-Learning과 SARSA 구현
 - ε-탐욕 정책, Q-테이블 학습, 업데이트 공식, 강화학습 내 하이퍼파라미터 전반 이해
@@ -8,8 +7,7 @@
 ---
 
 ## 2025-01-12
-
-### 자율주행 센서 기술 및 로드맵 탐색
+- **자율주행** 센서 기술 및 로드맵 탐색
 - 전날 내용 이어서 이것저것 탐색 (특히 Lidar, Camera 중심)
 - 추천 논문 몇 개 간단히 요약해 읽어봄
 - 아직 이해는 어렵지만, 프로젝트 전 최대한 사전지식 채우기 위한 로드맵 구성 시도
@@ -17,8 +15,7 @@
 ---
 
 ## 2025-01-13
-
-### 포트폴리오 구성 및 Git 활용 연습
+- 포트폴리오 구성 및 Git 활용 연습
 - TIL, Project 정리 등 포트폴리오 준비 구성
 - Git 사용법 공부
 - GELU, ADAS, 레이더 도플러효과, 허프변환 등 다양한 주제 서칭하고 정리
@@ -27,36 +24,31 @@
 ---
 
 ## 2025-01-14
-
-### SLAM & LiDAR 기반 인지 메커니즘 공부
-- SLAM과 3D Mapping 개념 간단히 훑어봄
+- SLAM & LiDAR 기반 인지 메커니즘 공부
+- **SLAM**과 **3D Mapping** 개념 간단히 훑어봄
 - 시각 정보 인지 메커니즘 공부 (눈의 구조, 시각 수용체, 스펙트럼별 인지 등)
-- LiDAR의 원리 및 발전사 깊게 공부  
+- **LiDAR**의 원리 및 발전사 깊게 공부  
   - Solid-State LiDAR, ToF-FMCW 신호처리와 통신 원리
   - 수학적 이론, 응용 분야, 산업 트렌드까지 폭넓게 탐구
 
 ---
 
 ## 2025-01-15
-
-### 자율주행 산업 및 Git 구조 공부
+- **자율주행** 산업 및 Git 구조 공부
 - 테슬라 FSD의 라이센싱 비즈니스 모델과 end-to-end 구조 탐색
-- GNSS(GPS) 원리와 자율주행에서의 활용성 탐구
-- Git을 너무 못 쓰는 것 같아서 시간 들여 학습
+- **GNSS(GPS)** 원리와 자율주행에서의 활용성 탐구
+- **Git**을 너무 못 쓰는 것 같아서 시간 들여 학습
 - 여러 자료를 봤는데 구체적으로 기억은 잘 안 나지만 통신/수학 관련 공부도 많이 했던 듯
 
 ---
 
 ## 2025-01-16
-
 - None...
 
 ---
 
 ## 2025-01-17
-
-### Project 1: DiabetesPrediction 기획
-- Project1 구조 및 baseline 코드 작성
+- Project1. **DiabetesPrediction** 구조 및 baseline 코드 작성
 - 프로젝트 목적에 따라 다양한 ML 모델들 탐색
 
 ---
@@ -69,10 +61,10 @@
   - Logging 등 학습 기록 모듈 공부  
   - README 정리하며 Git tool 이해도 향상 시도
 
-- Project2.ChessPiece Detection  
+- Project2.**ChessPiece Detection**
   - 모델 선별 및 구조 설계  
   - Git, Roboflow에서 코드/모델/데이터 불러오는 방법 익힘  
-  - YOLO 구조 간단히 이해
+  - **YOLO** 구조 간단히 이해
 
 ---
 
@@ -83,15 +75,14 @@
   - Git이나 PyTorch 기반 프로젝트 구성을 익히는 게 목적이었지만, 알고리즘, 코드, 파일 구조 등은 깊이 이해하지 못한 채 따라간 느낌  
   - 그래서 잠시 프로젝트를 멈추고 detection 관련 공부를 충분히 한 뒤 Project3로 넘어가기로 결정
 
-- FPN, UNet 등 segmentation 모델  
+- FPN, UNet 등 **segmentation** 모델  
   - 초기 모델부터 발전 과정까지의 흐름과 논리를 중심으로 탐구
 
 ---
 
 ## 2025-01-20
-
-### 팀 프로젝트 구상 및 모델 탐색
-- 자동 모자이크 처리 프로그램 + 웹페이지 개발을 위한 모델 조사
+- 팀 프로젝트 구상 및 모델 탐색
+- **자동 모자이크 처리 프로그램** + 웹페이지 개발을 위한 모델 조사
   - 다양한 모델 서칭 (YOLO 버전별 차이 포함)
   - 데이터 전처리 방식, 데이터셋-모델-코드 간 구조 파악에 시간 투자
   - OpenCV 기반 blur 처리 알고리즘 공부 및 과거 baseline 코드 복습
@@ -99,8 +90,7 @@
 ---
 
 ## 2025-01-21
-### Project 3 설계 및 논문 읽기 시작
-- Project3.Detection_Soccer 구조 설계 및 모델 후보 리스트업
+- Project3.**Detection_Soccer** 구조 설계 및 모델 후보 리스트업
   - 다양한 Object Detection 모델 정리 및 비교
 - 논문 리뷰 로드맵 설계  
   - 참고 Git: [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
@@ -109,9 +99,8 @@
 ---
 
 ## 2025-01-22
-
-### Object Detection 성능 평가 Metric 탐색
-- mAP를 포함한 다양한 평가 지표 탐구  
+- **Object Detection** 공부 시작
+- mAP를 포함한 **다양한 평가 지표 탐구**
 - 향후 다양한 Metric 추가 학습 예정
 
 - **Paper Review : DETR** (End-to-End Object Detection with Transformers)
@@ -120,9 +109,8 @@
 ---
 
 ## 2025-01-23
-### CNN 구조 및 객체 탐지 프레임워크 이해도 향상
 - **Paper Review : OverFeat** (Integrated Recognition, Localization and Detection using Convolutional Networks)
-- CNN 동작 원리 깊게 탐구 (Padding, Stride, Pooling, 각 Layer 내 연산 등)
+- **CNN 동작 원리** 깊게 탐구 (Padding, Stride, Pooling, 각 Layer 내 연산 등)
 - 지금까지 정리한 TIL 내용 다시 읽고 복습
 - OverFeat 기반으로 Two-Stage Detector → One-Stage Detector로의 전환 개념 이해
 - **Paper Review : Fast R-CNN** (Fast Region-based Convolutional Networks for Object Detection)
@@ -149,11 +137,11 @@
 
 ## 2025-01-27 ~ 01-28
 - **Paper Review : FPN** (Feature Pyramid Networks for Object Detection)
-- FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
-- 이 기회에 시간을 좀 더 써서 예전 모델들을 복습하고, 기본 개념들을 내 것으로 만드는 데 집중했음  
-- CNN 내 다양한 Layer 원리 (fc, conv, Reorg, Residual Connection 등)와 구조적 개념 (Bottom-up, Top-down Pathway, Lateral Connection) 학습  
-- K-means Clustering 공부하며 예전 논문 리뷰에서 다뤘던 수학 개념들 (지시 함수, 특이값 분해, 이중 합산 등) 복습  
-- P.S. FPN 공부하며 다시 예전 논문들도 돌아가서 참고하게 되었고, 이제 슬슬 객체 탐지 모델 흐름이 어느 정도 들리는 느낌 받음
+  - FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
+  - 이 기회에 시간을 좀 더 써서 예전 모델들을 복습하고, 기본 개념들을 내 것으로 만드는 데 집중했음  
+  - **CNN** 내 다양한 Layer 원리 (fc, conv, Reorg, Residual Connection 등)와 구조적 개념 (Bottom-up, Top-down Pathway, Lateral Connection) 학습  
+  - **K-means Clustering** 공부하며 예전 논문 리뷰에서 다뤘던 수학 개념들 (지시 함수, 특이값 분해, 이중 합산 등) 복습  
+  - P.S. FPN 공부하며 다시 예전 논문들도 돌아가서 참고하게 되었고, 이제 슬슬 객체 탐지 모델 흐름이 어느 정도 들리는 느낌 받음
 
 ---
 
@@ -179,9 +167,9 @@
   - 특히 BoS, BoF, CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 새로운 개념들을 접하며 처음 보는 단어와 구조가 너무 많아 막막했음  
   - 논문 하나를 이해하기 위해 다양한 네트워크 구성 요소와 성능 향상 요소들을 체계적으로 공부해야겠다고 느낌
 
-- 다양한 Data Augmentation 기법들의 수학적 원리 이해  
+- 다양한 **Data Augmentation 기법**들의 수학적 원리 이해  
   - OpenCV 기반 코드 분석하며 실제 구현까지 확인  
-  - RGB 채널 중심으로 image processing 개념 깊게 탐구  
+  - RGB 채널 중심으로 **image processing** 개념 깊게 탐구  
   - 예전에 그냥 넘어갔던 channel 개념을 이제야 체계적으로 이해함
 
 - 자연스럽게 생성 모델(Generative Model) 관련 흐름으로 연결됨  
@@ -215,10 +203,10 @@
 
 ## 2025-02-03
 - 2월 1~2일 공부 내용 복습
-- CNN 기본기 추가 학습 (앞으로도 지속적으로 다질 계획)
+- **CNN 기본기** 추가 학습 (앞으로도 지속적으로 다질 계획)
 - 세미나 주제로 3D Object Detection 관련 논문들 서칭
   - 추천 논문 리스트 및 로드맵 정리
-  - 3D Point Cloud, LiDAR, Voxel Grid, 3D Object Detection 등의 기초 개념들 정리
+  - **3D Point Cloud, LiDAR, Voxel Grid, 3D Object Detection 등의 기초 개념들 정리**
   - 무엇을 찾아보고 있는지를 항상 정리하는 습관을 들이기로 다짐
 
 ---
@@ -227,12 +215,11 @@
 - **Paper Review : VoxelNet** (End-to-End Learning for Point Cloud Based 3D Object Detection)  
   - 하루 종일 세미나 준비만 함  
   - Architecture, 아이디어, 주변 필요 지식들을 전반적으로 공부  
-  - 3일부터 5일까지 밤 새서 준비함
 
 ---
 
 ## 2025-02-05
-- VoxelNet 세미나 발표
+- **VoxelNet 세미나**
   - 세미나 준비 시간이 2일로 짧았지만, 내용 구성 자체는 만족스럽게 마무리  
   - 발표 시간이 갑자기 앞당겨져서 script를 준비 못 했는데도, 내가 이해하고 공부한 내용을 70% 정도는 설명할 수 있었던 것 같음  
   - 첫 세미나라 많이 떨렸지만, 주변에서 발표 잘했다는 말 들어서 기분 좋았고, 레벨업한 느낌도 있었음  
@@ -246,9 +233,9 @@
 ---
 
 ## 2025-02-06
-- CNN 기본기 복습
+- **CNN 기본기** 복습
 - 해상도(resolution)에 대한 이론 전반 정리
-- Receptive field, Dilated/Atrous Convolution, Segmentation 한 번에 정리
+- **Receptive field, Dilated/Atrous Convolution, Segmentation** 한 번에 정리
   
 - **Paper Review : Dilated Convolution** (Multi-Scale Context Aggregation by Dilated Convolutions)
 - Skip Connection 개념 정리
@@ -276,8 +263,8 @@
 - Aggregation methods / Ensemble Learning 정리
   - Boosting, Bagging, Bootstrap
 - Feature Extraction Techniques 정리
-  - Vision: SIFT, HOG, LBP
-  - NLP: TF-IDF, Word2Vec, GloVe
+  - **Vision**: SIFT, HOG, LBP
+  - **NLP**: TF-IDF, Word2Vec, GloVe
   - Speech: MFCC, Chroma Features, PCA
   - 향후 후각 특징 추출 관련도 추가 공부 예정
 
@@ -289,22 +276,30 @@
   - cosine similarity, SVD, KL Divergence, Bayes' theorem 개념 정리
   - Transformer 관련 블로그 리뷰하며 막히는 부분 체크
   - NLP 교재 진도 시작 (데이터 전처리, 언어 모델, BoW, TF-IDF 등)
-  - 
+    
 - Project4. PDF → LDA 변환 진행
 
 ---
-## 2025-02-11 ~ 02-18
-- [NLP 교재](https://wikidocs.net/21694) 진도
-  - Chapter 02. 데이터 전처리
-  - Chapter 03~10. 언어모델, 확률 기반 모델, 카운트 기반 모델, 벡터 유사도, 머신러닝/딥러닝 기본, RNN, Word embedding, NLP 실습
 
-- 시카고 듀플대학 석사 연구실 컨택  
+## 2025-02-11 ~ 02-18 : 미국 견학 기간
+- [NLP 교재](https://wikidocs.net/21694) 진도
+  - Chapter 02. **데이터 전처리**
+  - Chapter 03. 언어모델 종류 / **확률 기반 모델**
+  - Chapter 04. **카운트 기반 모델**
+  - Chapter 05. **벡터 유사도**
+  - Chapter 06. 머신러닝 기본 복슴
+  - Chapter 07. 딥러닝 기본 복습
+  - Chapter 08. **RNN base**
+  - Chapter 09. **Word embedding**
+  - Chapter 10. NLP 실습 / 다양한 task별 구현 논리
+    
+- **시카고 듀플대학 석사 연구실 컨택**
 - 영어 학습 시작 (목표: 토플 80점)
   - 초등 영단어 1, 2권 / 중학 영단어 1000 (1~600)
 
 ---
 
-## 2025-02-19
+## 2025-02-19 
 - 2월 남은 기간 동안 영어 단어 암기 집중  
 - 중학 영단어 1000 (600~1000)
 
@@ -323,21 +318,16 @@
 ---
 
 ## 2025-02-26 ~ 03-03
-
 - Word Master 고등 Basic 반복 학습  
 - 품사 파생어와 예문 끊어읽기 연습 병행
 
 ---
-
-## 2025-03-04 ~ 03-12
-
-### 논문 준비 (5월 SCI 목표)
-
+## 2025-03-04 ~ 03-12 : 논문 준비 시작 (5월 SCI급 목표)
 - Word Master 고등 Basic : Day 1~25 반복  
-- Mamba 관련 개념 Preliminary
+- **Mamba Preliminary**
   - 전체 흐름은 어느 정도 납득되는데 아키텍처/수식 분석은 어려움  
   - Vision 논문 처음 읽을 때처럼 step by step으로 천천히 정리 중  
-  - 관련 개념: rPPG, Self Attention, Transformer, HiPPO, SSM, LSSL, S4, H4, Mamba, PhysMamba
+  - rPPG 개념 정독
 
 - **Paper Review : HiPPO** (Implicit Polynomial Representation for Sequential Data)
 - **Paper Review : LSSL** (Low-rank Structured State Space Layers)
@@ -346,7 +336,7 @@
 - **Paper Review : Mamba** (Linear-Time Sequence Modeling with Selective SSMs)
 
 - [Mamba 코드 강의 유튜브](https://www.youtube.com/watch?v=JjxBNBzDbNk) 정리  
-- Adaptive Kernel, 동적 SSM filter 추가 개념 탐색
+- **Adaptive Kernel**, 동적 SSM filter 추가 개념 탐색
 
 ---
 
@@ -366,7 +356,7 @@
 ## 2025-03-28 ~ 04-03
 - 토익 기출 VOCA Day 1~10 암기
 - [Mamba 공식 코드](https://github.com/state-spaces/mamba) 분석  
-- rPPG 개념 학습
+- **rPPG** 개념 학습
 
 - **Paper Review : PhysMamba 1** (Physics-Guided State Space Models for Irregular Time Series)
 - **Paper Review : PhysMamba 2** (Physics-Guided State Space Models via Mamba-2)
@@ -374,8 +364,8 @@
 ---
 
 ## 2025-04-04
-- 토익 VOCA Day 1~5 복습  
-- Transformer 이론 복습
+- 토익 VOCA Day 1~5 복습
+# **Transformer** 이론 복습
 
 - **Paper Review : Bahdanau Attention** (Neural Machine Translation by Jointly Learning to Align and Translate)  
 - **Paper Review : Luong Attention** (Effective Approaches to Attention-based Neural Machine Translation)
@@ -388,13 +378,12 @@
 - **Paper Review : Transformer** (Attention Is All You Need)
 
 - **Paper Review : S6** (Simplified State Space Layers for Sequence Modeling)  
-- Titans preview 진행
+- **Titans preview**
 
 ---
 ## 2025-04-06
-
 - 토익 VOCA Day 6~ 복습
-
+- Github 정리
 - **Paper Review : Expressive RNN** (Learning to (Learn at Test Time): RNNs with Expressive Hidden States)  
 - **Paper Review : Test-Time Tuning** (Test-Time Training with Self-Supervision for Generalization under Distribution Shifts)  
   - Test-Time Memory update, self-supervision, online adaptation 구조 정독
