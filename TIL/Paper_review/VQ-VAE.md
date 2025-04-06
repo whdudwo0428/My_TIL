@@ -14,12 +14,12 @@
 ### Methodology Details
 
 #### 1. **Architecture**
-- **Encoder**: 입력 데이터를 latent vector \( z_e(x) \)로 변환
+- **Encoder**: 입력 데이터를 latent vector z(x)로 변환
 - **Quantization**:
-  ![image](https://github.com/user-attachments/assets/b29b2c48-81b2-4198-9909-61c43c33b3d3)
+![image](https://github.com/user-attachments/assets/b29b2c48-81b2-4198-9909-61c43c33b3d3)
 
 - **Decoder**:
-  ![image](https://github.com/user-attachments/assets/4a59ed7a-9d6f-4402-aba2-49189bcf3e40)
+![image](https://github.com/user-attachments/assets/4a59ed7a-9d6f-4402-aba2-49189bcf3e40)
 
 #### 2. **Codebook (Embedding space)**
 - 사전 정의된 K개의 embedding vector 집합
