@@ -46,3 +46,8 @@ VoxelNet은 raw point cloud를 직접 받아 **voxel 단위로 분할하고**, �
 - Voxelization 단계에서 **point precision이 손실**되고, **sparse voxel 처리 효율이 낮음**
 - 이후 **Sparse 3D CNN**, **Point-wise 연산**, **pillar 구조(PointPillars)**, **center-based anchor-free 방식(CenterPoint)** 등이 제안되어 성능과 속도 모두 개선됨
 - VoxelNet은 학문적으로 중요한 기여였지만, 산업적 deployment에는 최적화되지 않음 (속도, 메모리 측면)
+
+**느낀 점**
+세미나 준비 기간이 2일정도로 제한되어있기에 거의 잠도 안자고 공부하고 ppt를 제작했다. 때문에 초안 수준 정도로 ppt로 완성도가 낮았지만 논문 내 핵심 idea나 내가 공부하면서 깊게 탐구했떤 그런 말하고싶던 내용 누락 없이 구성하는 정도에는 성공한 것 같다. 갑자기 발표 시간이 4시간 정도 앞당겨지는 바람에 script 준비를 하나도 못했지만 최대한 내용 이해를 목적으로 공부했던 터라 준비했던 내용을 70% 정도는 발표할 수 있었던 것 같았다. script 준비 없이 이 정도면 정말 잘한거라 칭찬 받아서 기분 좋다 ㅎㅎ. 첫 세미나라 너무 떨렸기에 발표 중에 절고 가슴이 뛰어서 너무 속상했다... 하지만 레벨업한게 느껴졌다는 주변 칭찬을 들어 꽤 만족스러웠던 첫 세미나였다. ppt만드는 능력만 높인다면 다음엔 더 잘 준비할 수 있을 것 같다. (학부 때 거의 발표를 맡고 ppt는 피드백하는 역할이었는데 후회된다...) 아래는 내가 세미나 도중 매끄럽게 설명하지 못하거나 질문 받았을 때 잘 모르겠는 개념들을 정리해놓았다. 6개의 keyword를 미국 가기 전 날인 2월 10일까지 하루에 하나씩 공부할 수 있도록!
+Receptive field, ~wise operations, Skip Connection, concat, Aggregation methods, feature extraction techniques, Point Density variance imbalance
+논문 내 Sparse 4D Tensor를 설명하며 각 Layer나 block에서 Data의 구조(차원)에 대한 개념이 약한게 느껴졌다, resource가 정말 많이 투자됨 ㅠㅠ = 자료구조와 알고리즘에 이어 해당 내용을 공부할 수 있는 keyword를 찾아 공부하도록!
