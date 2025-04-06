@@ -1,5 +1,5 @@
 ## PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba  
-#### 2025-03-28 ~ 03-31 / [https://arxiv.org/abs/2401.13807](https://arxiv.org/pdf/2409.12031)
+#### 2025-03-28 ~ 03-31 / [https://arxiv.org/pdf/2409.12031](https://arxiv.org/pdf/2409.12031)
 
 ### Problem Statement
 - 비접촉 방식의 생체신호 추정(rPPG, remote photoplethysmography)은 영상 기반으로 심박수 등 생리적 정보를 추정하지만, **신호의 매우 미세한 변화**를 포착해야 하므로 **시간 해상도와 주파수 정밀도가 모두 중요**하다.
