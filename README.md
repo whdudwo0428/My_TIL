@@ -382,9 +382,13 @@
 
 ---
 ## 2025-04-06
-- 토익 VOCA Day 6~ 복습
+- 토익 VOCA Day 6~ 복습 aaaaaaa
 - Github 정리
-- **Paper Review : Expressive RNN** (Learning to (Learn at Test Time): RNNs with Expressive Hidden States)  
+- **Paper Review : Expressive RNN** (Learning to (Learn at Test Time): RNNs with Expressive Hidden States)
+
+---
+## 2025-04-07
+- 토익 VOCA Day 6~10 복습 aaaaaaa
 - **Paper Review : Test-Time Tuning** (Test-Time Training with Self-Supervision for Generalization under Distribution Shifts)  
   - Test-Time Memory update, self-supervision, online adaptation 구조 정독
 
