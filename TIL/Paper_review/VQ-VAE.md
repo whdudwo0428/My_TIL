@@ -16,14 +16,13 @@
 #### 1. **Architecture**
 - **Encoder**: 입력 데이터를 latent vector \( z_e(x) \)로 변환
 - **Quantization**:
-  - \( z_e(x) \)에서 가장 가까운 코드북 vector \( e_k \) 선택:  
-    \[
-    z_q(x) = e_k \quad \text{where} \quad k = \arg\min_j \| z_e(x) - e_j \|_2
-    \]
-- **Decoder**: \( z_q(x) \)를 받아 복원된 출력 \( \hat{x} \) 생성
+  ![image](https://github.com/user-attachments/assets/b29b2c48-81b2-4198-9909-61c43c33b3d3)
+
+- **Decoder**: ![image](https://github.com/user-attachments/assets/4a59ed7a-9d6f-4402-aba2-49189bcf3e40)
 
 #### 2. **Codebook (Embedding space)**
-- 사전 정의된 \( K \)개의 embedding vector 집합 \( e \in \mathbb{R}^{K \times D} \)
+- 사전 정의된 K개의 embedding vector 집합 ![image](https://github.com/user-attachments/assets/938f92f6-b971-4d3d-a53d-ddaad87e39a5)
+
 - 학습 중에 이 embedding vector들도 같이 업데이트됨
 
 #### 3. **Loss Function**
