@@ -152,7 +152,7 @@
 
 ---
 
-## 2025-01-27 ~ 01.28
+## 2025-01-27 ~ 01-28
 
 - **Paper Review : FPN** (Feature Pyramid Networks for Object Detection)
 - FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
@@ -163,7 +163,7 @@
 
 ---
 
-## 2025-01-29 ~ 01.30
+## 2025-01-29 ~ 01-30
 
 - **Paper Review : RetinaNet** (Focal Loss for Dense Object Detection)
 - **Paper Review : Mask R-CNN** (Mask R-CNN)
@@ -181,7 +181,7 @@
 - **Paper Review : M2Det** (A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network)
 
 ---
-## 2025-02-01 ~ 02.02
+## 2025-02-01 ~ 02-02
 
 - **Paper Review : YOLO v4** (YOLOv4: Optimal Speed and Accuracy of Object Detection)  
   - YOLOv4는 새로운 개념과 기법이 너무 많이 나와서 처음 YOLOv1~3을 봤을 때보다 더 복잡하고 어려운 느낌이었음  
@@ -296,7 +296,6 @@
   - 향후 후각 특징 추출 관련도 추가 공부 예정
 
 ---
-
 ## 2025-02-10
 
 - 연구실 서칭 및 석박사 통합 과정으로 진지하게 준비하기로 결심
@@ -307,8 +306,8 @@
   - NLP 교재 진도 시작 (데이터 전처리, 언어 모델, BoW, TF-IDF 등)
 - Project4. PDF → LDA 변환 진행
 
-```
-## 2025-02-11 ~ 02.18
+---
+## 2025-02-11 ~ 02-18
 
 - [NLP 교재](https://wikidocs.net/21694) 진도
   - Chapter 02. 데이터 전처리
@@ -334,21 +333,21 @@
 
 ---
 
-## 2025-02-21 ~ 02.25
+## 2025-02-21 ~ 02-25
 
 - 영어 어원 블로그 참고하며 어휘 암기  
 - 중등 수능필수 영단어 1800 반복 복습
 
 ---
 
-## 2025-02-26 ~ 03.03
+## 2025-02-26 ~ 03-03
 
 - Word Master 고등 Basic 반복 학습  
 - 품사 파생어와 예문 끊어읽기 연습 병행
 
 ---
 
-## 2025-03-04 ~ 03.12
+## 2025-03-04 ~ 03-12
 
 ### 논문 준비 (5월 SCI 목표)
 
@@ -369,33 +368,28 @@
 
 ---
 
-## 2025-03-13 ~ 03.16
-
+## 2025-03-13 ~ 03-16
 - Word Master 고등 Basic : Day 13~30 반복
 
 ---
 
-## 2025-03-17 ~ 03.27
-
+## 2025-03-17 ~ 03-27
 - 수업시간: Word Master 고등 Basic 26~30 반복  
 - 근로시간: English Grammar in Use → 동사 시제별 암기  
 - **Paper Review : Mamba** (2차 세미나까지 발표 완료)
 
 ---
 
-## 2025-03-28 ~ 04.03
-
+## 2025-03-28 ~ 04-03
 - 토익 기출 VOCA Day 1~10 암기  
 - [Mamba 공식 코드](https://github.com/state-spaces/mamba) 분석  
 - rPPG 개념 학습
-
 - **Paper Review : PhysMamba 1** (Physics-Guided State Space Models for Irregular Time Series)
 - **Paper Review : PhysMamba 2** (Physics-Guided State Space Models via Mamba-2)
 
 ---
 
 ## 2025-04-04
-
 - 토익 VOCA Day 1~5 복습  
 - Transformer 이론 복습
 
@@ -413,7 +407,6 @@
 - Titans preview 진행
 
 ---
-
 ## 2025-04-06
 
 - 토익 VOCA Day 6~ 복습
