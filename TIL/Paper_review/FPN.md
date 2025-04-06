@@ -1,5 +1,5 @@
 ## Feature Pyramid Networks for Object Detection  
-#### 2025-01-27 ~ 01-28 / [https://arxiv.org/abs/1612.03144](https://arxiv.org/abs/1612.03144)
+#### 2025-01-27 ~ 01-28
 
 ### Problem Statement
 - 객체 탐지는 다양한 **크기의 객체를 정확히 탐지하는 것**이 핵심 과제인데, 기존 CNN 구조는 **고해상도(초기 레이어)에는 작은 객체**, **저해상도(깊은 레이어)에는 큰 객체**에 유리한 반면,
