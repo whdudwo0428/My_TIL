@@ -16,18 +16,18 @@
 ### Methodology Details
 
 #### 1. **Dilated Convolution 정의**
-- 일반 convolution은 \( k \times k \) 커널을 연속적으로 적용하며, receptive field는 느리게 증가한다.
-- Dilated convolution은 각 커널 요소 간의 간격을 \( r \)이라 할 때, 다음과 같이 일반화된다:
+- 일반 convolution은 k x k 커널을 연속적으로 적용하며, receptive field는 느리게 증가한다.
+- Dilated convolution은 각 커널 요소 간의 간격을 r이라 할 때, 다음과 같이 일반화된다:
 ![image](https://github.com/user-attachments/assets/73211f9d-b96a-4edc-b216-bea7eefd04c1)
 
 
-  - \( r \): dilation rate (간격 크기)
-  - \( r=1 \)이면 일반 convolution과 동일
-  - \( r=2, 4, 8 \)처럼 점점 커질수록 더 넓은 영역을 보지만 계산량은 동일
+  - r : dilation rate (간격 크기)
+  - r=1 이면 일반 convolution과 동일
+  - r=2, 4, 8 처럼 점점 커질수록 더 넓은 영역을 보지만 계산량은 동일
 
 #### 2. **Context Module**
 - 여러 층의 dilated convolution을 **계단식으로 쌓아 수용 영역을 지수적으로 증가**
-  - 예: dilation rate \( r = 1, 2, 4, 8, 16 \)
+  - 예: dilation rate r = 1, 2, 4, 8, 16 
 - 모든 연산은 **해상도를 유지한 채 수행**되므로, 출력 feature는 입력 크기와 동일
 - 중간에 pooling 없이 순수하게 dilated conv만 사용함
 
