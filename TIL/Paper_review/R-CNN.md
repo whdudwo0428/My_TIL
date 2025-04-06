@@ -1,5 +1,5 @@
 ## Rich feature hierarchies for accurate object detection and semantic segmentation  
-#### 2025-04-06 / [https://arxiv.org/abs/1311.2524](https://arxiv.org/abs/1311.2524)
+#### 2025-01-22 / [https://arxiv.org/abs/1311.2524](https://arxiv.org/abs/1311.2524)
 
 ### Problem Statement
 - 전통적인 객체 탐지 방식(HOG + SVM + Selective Search)은 단일 스케일의 특징과 고정된 탐지 파이프라인에 의존하므로 복잡한 배경, 다양한 크기/형태의 객체, 조명 변화에 대해 강인하지 못함.
