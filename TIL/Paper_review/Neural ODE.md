@@ -43,3 +43,7 @@ Neural ODE는 전통적인 layer stacking 방식의 신경망을 일반화하여
 - ODE solver의 연산량이 고정되어 있지 않고, 문제 난이도에 따라 **adaptive step 수가 달라짐** → 연산량 예측 어려움
 - 훈련 속도가 느리고, stiff ODE (급격히 변화하는 함수)에 대한 해석에 한계가 있음
 - 이후 FFJORD는 **ODE 기반 flow 모델을 확장**하고, ANODE는 **state augmentation**을 통해 표현력을 개선함
+
+**느낀 점**
+- ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
+- 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
