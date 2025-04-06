@@ -1,5 +1,5 @@
 ## Attention Is All You Need  
-#### 2025-04-04
+#### 2025-04-05
 
 ### Problem Statement
 - 기존 sequence-to-sequence 모델들은 주로 RNN 또는 CNN 기반으로 구성되며, 긴 시퀀스를 처리하는 데 있어 **병렬화가 어렵고 long-range dependency를 학습하기 힘든 한계**가 있었다.
