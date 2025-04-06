@@ -257,7 +257,7 @@
     - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025) review
 
  - **4월 5일**
-    - 토익기출 VOCA 영단어 암기 : Day 5~7 복습
+    - 토익기출 VOCA 영단어 암기 : Day 5 복습
     - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
         - [Positional Encoding 참고 블로그](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
         - [Transformer Code 실습](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Attention_is_All_You_Need_Tutorial_(German_English).ipynb)
@@ -265,8 +265,9 @@
     - Titans preview !!!
       
  - **4월 6일**
-    - 토익기출 VOCA 영단어 암기 : Day 8~10 복습
-    - Paper Review / : [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/pdf/1909.13231)
+    - 토익기출 VOCA 영단어 암기 : Day 6~& 복습
+    - Paper Review : [Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/pdf/2407.04620)
+    - Paper Review : [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/pdf/1909.13231)
         - 정독 : Test-Time Momory update 개념 확실하게! self-supervision + online adaptation 구조 파악
     - Paper Review : [Memorizing Transformers](https://arxiv.org/pdf/2203.08913)
         - 정독 : Titans의 memory 메커니즘이 기존 external memory 방식과 어떻게 다른지를 파악, recall/retrieval 구조 참고용
