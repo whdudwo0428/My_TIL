@@ -308,7 +308,7 @@
 - Project4. PDF → LDA 변환 진행
 
 ```
- ## 2025-02-11 ~ 02.18
+## 2025-02-11 ~ 02.18
 
 - [NLP 교재](https://wikidocs.net/21694) 진도
   - Chapter 02. 데이터 전처리
@@ -440,8 +440,8 @@
 
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
+---
 
------
 - [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
         - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
         - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
