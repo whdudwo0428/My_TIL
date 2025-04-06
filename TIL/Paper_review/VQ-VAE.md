@@ -14,43 +14,24 @@
 ### Methodology Details
 
 #### 1. 아키텍처 구성
-- **Encoder**: 입력 \( x \)를 latent embedding \( z_e(x) \in \mathbb{R}^D \)로 인코딩
-- **Quantization**: 다음과 같이 코드북 \( \{ e_1, e_2, \dots, e_K \} \subset \mathbb{R}^D \) 중 가장 가까운 벡터로 양자화
+![image](https://github.com/user-attachments/assets/ae8c27fb-3aa1-405f-8df5-c54e4fa32e23)
 
-  \[
-  z_q(x) = e_k \quad \text{where} \quad k = \arg\min_j \| z_e(x) - e_j \|_2
-  \]
-
-- **Decoder**: 양자화된 latent \( z_q(x) \)를 받아 출력 \( \hat{x} \)를 생성
 
 #### 2. 손실 함수
 
 총 손실은 다음 세 가지 항으로 구성된다:
 
-- **재구성 손실** (reconstruction loss):  
-  \[
-  \mathcal{L}_{\text{recon}} = \| x - \hat{x} \|_2^2
-  \]
+![image](https://github.com/user-attachments/assets/48983a4a-a7b0-4a3f-8e79-2dca840ee79e)
 
-- **코드북 업데이트 항** (codebook loss):  
-  \[
-  \mathcal{L}_{\text{vq}} = \| \text{sg}[z_e(x)] - e \|_2^2
-  \]
-
-- **커밋 손실** (commitment loss):  
-  \[
-  \mathcal{L}_{\text{commit}} = \beta \| z_e(x) - \text{sg}[e] \|_2^2
-  \]
-
-여기서 \( \text{sg}[\cdot] \)는 **stop-gradient** 연산자로, 해당 항목에서 gradient가 흐르지 않도록 차단하는 역할을 한다.
+여기서 **sg**는 **stop-gradient** 연산자로, 해당 항목에서 gradient가 흐르지 않도록 차단하는 역할을 한다.
 
 - **최종 손실 함수**:  
-  \[
-  \mathcal{L} = \mathcal{L}_{\text{recon}} + \mathcal{L}_{\text{vq}} + \mathcal{L}_{\text{commit}}
-  \]
+![image](https://github.com/user-attachments/assets/83324295-337a-4810-af4d-c7f099cc626f)
+
 
 #### 3. 학습 방법
-- 양자화는 미분이 불가능하므로, **Straight-Through Estimator**를 사용해 \( z_q(x) \)에 대한 gradient를 \( z_e(x) \)에 직접 전달한다.
+![image](https://github.com/user-attachments/assets/0ed6791c-7fb0-436b-ba7b-796cccc1809a)
+
 
 #### 4. 활용 사례
 - VQ-VAE는 discrete latent code를 활용하여 **WaveNet decoder와 함께 고품질 음성 합성**에 사용되었고,
