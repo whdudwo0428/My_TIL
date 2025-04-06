@@ -51,3 +51,6 @@ RefineDet은 one-stage 탐지기의 단점인 localization precision 부족과 f
 - anchor 기반 구조이므로 anchor 설정(hyperparameter)에 여전히 민감
 - 작은 객체 탐지 성능은 SSD보다 낫지만, RetinaNet 수준까지는 도달하지 못함
 - 이후 anchor-free 방식(FCOS, CenterNet)이나 transformer 기반 detector(DETR) 등이 등장하며 구조 간소화와 성능 향상이 지속됨
+
+**느낀 점**
+- RefineDet 논문을 읽으면서 ARM과 ODM의 개별적인 역할은 명확하게 설명되었지만, ODM에서 각 스케일에 나온 정보를 어떻게 최종적으로 통합하는지(multi-scale feature에서 나온 여러 prediction을 어떻게 최종적으로 통합하는지/Multi-scale Feature에서 가져오는 정보의 조합 방식, Bounding Box Regression 과정 등) 명확하지 않아 직접 코드를 Scratch하여 이해하는 과정이 필요했음. 논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌을 받았다.
