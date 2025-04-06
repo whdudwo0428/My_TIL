@@ -105,7 +105,7 @@
   - 다양한 Object Detection 모델 정리 및 비교
 - 논문 리뷰 로드맵 설계  
   - 참고 Git: [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
-- Paper Review : DETR (End-to-End Object Detection with Transformers)
+- **Paper Review : DETR** (End-to-End Object Detection with Transformers)
 
 ---
 
@@ -115,46 +115,46 @@
 - mAP를 포함한 다양한 평가 지표 탐구  
 - 향후 다양한 Metric 추가 학습 예정
 
-- Paper Review : DETR (End-to-End Object Detection with Transformers)
-- Paper Review : R-CNN (Rich feature hierarchies for accurate object detection and semantic segmentation)
+- **Paper Review : DETR** (End-to-End Object Detection with Transformers)
+- **Paper Review : R-CNN** (Rich feature hierarchies for accurate object detection and semantic segmentation)
 
 ---
 
 ## 2025-01-23
 
 ### CNN 구조 및 객체 탐지 프레임워크 이해도 향상
-- Paper Review : OverFeat (Integrated Recognition, Localization and Detection using Convolutional Networks)
+- **Paper Review : OverFeat** (Integrated Recognition, Localization and Detection using Convolutional Networks)
 - CNN 동작 원리 깊게 탐구 (Padding, Stride, Pooling, 각 Layer 내 연산 등)
 - 지금까지 정리한 TIL 내용 다시 읽고 복습
 - OverFeat 기반으로 Two-Stage Detector → One-Stage Detector로의 전환 개념 이해
-- Paper Review : Fast R-CNN (Fast Region-based Convolutional Networks for Object Detection)
+- **Paper Review : Fast R-CNN** (Fast Region-based Convolutional Networks for Object Detection)
 
 ---
 
 ## 2025-01-24
 
-- Paper Review : Faster R-CNN (Towards Real-Time Object Detection with Region Proposal Networks)
-- Paper Review : OHEM (Training Region-based Object Detectors with Online Hard Example Mining)
+- **Paper Review : Faster R-CNN** (Towards Real-Time Object Detection with Region Proposal Networks)
+- **Paper Review : OHEM** (Training Region-based Object Detectors with Online Hard Example Mining)
 
 ---
 
 ## 2025-01-25
 
-- Paper Review : YOLO v1 (You Only Look Once: Unified, Real-Time Object Detection)
-- Paper Review : SSD (Single Shot MultiBox Detector)
+- **Paper Review : YOLO v1** (You Only Look Once: Unified, Real-Time Object Detection)
+- **Paper Review : SSD** (Single Shot MultiBox Detector)
 
 ---
 
 ## 2025-01-26
 
-- Paper Review : R-FCN (Object Detection via Region-based Fully Convolutional Networks)
-- Paper Review : YOLO v2 (YOLO9000: Better, Faster, Stronger)
+- **Paper Review : R-FCN** (Object Detection via Region-based Fully Convolutional Networks)
+- **Paper Review : YOLO v2** (YOLO9000: Better, Faster, Stronger)
 
 ---
 
 ## 2025-01-27 ~ 01.28
 
-- Paper Review : FPN (Feature Pyramid Networks for Object Detection)
+- **Paper Review : FPN** (Feature Pyramid Networks for Object Detection)
 - FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
 - 이 기회에 시간을 좀 더 써서 예전 모델들을 복습하고, 기본 개념들을 내 것으로 만드는 데 집중했음  
 - CNN 내 다양한 Layer 원리 (fc, conv, Reorg, Residual Connection 등)와 구조적 개념 (Bottom-up, Top-down Pathway, Lateral Connection) 학습  
@@ -165,31 +165,28 @@
 
 ## 2025-01-29 ~ 01.30
 
-- Paper Review : RetinaNet (Focal Loss for Dense Object Detection)
-- Paper Review : Mask R-CNN (Mask R-CNN)
+- **Paper Review : RetinaNet** (Focal Loss for Dense Object Detection)
+- **Paper Review : Mask R-CNN** (Mask R-CNN)
 
 ---
 
 ## 2025-01-31
 
-- Paper Review : YOLO v3 (YOLOv3: An Incremental Improvement)
-- Paper Review : RefineDet (Single-Shot Refinement Neural Network for Object Detection)
+- **Paper Review : YOLO v3** (YOLOv3: An Incremental Improvement)
+- **Paper Review : RefineDet** (Single-Shot Refinement Neural Network for Object Detection)
   - ARM과 ODM의 개별 역할은 명확했지만, ODM에서 각 스케일 정보를 어떻게 최종적으로 통합하는지는 애매했음  
   - Multi-scale Feature에서 가져온 prediction을 어떻게 결합하는지, Bounding Box Regression 과정이 명확하지 않아 직접 코드를 Scratch해서 파악 필요  
   - 논문 자체가 조금 불친절했지만, 지금까지의 base 모델 개념들이 도움이 되며 ‘이건 어디서 가져온 개념이네’, ‘이 구성은 문제 있었는데 어떻게 해결했더라?’ 같은 생각이 들면서 insight를 얻게 됨  
   - 특히 FPN 리뷰할 때처럼 객체탐지 모델에 대한 나만의 관점이 조금 생긴 느낌
-- Paper Review : M2Det (A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network)
+- **Paper Review : M2Det** (A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network)
 
 ---
-```markdown
 ## 2025-02-01 ~ 02.02
 
-- Paper Review : YOLO v4 (YOLOv4: Optimal Speed and Accuracy of Object Detection)  
+- **Paper Review : YOLO v4** (YOLOv4: Optimal Speed and Accuracy of Object Detection)  
   - YOLOv4는 새로운 개념과 기법이 너무 많이 나와서 처음 YOLOv1~3을 봤을 때보다 더 복잡하고 어려운 느낌이었음  
   - 특히 BoS, BoF, CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 새로운 개념들을 접하며 처음 보는 단어와 구조가 너무 많아 막막했음  
   - 논문 하나를 이해하기 위해 다양한 네트워크 구성 요소와 성능 향상 요소들을 체계적으로 공부해야겠다고 느낌
-
-- 논문 읽을 때 자주 나오는 영어 형용사, 동사, 고유명사들 정리
 
 - 다양한 Data Augmentation 기법들의 수학적 원리 이해  
   - OpenCV 기반 코드 분석하며 실제 구현까지 확인  
@@ -199,14 +196,14 @@
 - 자연스럽게 생성 모델(Generative Model) 관련 흐름으로 연결됨  
   - 앞으로 object detection, segmentation 이후에 이쪽도 프로젝트 해보고 싶음
 
-- Paper Review : VQ-VAE (Neural Discrete Representation Learning)  
+- **Paper Review : VQ-VAE** (Neural Discrete Representation Learning)  
   - Flow based model 구조, 역함수 접근과 loss 이해  
   - Encoder-Decoder 구조를 이전보다 훨씬 깊게 이해함  
   - AE, Scalar/Vector Quantization 등의 하위 개념부터 정리  
   - 아직도 discretization과 Scalar Quantization 차이가 명확히 납득되진 않음  
   - Residual VQ 포함
 
-- Paper Review : Neural ODE (Neural Ordinary Differential Equations)  
+- **Paper Review : Neural ODE** (Neural Ordinary Differential Equations)  
   - ODE 기초부터 Neural 방식의 수치적 접근까지 학습  
   - 관련 코드까지 보며 구현 방식 이해  
   - 이전에 공부했던 Loss 구조도 같이 복습하게 되었고, 수학 공부를 꽤 많이 함  
@@ -238,7 +235,7 @@
 
 ## 2025-02-04
 
-- Paper Review : VoxelNet (End-to-End Learning for Point Cloud Based 3D Object Detection)  
+- **Paper Review : VoxelNet** (End-to-End Learning for Point Cloud Based 3D Object Detection)  
   - 하루 종일 세미나 준비만 함  
   - Architecture, 아이디어, 주변 필요 지식들을 전반적으로 공부  
   - 3일부터 5일까지 밤 새서 준비함
@@ -247,7 +244,7 @@
 
 ## 2025-02-05
 
-- Paper Review : VoxelNet (세미나 발표 진행)  
+- VoxelNet 세미나 발표
   - 세미나 준비 시간이 2일로 짧았지만, 내용 구성 자체는 만족스럽게 마무리  
   - 발표 시간이 갑자기 앞당겨져서 script를 준비 못 했는데도, 내가 이해하고 공부한 내용을 70% 정도는 설명할 수 있었던 것 같음  
   - 첫 세미나라 많이 떨렸지만, 주변에서 발표 잘했다는 말 들어서 기분 좋았고, 레벨업한 느낌도 있었음  
@@ -265,7 +262,7 @@
 - CNN 기본기 복습
 - 해상도(resolution)에 대한 이론 전반 정리
 - Receptive field, Dilated/Atrous Convolution, Segmentation 한 번에 정리  
-- Paper Review : Dilated Convolution (Multi-Scale Context Aggregation by Dilated Convolutions)
+- **Paper Review : Dilated Convolution** (Multi-Scale Context Aggregation by Dilated Convolutions)
 - Skip Connection 개념 정리
 - 미국 가기 전, 내가 지금까지 공부한 내용을 종합적으로 정리하고 체득하는 시간 필요하다고 느낌
 
@@ -275,7 +272,7 @@
 
 - 영단어 정리 (Vocabulary.md)
 - Skip Connection → ResNet으로 이어서 정리
-- Paper Review : ResNet (Deep Residual Learning for Image Recognition)
+- **Paper Review : ResNet** (Deep Residual Learning for Image Recognition)
 - Lab 서칭, CV, contact email 초안 피드백 받음
 
 ---
@@ -311,99 +308,134 @@
 - Project4. PDF → LDA 변환 진행
 
 ```
- 
-- **2월 11일~18일 : 미국견학**
-  - [NPL 교재](https://wikidocs.net/21694)
-    - Chapter 02. 데이터 전처리
-      - Chapter 03. 언어모델 종류 / 확률 기반 모델
-        - Chapter 04. 카운트 기반 모델
-        - Chapter 05. 벡터 유사도
-        - Chapter 06. 머신러닝 기본 복슴
-        - Chapter 07. 딥러닝 기본 복습
-        - Chapter 08. RNN base
-        - Chapter 09. Word embedding
-        - Chapter 10. NLP 실습 / 다양한 task별 구현 논리
-    - 시카고 듀플대학 석사 연구실 컨택 => 영어공부 시작해보자... 목표 토플 80점
-        - 초등영단어1 700
-        - 초등영단어2 800
-        - 중학 영단어 1000 : 1~600
-          
-         
-- **2월 19일**
-    - 남은 2월동안 영어단어만 공부!
-    - 밀린 한국 일정들 처리하느라 바쁠 예정...
-    - 중학 영단어 1000 : 600~1000
-         
-- **2월 20일**
-    - 중학 영단어 1000 복습
-    - 중등 수능필수영단어 1800 : 240개
-         
-- **2월 21일 ~ 2월 25일**
-    - [영어어원 블로그](https://m.blog.naver.com/PostList.naver?blogId=eternity9us&categoryNo=29&logCode=0&tab=1) : 잘 안외워지는 단어는 여기서 확인, 심심할때마다 들려서 쭉 읽기
-    - 중등 수능필수영단어 1800 : 매일 복습하고 진도 반복
+ ## 2025-02-11 ~ 02.18
 
-- **2월 26일 ~ 3월 3일**
-    - Word Master 고등 Basic: 매일 복습하고 진도 반복
-    - 품사파생어도 다 같이 외우고, 모든 예문 자연스럽게 읽힐 때까지 끊어읽기 연습
- 
-- **3월 4일 ~ 3월 12일** : **논문준비, 5월 SCI 목표**
-    - Word Master 고등 Basic : Day 1~25 반복
-    - Mamba Preliminary!
-        - HiPPO ~ Mamba까지 쉬운 수준에서 "이런 이런 기능을 갖기위해 모델을 이렇게 구성하고 대충 이런 논문이다" 같은 러프한 수준에서는 납득하고 넘어가겠는데, 구체적으로 아키텍쳐나 수식 하나하나를 뜯어보며 이해하려고 하는 순간 그 구조의 논리적 전개가 안됨. 아직 이걸 읽을 레벨이 아니란 느낌 생각보다 Mamba 모델을 대략적으로도 이해하는 것 자체가 꽤 오래 걸릴것같음... 기간 신경쓰지말고, 시간 충분히 두고 하위 개념 하나하나 익숙해지면서(비젼논문 처음 읽었던것처럼) step by step 으로 해보자...
-        - rPPG, Self Attention, Transformer, Hippo, SSM, LSSL, S4, H4, Mamba, PhysMamba 까지 전체적인 논리와 관련개념, 세부적인 내용 등을 공부하고 정리함.
-        - [HiPPO 논문](https://arxiv.org/pdf/2008.07669)  공부
-        - [LSSL 논문](https://arxiv.org/pdf/2008.07669)  공부
-        - [S4 + S4(D) 논문](https://arxiv.org/pdf/2111.00396)  공부
-        - [H3 논문](https://arxiv.org/pdf/2212.14052) 공부
-        - [Mamba 논문](https://arxiv.org/pdf/2312.00752) 간단하게 읽어봄 / [참고 블로그 1](https://kyujinpy.tistory.com/149)
-        - [Mamba 참고 유튜브 1](https://www.youtube.com/watch?v=JjxBNBzDbNk) : 해당 유튜브를 바탕으로 노트정리!
-    -  Adaptive Kernel, 동적 SSM filter 추가로 공부하기
-    -  Mamba 공부
-    
-    
- - **3월 13일 ~ 3월 16일** 
-    - Word Master 고등 Basic : 13~30 계속 반복
+- [NLP 교재](https://wikidocs.net/21694) 진도
+  - Chapter 02. 데이터 전처리
+  - Chapter 03~10. 언어모델, 확률 기반 모델, 카운트 기반 모델, 벡터 유사도, 머신러닝/딥러닝 기본, RNN, Word embedding, NLP 실습
 
-- **3월 17일 ~ 3월 27일** 
-    - 수업시간 : Word Master 고등 Basic : 26~30 계속 반복
-    - 근로시간 : English Grammar in USE : (18일 화요일 시작) / 동사 시제별로 암기해두기
-    - [Mamba 논문](https://arxiv.org/pdf/2312.00752) review 세미나 (2025-03-27 2차 세미나까지 완료)
- 
-- **3월 28일 ~ 4월 3일**
-    - 토익기출 VOCA 영단어 암기 : Day 1~10
-    - [Mamba code 구현](https://github.com/state-spaces/mamba) 공부
-    - rPPG 기본 공부
-    - [Physmamba 1 논문](https://arxiv.org/pdf/2409.12031) review : Mamba-1 기반 PhysMamba
-    - [Physmamba 2 논문](https://arxiv.org/pdf/2408.01077) review : Mamba-2 기반 PhysMamba
+- 시카고 듀플대학 석사 연구실 컨택  
+- 영어 학습 시작 (목표: 토플 80점)
+  - 초등 영단어 1, 2권 / 중학 영단어 1000 (1~600)
 
-- **4월 4일**
-    - 토익기출 VOCA 영단어 암기 : Day 1~5 복습
-    - Transformer 공부 제대로 하기
-    - [Bahdanau Attention 논문](https://arxiv.org/pdf/1409.0473) review
-    - [Luong Attention 논문](https://arxiv.org/pdf/1508.04025) review
+---
 
- - **4월 5일**
-    - 토익기출 VOCA 영단어 암기 : Day 5 복습
-    - [Attention Is All You Need 논문](https://arxiv.org/pdf/1706.03762) review
-        - [Positional Encoding 참고 블로그](https://www.blossominkyung.com/deeplearning/transfomer-positional-encoding)
-        - [Transformer Code 실습](https://github.com/ndb796/Deep-Learning-Paper-Review-and-Practice/blob/master/code_practices/Attention_is_All_You_Need_Tutorial_(German_English).ipynb)
-    - Paper Review : [Simplified State Space Layers for Sequence Modeling](https://arxiv.org/pdf/2208.04933)
-    - Titans preview !!!
-      
- - **4월 6일**
-    - 토익기출 VOCA 영단어 암기 : Day 6~& 복습
-    - Paper Review : [Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/pdf/2407.04620)
-    - Paper Review : [Test-Time Training with Self-Supervision for Generalization under Distribution Shifts](https://arxiv.org/pdf/1909.13231)
-        - 정독 : Test-Time Momory update 개념 확실하게! self-supervision + online adaptation 구조 파악
-    - Paper Review : [Memorizing Transformers](https://arxiv.org/pdf/2203.08913)
-        - 정독 : Titans의 memory 메커니즘이 기존 external memory 방식과 어떻게 다른지를 파악, recall/retrieval 구조 참고용
-    - Paper Review : [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/pdf/2307.08621)
-        - 구조만 정리 요약위주 : attention-free memory retention 구조
-    - **Paper Review** : [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/pdf/2405.21060)
-    - Paper Review : [MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts](https://arxiv.org/pdf/2401.04081)
-    - **Paper Review** : [Titans: Learning to Memorize at Test Time](https://arxiv.org/pdf/2501.00663)
-    - Paper Review : [Using Fast Weights to Attend to the Recent Past](https://arxiv.org/pdf/1610.06258)
-        - fast memory writing 개념만 요약
+## 2025-02-19
+
+- 2월 남은 기간 동안 영어 단어 암기 집중  
+- 중학 영단어 1000 (600~1000)
+
+---
+
+## 2025-02-20
+
+- 중학 영단어 1000 복습  
+- 중등 수능필수 영단어 1800 : 240개 학습
+
+---
+
+## 2025-02-21 ~ 02.25
+
+- 영어 어원 블로그 참고하며 어휘 암기  
+- 중등 수능필수 영단어 1800 반복 복습
+
+---
+
+## 2025-02-26 ~ 03.03
+
+- Word Master 고등 Basic 반복 학습  
+- 품사 파생어와 예문 끊어읽기 연습 병행
+
+---
+
+## 2025-03-04 ~ 03.12
+
+### 논문 준비 (5월 SCI 목표)
+
+- Word Master 고등 Basic : Day 1~25 반복  
+- Mamba 관련 개념 Preliminary
+  - 전체 흐름은 어느 정도 납득되는데 아키텍처/수식 분석은 어려움  
+  - Vision 논문 처음 읽을 때처럼 step by step으로 천천히 정리 중  
+  - 관련 개념: rPPG, Self Attention, Transformer, HiPPO, SSM, LSSL, S4, H4, Mamba, PhysMamba
+
+- **Paper Review : HiPPO** (Implicit Polynomial Representation for Sequential Data)
+- **Paper Review : LSSL** (Low-rank Structured State Space Layers)
+- **Paper Review : S4** (Efficiently Modeling Long Sequences with Structured State Spaces)
+- **Paper Review : H3** (State Space Models Beyond Markovianity)
+- **Paper Review : Mamba** (Linear-Time Sequence Modeling with Selective SSMs)
+
+- [Mamba 코드 강의 유튜브](https://www.youtube.com/watch?v=JjxBNBzDbNk) 정리  
+- Adaptive Kernel, 동적 SSM filter 추가 개념 탐색
+
+---
+
+## 2025-03-13 ~ 03.16
+
+- Word Master 고등 Basic : Day 13~30 반복
+
+---
+
+## 2025-03-17 ~ 03.27
+
+- 수업시간: Word Master 고등 Basic 26~30 반복  
+- 근로시간: English Grammar in Use → 동사 시제별 암기  
+- **Paper Review : Mamba** (2차 세미나까지 발표 완료)
+
+---
+
+## 2025-03-28 ~ 04.03
+
+- 토익 기출 VOCA Day 1~10 암기  
+- [Mamba 공식 코드](https://github.com/state-spaces/mamba) 분석  
+- rPPG 개념 학습
+
+- **Paper Review : PhysMamba 1** (Physics-Guided State Space Models for Irregular Time Series)
+- **Paper Review : PhysMamba 2** (Physics-Guided State Space Models via Mamba-2)
+
+---
+
+## 2025-04-04
+
+- 토익 VOCA Day 1~5 복습  
+- Transformer 이론 복습
+
+- **Paper Review : Bahdanau Attention** (Neural Machine Translation by Jointly Learning to Align and Translate)  
+- **Paper Review : Luong Attention** (Effective Approaches to Attention-based Neural Machine Translation)
+
+---
+
+## 2025-04-05
+
+- 토익 VOCA Day 5 복습  
+- **Paper Review : Transformer** (Attention Is All You Need)
+
+- **Paper Review : S6** (Simplified State Space Layers for Sequence Modeling)  
+- Titans preview 진행
+
+---
+
+## 2025-04-06
+
+- 토익 VOCA Day 6~ 복습
+
+- **Paper Review : Expressive RNN** (Learning to (Learn at Test Time): RNNs with Expressive Hidden States)  
+- **Paper Review : Test-Time Tuning** (Test-Time Training with Self-Supervision for Generalization under Distribution Shifts)  
+  - Test-Time Memory update, self-supervision, online adaptation 구조 정독
+
+- **Paper Review : Memorizing Transformers** (Memorizing Transformers)  
+  - Titans의 memory 메커니즘이 기존 external memory 방식과 어떻게 다른지 분석
+
+- **Paper Review : Retentive Network** (A Successor to Transformer for Large Language Models)  
+  - attention-free memory retention 구조 요약
+
+- **Paper Review : Transformers are SSMs** (Generalized Models and Efficient Algorithms Through Structured State Space Duality)
+
+- **Paper Review : MoE-Mamba** (Efficient Selective State Space Models with Mixture of Experts)
+
+- **Paper Review : Titans** (Learning to Memorize at Test Time)
+
+- **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
+  - fast memory writing 개념 요약
 
 
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
