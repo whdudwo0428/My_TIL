@@ -384,7 +384,7 @@
 - 토익 기출 VOCA Day 1~10 암기
 - [Mamba 공식 코드](https://github.com/state-spaces/mamba) 분석  
 - rPPG 개념 학습
-- 
+
 - **Paper Review : PhysMamba 1** (Physics-Guided State Space Models for Irregular Time Series)
 - **Paper Review : PhysMamba 2** (Physics-Guided State Space Models via Mamba-2)
 
