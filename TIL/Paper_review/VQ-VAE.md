@@ -46,3 +46,9 @@ VQ-VAE는 연속적인 잠재 공간 대신 **이산적인 코드북 벡터로 �
 - 코드북 크기 및 차원 설정에 민감하며, **codebook collapse**와 같은 문제가 발생할 수 있음
 - VQ-VAE-2는 **hierarchical latent + autoregressive decoder** 구조를 추가하여 더 복잡한 데이터 생성에 적합하게 확장됨
 - 이후 VQ-GAN에서는 **GAN의 고품질 생성력과 VQ의 표현력**을 결합하여 고해상도 이미지 생성을 가능하게 함
+
+**느낀 점**
+- Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> flow matching까지 공부해보도록
+- 인코더-디코더 구조와 원리(FCN, U-net이나 객체탐지 공부할 땐 그냥 저수준부터 고수준까지 특징 추출하고 복원하는 것, 네트워크 구조 정도 수준으로 얕게 이해했었는데 이번에 제대로 공부함)
+- AE, Scalar/Vector Quantization 같은 하위 개념부터 차근차근 공부함 //그런데 솔직히 discretization랑 Scalar Quantization 차이 아직도 납득이 안됨...
+- Residual VQ 추가 공부
