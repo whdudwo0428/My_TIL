@@ -42,6 +42,6 @@
 ---
 
 **한계점 및 후속 발전 방향**
-- dilation rate가 커질수록 **그리드 아티팩트(grid artifact)**가 발생할 수 있음
-- 이를 해결하기 위해 이후 DeepLab에서는 **ASPP (Atrous Spatial Pyramid Pooling)**을 도입하여 다중 dilation을 병렬적으로 사용함
+- dilation rate가 커질수록 **grid artifact**가 발생할 수 있음
+- 이를 해결하기 위해 이후 DeepLab에서는 **ASPP - Atrous Spatial Pyramid Pooling**을 도입하여 다중 dilation을 병렬적으로 사용함
 - 최근에는 dilated convolution을 transformer나 attention 구조와 결합하는 시도도 활발함 (e.g., Dilated Attention)
