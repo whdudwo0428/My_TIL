@@ -109,133 +109,208 @@
 
 ---
 
-이제 다음 구간도 `1월 22일 ~ 1월 31일` 이런 식으로 말해주면 그 구간 정리해서 줄게!  
-더 추가하고 싶은 포맷 요소 있으면 지금 말해줘도 돼.
-    
-- **1월 22일**
-    - Object Detection의 mAP를 포함한 성능 평가 Metric 탐구 : 추후 다양한 Metric 공부 계획
-    - [DETR 논문](https://arxiv.org/pdf/2005.12872) review2 / [참고블로그](https://herbwood.tistory.com/26)
-    - [R-CNN 논문](https://arxiv.org/pdf/1311.2524) review / [참고블로그](https://herbwood.tistory.com/5)
-      
-- **1월 23일**
-    - [OverFeat 논문](https://arxiv.org/pdf/1312.6229) review / [참고블로그](https://herbwood.tistory.com/7)
-        - 기존에 조금씩 햇갈리던 기본 CNN 동작 원리를 기존보다 깊게 탐구 (Padding, Strid, Pooling, 각 Layer 내 원리)
-        - Git에 지금까지의 TIL작성하며 어떤 내용을 공부했나 다시 정리하고 읽어봄
-        - OverFeat의 개념을 바탕으로  Two stage detector -> One stage detector 핵심 차이를 공부
-    - [Fast R-CNN 논문](https://arxiv.org/pdf/1504.08083) review / [참고블로그](https://herbwood.tistory.com/8)
+## 2025-01-22
 
-- **1월 24일**
-    - [Faster R-CNN 논문](https://arxiv.org/pdf/1506.01497) review / [참고블로그](https://herbwood.tistory.com/10)
-    - [OHEM 논문](https://arxiv.org/pdf/1604.03540) review / [참고블로그](https://herbwood.tistory.com/12)
-      
-- **1월 25일**
-    - [YOLO v1 논문](https://arxiv.org/pdf/1506.02640) review / [참고블로그](https://herbwood.tistory.com/13)
-    - [SSD 논문](https://arxiv.org/pdf/1512.02325) review / [참고블로그](https://herbwood.tistory.com/15)
-      
-- **1월 26일**
-    - [R-FCN 논문](https://arxiv.org/pdf/1605.06409) review / [참고블로그](https://herbwood.tistory.com/16)
-    - [YOLO v2 논문](https://arxiv.org/pdf/1612.08242) review / [참고블로그](https://herbwood.tistory.com/17)
-      
-- **1월 27,28일**
-    - [FPN 논문](https://arxiv.org/pdf/1612.03144) review / [참고블로그](https://herbwood.tistory.com/18)
-        - FPN 자체가 새로운 개념보단 이전 모델들을 잘 조합해 성능을 높인거다보니 다른 논문을 공부할 때에 비해 내가 어떤걸 모르고 아는지를 좀 더 명확히 할 수 있었음. 해서 시간투자를 좀 해서 기존 모델들을 복습하고, 아래 내용을 처럼 기본이 되는 내용들을 더 익숙해지는데 집중함
-        - CNN 내 다양한 Layer들(fc,coonv,Reorg, ResidualConn 등)의 원리부터 Bottom-up, Top-down Pathway, Lateral Connetion 구조 등 다양한 구조적 개념
-        - K-means Clustering 을 공부하며 이전 논문을 리뷰하며 공부했던 수학개념들을 다시 복습(주로 Loss내 공식에서 찾아봤던 지시함수, 특이값분해, 이중합산 같은 선형대수적 내용)
-        - PS) FPN을 리뷰하며 이전 논문들도 다시 돌아가서 찾는 경우가 많았고 이제 뭐가 뭔지 좀 알아듣는 느낌
-      
-- **1월 29,30일**
-    - [RetinaNet 논문](https://arxiv.org/pdf/1708.02002) review / [참고블로그](https://herbwood.tistory.com/19)
-    - [Mask R-CNN 논문](https://arxiv.org/pdf/1703.06870) review / [참고블로그](https://herbwood.tistory.com/20?category=856250)
- 
+### Object Detection 성능 평가 Metric 탐색
+- mAP를 포함한 다양한 평가 지표 탐구  
+- 향후 다양한 Metric 추가 학습 예정
 
-- **1월 31일**
-    - [YOLO v3 논문](https://arxiv.org/pdf/1804.02767) review / [참고블로그](https://herbwood.tistory.com/21)
-    - [RefineDet 논문](https://arxiv.org/pdf/1711.06897) review / [참고블로그](https://herbwood.tistory.com/22)
-        - RefineDet 논문을 읽으면서 ARM과 ODM의 개별적인 역할은 명확하게 설명되었지만, ODM에서 각 스케일에 나온 정보를 어떻게 최종적으로 통합하는지(multi-scale feature에서 나온 여러 prediction을 어떻게 최종적으로 통합하는지/Multi-scale Feature에서 가져오는 정보의 조합 방식, Bounding Box Regression 과정 등) 명확하지 않아 직접 코드를 Scratch하여 이해하는 과정이 필요했음.
-논문이 조금 불친절했던 것도 있지만, review하며 무의식적으로 지금까지 base model들과 개념들을 최대한 깊게 읽고 공부했던 내용들을 바탕으로 '아 이 개념은 어느 모델/기술에서 Scratch해왔구나', '이 부분 이런 네트워크로 구성하면 어떤 문제가 생겼던거 같은데 어케 해결했지'와 같은 고민을 하며 읽게되었다. 뭔가 이 해당 논문을 읽으며 저번 FPN논문을 리뷰할때처럼 객체탐지 모델에 대한 어느정도 insight가 생긴 느낌을 받았다.
-    - [M2Det 논문](https://arxiv.org/pdf/1811.04533) review / [참고블로그](https://herbwood.tistory.com/23)
+- Paper Review : DETR (End-to-End Object Detection with Transformers)
+- Paper Review : R-CNN (Rich feature hierarchies for accurate object detection and semantic segmentation)
 
-2월 1일, 2일은 이것 저것 손 닿는대로 싹다 찾고 읽고 이해하고하느라 게시한 내용 말고 다양한 내용을 공부했는데 다 적긴 힘듬...
-특히 수학 공부를 정말 많이함. 지난 이틀간 [임커밋님의 유튜브채널](https://www.youtube.com/@%EC%9E%84%EC%BB%A4%EB%B0%8B/videos)을 정말 많이 보고 참고함.
+---
 
-- **2월 1일, 2일**    
-    - [YOLO v4 논문](https://arxiv.org/pdf/2004.10934v1)review / [참고블로그](https://herbwood.tistory.com/24)
-        - YOLOv4에서는 개인적으로 새로운 개념과 다양한 기법들이 대거 도입된 느낌을 받아 처음 객체탐지 모델 논문을 읽었을 때 처럼 막막한 기분이 들었다. (한줄마다 새로운 개념과 단어들이 계속 나오는... 심지어 그때보다 더 복잡하다...) YOLOv3같은 기존 논문들까지는어느정도 특정 모듈의 개선을 중심으로 발전시켰던 분명 심플한 디자인의 모델이었던것 같은데 말입니다. 특히 Bos, BoF 같은 새로운 개념을 접하며 이전 네트워크 개선에 대한 공부 뿐만 아니라 성능 향상에 기여하는 다양한 요소와 기반지식들을 체계적으로 공부하고 넘어가야할 필요성을 느꼈다. Bos, BoF뿐만 아니라 CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 더 복잡한 개념들을 접하며 너무 힘들었던 review였다...
-    - 영단어(논문 읽을 때 영어 단어 때문에 좀 더딘게 느껴졌기에 관련분야 논문에서 많이 쓰이는 형용사와 동사, 공부하는 분야 관련 논문에 많이 언급되는 형용사, 동사, 고유명사들 정리)
-    - 다양한 **Data Augmentation** 기법의 수학적 원리를 중점적으로 공부하고, OpenCV 코드를 분석하며 구현 방식까지 살펴봄 + RGB를 중심으로 image processing에 대한 개념을 쌓고 더 깊게 공부해 솔직히 대충 짚고 넘겼던 channel에 대한 개념을 제대로 이해 할 수 있었음
-        - 자연스럽게 생성모델(Generative model)에 대한 정보를 접하게 되어 어떤게 있는지 찾아봄. object detection, segmentation 이후 관련 공부와 프로젝트 진행하고싶음 [생성모델 관련 논문 커리큘럼 추천](https://donghyun99.tistory.com/24)
-    - **VQ-VAE**    [논문](https://arxiv.org/pdf/1711.00937)
-        - Flow based model(Normalizing)과정과 특히 역함수 접근과 loss -> 3일에 flow matching까지 공부해보도록
-        - 인코더-디코더 구조와 원리(FCN, U-net이나 객체탐지 공부할 땐 그냥 저수준부터 고수준까지 특징 추출하고 복원하는 것, 네트워크 구조 정도 수준으로 얕게 이해했었는데 이번에 제대로 공부함)
-        - AE, Scalar/Vector Quantization 같은 하위 개념부터 차근차근 공부함 //그런데 솔직히 discretization랑 Scalar Quantization 차이 아직도 납득이 안됨...
-        - Residual VQ
-    - **Neural ODE** [논문](https://arxiv.org/pdf/1806.07366) / [참고 Youtube](https://www.youtube.com/watch?v=EhyrwwjVuWU&t=1268s)
-        - ODE 기초부터 Neural의 수치적접근을 코드로 구현하는 과정까지 등 넓게 이해하려 함
-        - 이거하면서 옛날에 공부했던 것들의 loss도 같이 보면서 수학공부 엄청함...
-        - ODE solver 
-    - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
-      
-    - __init__ 같은 코드 파일 구조부터 파이썬 기술 같은거 좀 봤는데 솔직히 졸면서 봤음 한 5번째 프로젝트 할때쯤 신경써보기 시작하면 될듯?
-    - Diffusion(DDPM)도 공부했는데 솔직히 하나도 모르겠음 나중에 다시 공부해야함... 아래 선행 되어야할 개념들을 정리해두겠음 언젠간 GAN 공부한 이후 다시 도전
-        - (Continuous) Stochastic Process((연속)확률 과정), Markov Process, 확률 미분 방정식(SDE)
-        - Noise Schedule, Variance Schedule
-        - VAE, GAN 같은 생성모델 기반개념 잡기
- 
-- **2월 3일**
-    - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
-    - 1일, 2일 공부 내용 복습
-    - CNN 추가 공부 (계속해서 CNN 기본기가 굉장히 약함 앞으로도 지속적으로 공부할 수 있도록 준비)
-    - 세미나 주제로 정할 3D object Detection에 관련된 논문 searching
-        - [추천 논문](https://github.com/maudzung/Awesome-Autonomous-Driving-Papers) 및 학습 로드맵 정리
-        - 3D point cloud / LiDAR / Voxel Grid / 3D object Detection 해당 카테고리에 기본 개념들에 대해 공부 (앞으로는 이것저것 찾아볼 때 어떤걸 찾아봤는지 정리하는 습관을 가져야겠음...)
+## 2025-01-23
 
-- **2월 4일**
-    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비
-        - 정말 하루종일 세미나 준비만해서 Network의 architecture, idea 필요한 지식을 두루두루 공부했다... 3일~5일까지 밤새면서 공부하고 준비했다. ㅜㅜ 
-  
-- **2월 5일**
-    - [VoxelNet 논문](https://arxiv.org/abs/1711.06396) review 세미나 준비 및 발표
-        - 세미나 준비 기간이 2일정도로 제한되어있기에 거의 잠도 안자고 공부하고 ppt를 제작했다. 때문에 초안 수준 정도로 ppt로 완성도가 낮았지만 논문 내 핵심 idea나 내가 공부하면서 깊게 탐구했떤 그런 말하고싶던 내용 누락 없이 구성하는 정도에는 성공한 것 같다. 갑자기 발표 시간이 4시간 정도 앞당겨지는 바람에 script 준비를 하나도 못했지만 최대한 내용 이해를 목적으로 공부했던 터라 준비했던 내용을 70% 정도는 발표할 수 있었던 것 같았다. script 준비 없이 이 정도면 정말 잘한거라 칭찬 받아서 기분 좋다 ㅎㅎ. 첫 세미나라 너무 떨렸기에 발표 중에 절고 가슴이 뛰어서 너무 속상했다... 하지만 레벨업한게 느껴졌다는 주변 칭찬을 들어 꽤 만족스러웠던 첫 세미나였다. ppt만드는 능력만 높인다면 다음엔 더 잘 준비할 수 있을 것 같다. (학부 때 거의 발표를 맡고 ppt는 피드백하는 역할이었는데 후회된다...) 아래는 내가 세미나 도중 매끄럽게 설명하지 못하거나 질문 받았을 때 잘 모르겠는 개념들을 정리해놓았다. 6개의 keyword를 미국 가기 전 날인 2월 10일까지 하루에 하나씩 공부할 수 있도록!
-        - **Receptive field**, **~wise operations**, **Skip Connection**, **concat**, **Aggregation methods**, **feature extraction techniques**, **Point Density variance imbalance**
-        - 논문 내 Sparse 4D Tensor를 설명하며 각 Layer나 block에서 Data의 구조(차원)에 대한 개념이 약한게 느껴졌다, resource가 정말 많이 투자됨 ㅠㅠ = 자료구조와 알고리즘에 이어 해당 내용을 공부할 수 있는 keyword를 찾아 공부하도록! (2월8일,9일에 공부계획)
-    
-- **2월 6일**
-    - CNN 기본기
-    - 해상도(resolution)에 대한 모든 것
-    - Receptive field + Dilated/Atrous Convolution + Segmentation 한번에 공부
-        - [Dilated Convolutional 논문](https://arxiv.org/pdf/1511.07122) review / [참고블로그](https://kevin-rain.tistory.com/111)
-    - Skip Connection
-    - 미국 가기 전 **내가 지금까지 공부한 내용들을 정리하고 체득하는 시간이 필요**할 거 같음 지금까지 **공부한 내용 복기**!
-    
+### CNN 구조 및 객체 탐지 프레임워크 이해도 향상
+- Paper Review : OverFeat (Integrated Recognition, Localization and Detection using Convolutional Networks)
+- CNN 동작 원리 깊게 탐구 (Padding, Stride, Pooling, 각 Layer 내 연산 등)
+- 지금까지 정리한 TIL 내용 다시 읽고 복습
+- OverFeat 기반으로 Two-Stage Detector → One-Stage Detector로의 전환 개념 이해
+- Paper Review : Fast R-CNN (Fast Region-based Convolutional Networks for Object Detection)
 
-- **2월 7일**
-    - [영단어](https://github.com/whdudwo0428/My_TIL/blob/main/Vocabulary.md)
-    - Skip Connection -> ResNet으로 한번에 공부하고자 함
-        - [ResNet 논문](https://arxiv.org/pdf/1512.03385) review
-    - Lab searching, CV, contect-email 초안 검사받기!
-  
-- **2월 8일**
-    - Detect-seg-blur Project? 적절한 데이터 찾기
-    - Lab searching, contect-email 초안완성 => 교수님 별 tuning하기하기
+---
 
-- **2월 9일**
-    - sending Contect Email : 한양대 데이터사이언스 Casey Bennett
-    - Aggregation methods / Ensemble Learning: Boosting, Bagging - Bootstrap
-    - 다양한 feature extraction techniques 간단히 읽어보기
-        - 이미지에서의 특징 추출 (Computer Vision): SIFT HOG LBP
-        - 텍스트에서의 특징 추출 (Natural Language Processing) : TF-IDF Word2Vec GloVE
-        - 음성에서의 특징 추출 (Speech Recognition) : MFCC(cepstrum) Chroma Features + PCA
-        - 후감 특징 추출도 추가 공부해보기 (전자코 이런게 있던데...)
- 
-- **2월 10일**
-    - 연구실 서칭 / 석박사 통합으로 지원하자. 나 진지하게 연구자가 되고싶어...
-    - 미국가서 공부할 것들 정리
-    - Transformer를 위한 학습 로드맵: LNP -> Transformer -> Vision/NLP based Transformer based
-        - cosine similarity / SVD / KL Divergence / Bayes' theorem
-        - 먼저 블로그에서 Transformer review 한번 읽으며 막힌 부분 체크 [1](https://wikidocs.net/31379), [2](https://velog.io/@tobigs-nlp/Attention-is-All-You-Need-Transformer)
-        - [NPL 교재](https://wikidocs.net/21694) 오늘부터 해당글을 기준으로 진도 나갈 예정
-            - 데이터전처리, SLM, N-gram, DTM, BoW, TF-IDF 등
-        - [Project4. PDF->LDA](https://github.com/whdudwo0428/MyProjects/tree/main/NLP)
+## 2025-01-24
+
+- Paper Review : Faster R-CNN (Towards Real-Time Object Detection with Region Proposal Networks)
+- Paper Review : OHEM (Training Region-based Object Detectors with Online Hard Example Mining)
+
+---
+
+## 2025-01-25
+
+- Paper Review : YOLO v1 (You Only Look Once: Unified, Real-Time Object Detection)
+- Paper Review : SSD (Single Shot MultiBox Detector)
+
+---
+
+## 2025-01-26
+
+- Paper Review : R-FCN (Object Detection via Region-based Fully Convolutional Networks)
+- Paper Review : YOLO v2 (YOLO9000: Better, Faster, Stronger)
+
+---
+
+## 2025-01-27 ~ 01.28
+
+- Paper Review : FPN (Feature Pyramid Networks for Object Detection)
+- FPN이 새로운 개념이라기보단 기존 모델을 잘 조합해 성능을 올린 구조라는 점에서, 오히려 내가 뭘 알고 모르고 있는지를 분명하게 알 수 있었음  
+- 이 기회에 시간을 좀 더 써서 예전 모델들을 복습하고, 기본 개념들을 내 것으로 만드는 데 집중했음  
+- CNN 내 다양한 Layer 원리 (fc, conv, Reorg, Residual Connection 등)와 구조적 개념 (Bottom-up, Top-down Pathway, Lateral Connection) 학습  
+- K-means Clustering 공부하며 예전 논문 리뷰에서 다뤘던 수학 개념들 (지시 함수, 특이값 분해, 이중 합산 등) 복습  
+- P.S. FPN 공부하며 다시 예전 논문들도 돌아가서 참고하게 되었고, 이제 슬슬 객체 탐지 모델 흐름이 어느 정도 들리는 느낌 받음
+
+---
+
+## 2025-01-29 ~ 01.30
+
+- Paper Review : RetinaNet (Focal Loss for Dense Object Detection)
+- Paper Review : Mask R-CNN (Mask R-CNN)
+
+---
+
+## 2025-01-31
+
+- Paper Review : YOLO v3 (YOLOv3: An Incremental Improvement)
+- Paper Review : RefineDet (Single-Shot Refinement Neural Network for Object Detection)
+  - ARM과 ODM의 개별 역할은 명확했지만, ODM에서 각 스케일 정보를 어떻게 최종적으로 통합하는지는 애매했음  
+  - Multi-scale Feature에서 가져온 prediction을 어떻게 결합하는지, Bounding Box Regression 과정이 명확하지 않아 직접 코드를 Scratch해서 파악 필요  
+  - 논문 자체가 조금 불친절했지만, 지금까지의 base 모델 개념들이 도움이 되며 ‘이건 어디서 가져온 개념이네’, ‘이 구성은 문제 있었는데 어떻게 해결했더라?’ 같은 생각이 들면서 insight를 얻게 됨  
+  - 특히 FPN 리뷰할 때처럼 객체탐지 모델에 대한 나만의 관점이 조금 생긴 느낌
+- Paper Review : M2Det (A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network)
+
+---
+```markdown
+## 2025-02-01 ~ 02.02
+
+- Paper Review : YOLO v4 (YOLOv4: Optimal Speed and Accuracy of Object Detection)  
+  - YOLOv4는 새로운 개념과 기법이 너무 많이 나와서 처음 YOLOv1~3을 봤을 때보다 더 복잡하고 어려운 느낌이었음  
+  - 특히 BoS, BoF, CSPDarknet53, PANet, CIoU, Mish activation, Mosaic augmentation 등 새로운 개념들을 접하며 처음 보는 단어와 구조가 너무 많아 막막했음  
+  - 논문 하나를 이해하기 위해 다양한 네트워크 구성 요소와 성능 향상 요소들을 체계적으로 공부해야겠다고 느낌
+
+- 논문 읽을 때 자주 나오는 영어 형용사, 동사, 고유명사들 정리
+
+- 다양한 Data Augmentation 기법들의 수학적 원리 이해  
+  - OpenCV 기반 코드 분석하며 실제 구현까지 확인  
+  - RGB 채널 중심으로 image processing 개념 깊게 탐구  
+  - 예전에 그냥 넘어갔던 channel 개념을 이제야 체계적으로 이해함
+
+- 자연스럽게 생성 모델(Generative Model) 관련 흐름으로 연결됨  
+  - 앞으로 object detection, segmentation 이후에 이쪽도 프로젝트 해보고 싶음
+
+- Paper Review : VQ-VAE (Neural Discrete Representation Learning)  
+  - Flow based model 구조, 역함수 접근과 loss 이해  
+  - Encoder-Decoder 구조를 이전보다 훨씬 깊게 이해함  
+  - AE, Scalar/Vector Quantization 등의 하위 개념부터 정리  
+  - 아직도 discretization과 Scalar Quantization 차이가 명확히 납득되진 않음  
+  - Residual VQ 포함
+
+- Paper Review : Neural ODE (Neural Ordinary Differential Equations)  
+  - ODE 기초부터 Neural 방식의 수치적 접근까지 학습  
+  - 관련 코드까지 보며 구현 방식 이해  
+  - 이전에 공부했던 Loss 구조도 같이 복습하게 되었고, 수학 공부를 꽤 많이 함  
+  - ODE Solver 관련 내용도 정리
+
+- Python에서 `__init__` 같은 파일 구조 관련 기술들 보긴 했는데... 졸려서 거의 흘려봄. 5번째 프로젝트쯤에 다시 제대로 보기로.
+
+- Diffusion Model(DDPM)도 잠깐 봤지만 아직 완전히 모르겠음  
+  - 나중에 GAN 개념 확실히 잡고 나서 다시 돌아와야 할 듯  
+  - 선행 개념 정리:
+    - (Continuous) Stochastic Process
+    - Markov Process
+    - SDE(확률 미분 방정식)
+    - Noise Schedule / Variance Schedule
+    - VAE, GAN 같은 기반 개념
+
+---
+
+## 2025-02-03
+
+- 2월 1~2일 공부 내용 복습
+- CNN 기본기 추가 학습 (앞으로도 지속적으로 다질 계획)
+- 세미나 주제로 3D Object Detection 관련 논문들 서칭
+  - 추천 논문 리스트 및 로드맵 정리
+  - 3D Point Cloud, LiDAR, Voxel Grid, 3D Object Detection 등의 기초 개념들 정리
+  - 무엇을 찾아보고 있는지를 항상 정리하는 습관을 들이기로 다짐
+
+---
+
+## 2025-02-04
+
+- Paper Review : VoxelNet (End-to-End Learning for Point Cloud Based 3D Object Detection)  
+  - 하루 종일 세미나 준비만 함  
+  - Architecture, 아이디어, 주변 필요 지식들을 전반적으로 공부  
+  - 3일부터 5일까지 밤 새서 준비함
+
+---
+
+## 2025-02-05
+
+- Paper Review : VoxelNet (세미나 발표 진행)  
+  - 세미나 준비 시간이 2일로 짧았지만, 내용 구성 자체는 만족스럽게 마무리  
+  - 발표 시간이 갑자기 앞당겨져서 script를 준비 못 했는데도, 내가 이해하고 공부한 내용을 70% 정도는 설명할 수 있었던 것 같음  
+  - 첫 세미나라 많이 떨렸지만, 주변에서 발표 잘했다는 말 들어서 기분 좋았고, 레벨업한 느낌도 있었음  
+  - PPT 완성도는 낮았지만, 다음에는 더 잘 준비할 수 있을 것 같다는 자신감 생김  
+  - 발표 중 부족했던 개념들 정리 → 2월 10일까지 하루에 하나씩 공부할 예정:
+    - Receptive field, ~wise operations, Skip Connection, concat  
+    - Aggregation methods, feature extraction techniques, Point Density variance imbalance  
+  - Sparse 4D Tensor 설명할 때 데이터 차원 개념이 부족하다는 걸 느낌  
+    → 자료구조, 알고리즘 이후 이 부분도 공부할 키워드 정리 (2월 8~9일 계획)
+
+---
+
+## 2025-02-06
+
+- CNN 기본기 복습
+- 해상도(resolution)에 대한 이론 전반 정리
+- Receptive field, Dilated/Atrous Convolution, Segmentation 한 번에 정리  
+- Paper Review : Dilated Convolution (Multi-Scale Context Aggregation by Dilated Convolutions)
+- Skip Connection 개념 정리
+- 미국 가기 전, 내가 지금까지 공부한 내용을 종합적으로 정리하고 체득하는 시간 필요하다고 느낌
+
+---
+
+## 2025-02-07
+
+- 영단어 정리 (Vocabulary.md)
+- Skip Connection → ResNet으로 이어서 정리
+- Paper Review : ResNet (Deep Residual Learning for Image Recognition)
+- Lab 서칭, CV, contact email 초안 피드백 받음
+
+---
+
+## 2025-02-08
+
+- Detect-seg-blur 프로젝트용 적절한 데이터 탐색
+- 연구실 contact email 초안 완성 후 교수님별로 튜닝
+
+---
+
+## 2025-02-09
+
+- Contact Email 전송: 한양대 데이터사이언스 Casey Bennett 교수님
+- Aggregation methods / Ensemble Learning 정리
+  - Boosting, Bagging, Bootstrap
+- Feature Extraction Techniques 정리
+  - Vision: SIFT, HOG, LBP
+  - NLP: TF-IDF, Word2Vec, GloVe
+  - Speech: MFCC, Chroma Features, PCA
+  - 향후 후각 특징 추출 관련도 추가 공부 예정
+
+---
+
+## 2025-02-10
+
+- 연구실 서칭 및 석박사 통합 과정으로 진지하게 준비하기로 결심
+- 미국에서 공부할 것들 정리
+- Transformer 학습 로드맵 수립: LNP → Transformer → NLP/Vision 기반 확장
+  - cosine similarity, SVD, KL Divergence, Bayes' theorem 개념 정리
+  - Transformer 관련 블로그 리뷰하며 막히는 부분 체크
+  - NLP 교재 진도 시작 (데이터 전처리, 언어 모델, BoW, TF-IDF 등)
+- Project4. PDF → LDA 변환 진행
+
+```
  
 - **2월 11일~18일 : 미국견학**
   - [NPL 교재](https://wikidocs.net/21694)
