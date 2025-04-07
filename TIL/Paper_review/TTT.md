@@ -14,7 +14,7 @@
 ### Methodology Details
 - **Training Phase:**
   - 표준 supervised learning과 함께 auxiliary self-supervised task를 동시에 학습.
-  - 대표적인 auxiliary task로는 **이미지 회전 예측(rotation prediction)**이 사용됨.
+  - 대표적인 auxiliary task로는 **image rotation prediction**이 사용됨.
   - 모델 구성: shared feature extractor + supervised head(classifier) + auxiliary head(rotation classifier)
 
 - **Test-Time Training Phase:**
