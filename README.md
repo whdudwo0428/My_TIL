@@ -396,11 +396,11 @@
 ## 2025-04-08
 - 토익 VOCA Day 1~5 복습
 - eRNN, TTT, Memorizing Transformers 복습
-- **Paper Review : Retentive Network** (A Successor to Transformer for Large Language Models)  
-  - attention-free memory retention 구조 요약
-
-
+- **Paper Review : Retentive Network** (A Successor to Transformer for Large Language Models)
 - **Paper Review : Transformers are SSMs** (Generalized Models and Efficient Algorithms Through Structured State Space Duality)
+
+
+
 
 - **Paper Review : MoE-Mamba** (Efficient Selective State Space Models with Mixture of Experts)
 
