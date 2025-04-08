@@ -3,7 +3,7 @@
 
 ### Problem Statement
 - Transformer 기반 LLM의 **context length 확장성 문제**는 매우 높은 계산비용을 유발하며, 특히 self-attention의 **O(n²)** 연산복잡도는 긴 시퀀스를 처리하는 데 비효율적임.
-- FlashAttention과 같은 최적화도 GPU에서만 작동하며, **단일 토큰 처리의 Latency** 측면에서도 한계가 존재함.
+- FlashAttention과 같은 최적화도 GPU에서만 작동하며, **단일 토큰 처리(Latency)** 측면에서도 한계가 존재함.
 - 최근 등장한 Mamba(S6) 모델은 low-rank 구조와 scan 기반 처리로 latency와 context 길이 문제를 해결하지만, **parallelism 부족**, **limited expressiveness**, **initialization 민감성**, **gate saturation** 등의 단점이 있음.
 - 따라서 긴 context를 효율적으로 처리하고, **Transformer와의 expressive power 격차 없이** 확장 가능한 구조가 필요함.
 
