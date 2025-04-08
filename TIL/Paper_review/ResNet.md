@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/901068ed-2dcb-40cd-9517-7ee56b3df2ac)## Deep Residual Learning for Image Recognition  
-#### 2025-02-07 / [https://arxiv.org/abs/1512.03385](https://arxiv.org/abs/1512.03385)
+## Deep Residual Learning for Image Recognition  
+#### 2025-02-07
 
 ### Problem Statement
 - 기존의 Convolutional Neural Network는 깊이가 깊어질수록 성능이 향상될 것으로 기대되지만, 실제로는 **네트워크가 깊어질수록 오히려 training error가 증가하는 현상**, 즉 degradation 문제가 발생한다.
