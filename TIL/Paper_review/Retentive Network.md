@@ -1,4 +1,4 @@
-## Retentive Network (A Successor to Transformer for Large Language Models)  
+## A Successor to Transformer for Large Language Models
 #### 2025-04-08
 
 ### Problem Statement
