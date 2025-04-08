@@ -39,4 +39,4 @@
 - 본 논문은 Mamba, S4, H3 등의 후속 구조와 논리적으로 연결되며, 특히 **linear recurrence + gating** 구조의 설계에 이론적 토대를 제공  
 - 한계로는, 실제 모델링에서 non-linear transformation의 필요성, multi-head 표현의 약화 가능성 등이 있으며, 추후 구현 효율성(예: GPU 상 scan 최적화) 문제도 함께 논의될 필요가 있다.
 
-[Blog Review](https://velog.io/@euisuk-chung/Paper-Review-Transformers-are-SSMs-Generalized-Models-and-Efficient-Algorithms-Through-Structured-State-Space-Duality)
+- 참고하기 좋은 [Blog Review](https://velog.io/@euisuk-chung/Paper-Review-Transformers-are-SSMs-Generalized-Models-and-Efficient-Algorithms-Through-Structured-State-Space-Duality)
