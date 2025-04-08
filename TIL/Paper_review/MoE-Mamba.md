@@ -17,7 +17,7 @@
 
 - **Expert Pool**:
   - 각 expert는 별도의 Mamba block (SSM 구조)을 사용
-  - 총 \( E \)개의 expert 중 각 토큰은 상위 \( k \)개 (top-k routing) expert만 활성화됨
+  - 총 E개의 expert 중 각 토큰은 상위 k개 (top-k routing) expert만 활성화됨
 
 - **Router**:
   - 입력 토큰의 feature를 기반으로 softmax-based scoring → top-k expert 선택
