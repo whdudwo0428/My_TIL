@@ -388,15 +388,17 @@
 
 ---
 ## 2025-04-07
-- 토익 VOCA Day 6~10 복습 aaaaaaa
+- 토익 VOCA Day 6~10 복습
 - **Paper Review : Test-Time Tuning** (Test-Time Training with Self-Supervision for Generalization under Distribution Shifts)  
-  - Test-Time Memory update, self-supervision, online adaptation 구조 정독
-
 - **Paper Review : Memorizing Transformers** (Memorizing Transformers)  
-  - Titans의 memory 메커니즘이 기존 external memory 방식과 어떻게 다른지 분석
 
+---
+## 2025-04-08
+- 토익 VOCA Day 1~5 복습
+- eRNN, TTT, Memorizing Transformers 복습
 - **Paper Review : Retentive Network** (A Successor to Transformer for Large Language Models)  
   - attention-free memory retention 구조 요약
+
 
 - **Paper Review : Transformers are SSMs** (Generalized Models and Efficient Algorithms Through Structured State Space Duality)
 
