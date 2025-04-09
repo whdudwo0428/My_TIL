@@ -365,8 +365,7 @@
 
 ## 2025-04-04
 - 토익 VOCA Day 1~5 복습
-# **Transformer** 이론 복습
-
+- **Transformer** 이론 복습
 - **Paper Review : Bahdanau Attention** (Neural Machine Translation by Jointly Learning to Align and Translate)  
 - **Paper Review : Luong Attention** (Effective Approaches to Attention-based Neural Machine Translation)
 
