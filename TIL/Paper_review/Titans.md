@@ -13,7 +13,7 @@
 - 이로써 Titans는 *training-free adaptation*을 통해 unseen sequence에 대해서도 능동적으로 memory를 형성하고 활용할 수 있다.
 
 ### Methodology Details
-- Titans는 기존의 **structured state space model (SSM)**의 recursion 구조인  
+- Titans는 기존의 **Structured State Space Model**의 recursion 구조인  
   `h_{t+1} = A h_t + B x_t`  
   를 확장하여, **state transition matrix A와 input matrix B를 test-time adaptive하게 조정**할 수 있도록 설계한다.
   
