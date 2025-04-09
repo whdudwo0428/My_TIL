@@ -403,10 +403,6 @@
 - 토익 VOCA Day 6~10복습
 - **Paper Review : Transformers are SSMs** (Generalized Models and Efficient Algorithms Through Structured State Space Duality)
 - **Paper Review : MoE-Mamba** (Efficient Selective State Space Models with Mixture of Experts)
-
-
-
-
 - **Paper Review : Titans** (Learning to Memorize at Test Time)
 
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
