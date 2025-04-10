@@ -1,5 +1,5 @@
 ## PhysMamba: Synergistic State Space Duality Model for Remote Physiological Measurement  
-#### 2025-04-01 ~ 04-03 / [https://arxiv.org/pdf/2408.01077](https://arxiv.org/pdf/2408.01077)
+#### 2025-04-01 ~ 04-03
 
 ### Problem Statement
 - Remote Photoplethysmography (rPPG)는 카메라 기반으로 심박수 등의 생리 신호를 비접촉 방식으로 추정하는 기술로, 헬스케어, 감정 인식, 사용자 인증 등 다양한 분야에서 중요성이 커지고 있다.
