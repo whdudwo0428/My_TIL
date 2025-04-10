@@ -407,6 +407,8 @@
 ## 2025-04-10
 - 토익 VOCA Day 1~10
 - **Paper Review : Titans** (Learning to Memorize at Test Time)
+- AI 개론 중간고사 공부
+  - 1장: 지능형 시스템 개론 / 2장: AI 역사와 발전 흐름 / 3장: 퍼지 논리 / 4장: 전문가 시스템 / 5장: 통합 지능형 시스템
 
 
 
