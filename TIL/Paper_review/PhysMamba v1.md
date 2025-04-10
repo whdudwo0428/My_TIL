@@ -1,5 +1,5 @@
 ## PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba  
-#### 2025-03-28 ~ 03-31 / [https://arxiv.org/pdf/2409.12031](https://arxiv.org/pdf/2409.12031)
+#### 2025-03-28 ~ 03-31
 
 ### Problem Statement
 - Remote Photoplethysmography (rPPG)는 비접촉 방식으로 심박수를 추정하는 기술로, 헬스케어·감정 분석·사용자 인식 등에 널리 활용될 수 있다.
