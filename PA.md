@@ -6,8 +6,10 @@
 
 본 연구는 아래 논문의 핵심 구조를 바탕으로 한다:
 
-- (가) 논문: FFT-Mamba를 통한 Lung Parenchyma segmentation 및 Radiomics 특징 추출 (FFT 도메인, Hi-Mamba 구조)
-- (나) 논문: PhysMamba를 통한 원격 생체 신호 측정 및 상태 공간 이중성(State Space Duality) 적용
+- FFT-Mamba-guided Lung Parenchyma Segmentation and Radiomics Representation for COPD Staging Diagnosis:
+  - FFT-Mamba를 통한 Lung Parenchyma segmentation 및 Radiomics 특징 추출 (FFT 도메인, Hi-Mamba 구조)
+- PhysMamba: State Space Duality Model for Remote Physiological Measurement:
+  - PhysMamba를 통한 원격 생체 신호 측정 및 상태 공간 이중성(State Space Duality) 적용
 
 ---
 
