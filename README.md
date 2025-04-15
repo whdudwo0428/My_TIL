@@ -409,9 +409,18 @@
 - **Paper Review : Titans** (Learning to Memorize at Test Time)
 - AI 개론 중간고사 공부
   - 1장: 지능형 시스템 개론 / 2장: AI 역사와 발전 흐름 / 3장: 퍼지 논리 / 4장: 전문가 시스템 / 5장: 통합 지능형 시스템
-
-
-
+    
+---
+## 2025-04-11 ~ 04-13
+- 토익 VOCA Day 1~10 복습
+- rPPG 논문 초기 모델링
+  
+---
+## 2025-04-14 ~ 04-15
+- 토익 VOCA Day 11~
+- rPPG 논문 초기 모델링 + 데이터 준비
+- **Paper Review : Deep Seek Models Series**
+- **Paper Review : Transformer++**
 
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
