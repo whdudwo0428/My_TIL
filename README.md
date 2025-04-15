@@ -419,7 +419,7 @@
 ## 2025-04-14 ~ 04-15
 - 토익 VOCA Day 11~
 - rPPG 논문 초기 모델링 + 데이터 준비
-- **Paper Review : Deep Seek Models Series**
+- **Paper Review : Deep Seek Models Series** / [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
 - **Paper Review : Transformer++**
 
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
@@ -454,6 +454,3 @@
   - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
   - 
 3) 들어가려는 연구실 교수님 논문 review 세미나 준비
-
-    - 11일 : [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/)
-        - Deepseek LLM model
