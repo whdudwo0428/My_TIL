@@ -417,11 +417,18 @@
   
 ---
 ## 2025-04-14 ~ 04-15
-- 토익 VOCA Day 11~
+- 토익 VOCA Day 11
 - rPPG 논문 초기 모델링 + 데이터 준비
-- **Paper Review : Deep Seek Models Series** / [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
+- **Paper Review : Deep Seek Models Series** / 너무 어려움 나중에 다시...
 - **Paper Review : Transformer++**
 
+---
+## 2025-04-16 ~ 04-17
+- 토익 VOCA Day 11
+- [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고해서 트랜스포머~후속모델 공부
+  - Batch/Layer/RMS Normalization 완벽하게 공부해냄!
+ 
+    
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
 
@@ -429,28 +436,4 @@
     - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
 ---
-
-- [Physmamba 논문](https://arxiv.org/pdf/2409.12031) review
-        - [Baseline code](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py)
-        - [Titans 논문](https://arxiv.org/pdf/2501.00663) review
-
-
-  
-#### **NLP => tranformer 공부 순서 **
-- 단어 임베딩 (Word Embedding)
-  - [Word2Vec (2013)](https://arxiv.org/pdf/1301.3781)
-  - [GloVe (2014)](https://arxiv.org/pdf/1902.11004)
-  - [FastText (2016)](https://arxiv.org/pdf/1607.04606)
-- 순환신경망 RNN
-  - [RNN (1986)](https://arxiv.org/pdf/2308.09728)
-  - [LSTM (1997)](https://arxiv.org/pdf/2105.06756)
-  - [GRU (2014)](https://arxiv.org/pdf/1406.1078)
-  - [GLU (2016)]()
-- 시퀀스 변환 (Sequence-to-Sequence)
-  - [Seq2Seq (2014)](https://arxiv.org/pdf/1409.3215)
-  - [Bahdanau Attention (2015)](https://arxiv.org/pdf/1409.0473)
-  - [Luong Attention (2015)](https://arxiv.org/pdf/1508.04025)
-- Transformer
-  - [Transformer (2017)](https://arxiv.org/pdf/1706.03762)
-  - 
-3) 들어가려는 연구실 교수님 논문 review 세미나 준비
+[충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
