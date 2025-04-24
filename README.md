@@ -428,6 +428,17 @@
 - [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고해서 트랜스포머~후속모델 공부
   - Batch/Layer/RMS Normalization 완벽하게 공부해냄!
  
+---
+## 2025-04-18 ~ 04-23
+- 토익 VOCA Day 11~15 복습
+- 중간고사 기간
+
+---
+## 2025-04-24
+- 토익 VOCA Day 11~15 복습
+- MCP (Model Context Protocol) 공부
+- cursor.ai 설치 및 mcp 설정
+ 
     
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
