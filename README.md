@@ -438,8 +438,24 @@
 - 토익 VOCA Day 11~15 복습
 - MCP (Model Context Protocol) 공부
 - cursor.ai 설치 및 mcp 설정
- 
-    
+
+---
+## 2025-04-25 ~ 04-28
+- 토익 VOCA Day 11~16
+- 생성형 AI 및 프롬프트 활용과 MCP 강의 준비
+- 시스템-유저 프롬프트 이론 공부
+- GAN, Diffusion, RAG 논문 간단하게 살펴봄
+
+---
+## 2025-04-29
+- 생성형 AI 및 프롬프트 활용과 MCP 강의 / 처음 대학생들 상대로 수업을 해보았는데... 너무 재밌고 퀄리티있게 잘 해냈다... 다음엔 대상에 따라 조금 더 쉽게 말하는 능력을 기르도록
+- **Paper Review : U-Net**
+- **Paper Review : U-Net ++**
+- **Paper Review : Attention U-Net**
+- **Paper Review : Res U-Net**
+- **Paper Review : Trans U-Net**
+
+
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
 
