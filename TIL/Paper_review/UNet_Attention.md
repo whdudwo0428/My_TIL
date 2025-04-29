@@ -7,7 +7,7 @@
 - 기존 U-Net의 **skip connection은 정보의 중요도를 구분하지 못하는 한계**가 있다.
 
 ### Solution Approach
-- Attention U-Net은 skip connection 사이에 **Attention Gate (AG)**를 삽입하여, decoder가 **중요한 위치(feature)**에 더 집중할 수 있도록 한다.  
+- Attention U-Net은 skip connection 사이에 **Attention Gate**를 삽입하여, decoder가 **중요한 위치 feature**에 더 집중할 수 있도록 한다.  
 - AG는 encoder에서 전달되는 feature 중에서도 **task-relevant한 부분만 동적으로 강조**하여 segmentation 정확도를 높인다.  
 - 특히 target organ의 위치나 크기가 다양할 수 있는 문제에 대해 **spatial attention 기반의 선택적 정보 전달**을 통해 효과적으로 대응한다.
 
