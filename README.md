@@ -448,6 +448,7 @@
 
 ---
 ## 2025-04-29
+- 토익 VOCA Day 17
 - 생성형 AI 및 프롬프트 활용과 MCP 강의 / 처음 대학생들 상대로 수업을 해보았는데... 너무 재밌고 퀄리티있게 잘 해냈다... 다음엔 대상에 따라 조금 더 쉽게 말하는 능력을 기르도록
 - **Paper Review : U-Net**
 - **Paper Review : U-Net ++**
@@ -455,7 +456,14 @@
 - **Paper Review : Res U-Net**
 - **Paper Review : Trans U-Net**
 
+---
+## 2025-04-30
+- 토익 VOCA Day 17~18
+- AI Agent의 개념을 확실하게 이해하고자 [AWS의 설명](https://aws.amazon.com/ko/what-is/ai-agents/)을 바탕으로 공부함
+- **Paper Review : Large Action Models (LAM)**
+- rPPG 논문 Code 구현중... : Cursor 서버 과부화로 많이 못함
 
+- 
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
 
