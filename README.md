@@ -467,7 +467,7 @@
 ## 2025-05-01 ~ 05-02
 - 토익 VOCA Day 1~19 복습
 
-
+LangGraph agent 공부하구시펑
 
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
