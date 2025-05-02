@@ -463,12 +463,15 @@
 - **Paper Review : Large Action Models (LAM)**
 - rPPG 논문 Code 구현중... : Cursor 서버 과부화로 많이 못함
 
-- 
+---
+## 2025-05-01 ~ 05-02
+- 토익 VOCA Day 1~19 복습
+
+
+
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
   - fast memory writing 개념 요약
 
-
-    - [Physmamba code 구현](https://github.com/ubicomplab/rPPG-Toolbox/blob/main/neural_methods/model/PhysMamba.py) 공부
 
 ---
 [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
