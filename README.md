@@ -467,6 +467,13 @@
 ## 2025-05-01 ~ 05-02
 - 토익 VOCA Day 1~19 복습
 
+---
+## 2025-05-01 ~ 05-15
+- 토익 VOCA Day 1~19 복습
+- rPPG 모델 만들기 위한 코딩...
+
+
+
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
