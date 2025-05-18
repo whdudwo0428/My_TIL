@@ -471,14 +471,11 @@
 ## 2025-05-01 ~ 05-15
 - 토익 VOCA Day 1~19 복습
 - rPPG 모델 만들기 위한 코딩...
-
+- Linux 기초 공부...
+- **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
 
 
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
-- **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
-  - fast memory writing 개념 요약
-
-
 ---
 [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
