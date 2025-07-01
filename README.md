@@ -474,8 +474,18 @@
 - Linux 기초 공부...
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
 
+---
+## 2025-05-15~ ~ 05-15
+- 토익 VOCA Day 1~19 복습
+
+---
+## 2025-05-01 ~ 05-15
+- 토익 VOCA Day 1~19 복습
+
+---
+## 2025-05-01 ~ 05-15
+- 토익 VOCA Day 1~19 복습
 
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
 ---
-[충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고
