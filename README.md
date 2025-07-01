@@ -460,31 +460,75 @@
 ## 2025-04-30
 - 토익 VOCA Day 17~18
 - AI Agent의 개념을 확실하게 이해하고자 [AWS의 설명](https://aws.amazon.com/ko/what-is/ai-agents/)을 바탕으로 공부함
-- **Paper Review : Large Action Models (LAM)**
-- rPPG 논문 Code 구현중... : Cursor 서버 과부화로 많이 못함
+- **Paper Review : Large Action Models** (Large Action Models: From Inception to Implementation)
+- rPPG 논문 Code 구현중... : Cursor 사용 연습
 
 ---
-## 2025-05-01 ~ 05-02
-- 토익 VOCA Day 1~19 복습
-
----
-## 2025-05-01 ~ 05-15
-- 토익 VOCA Day 1~19 복습
-- rPPG 모델 만들기 위한 코딩...
-- Linux 기초 공부...
+## 2025-05-01 ~ 05-13
+- 토익 VOCA Day 1~20 반복
+- rPPG-Tool 만들기
+  - 데이터 전처리 raw -> hdf5 방법 구조 이해하고 코드 팩토링
+  - 각 과정에서 scripts에 검증 테스트 파일 만들고 이해해봄
+  - [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox) 대형 디렉토리 구조 이해 및 코드 공부
+- Linux 설치 및 개념과 사용 기초
+  - Mamba 코드는 아직 리눅스에서 지원함... 컴퓨터 초기화 여러번 하면서 WSL2 사용법도 익힘
 - **Paper Review : Fast Weights** (Using Fast Weights to Attend to the Recent Past)  
 
 ---
-## 2025-05-15~ ~ 05-15
-- 토익 VOCA Day 1~19 복습
+## 2025-05-14 ~ 05-31
+- 토익 VOCA Day 21~25 반복
+- ECG / rPPG 생체 신호 헬스케어 개념 공부
+  - 내용 범위가 넓어서 다 말하긴 힘들고 기초 생리학적 지식부터 다양한 Traditional Methods ~ DL Methods 까지 광범위하게
+- [PhysMamba2 오픈소스](https://github.com/ZhiXinChasingLight/PhysMamba) 리팩토링
+  - 사실 코딩 능력이 그렇게 좋지않은 내가 특정 분야의 파이프 라인 자체를 새로 만들어내는건 너무 힘들었음... 오픈소스 기반으로 돌아가기로!
+  - 지통유 교수의 오픈소스는 항상 제대로 구현이 안되어있어서 리팩토링하는데 오래걸림... 특히 환경설정부터 논문 내 기능 미구현 등 힘듬...
+- **Paper Review : Vision Mamba** (Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model)
 
 ---
-## 2025-05-01 ~ 05-15
-- 토익 VOCA Day 1~19 복습
+## 2025-06-01 ~ 06-13
+- 토익 VOCA Day 26~30 반복
+- MediaPipe-FaceMesh 원리 및 코드 공부 / 다양한 적용 사례 공부
+- **모바일 신분증을 활용한 2025 블록체인&AI 해커톤** 준비
+  - 아이디어 설명 : 병원 간 분산된 의료 데이터를 DID/VC기반으로 구조화하고,이를 모바일 신분증과 연계하여 환자 중심의 데이터 소유 체계를 구축
+  - 블록체인 기반 생태계를 구축하여 진료 수납 등의 VC를 VP 형태로 활용하여 Wallet 구축을 통해 의료 시스템 개선 및 모바일 신분증 활용 범위를 넓힘
+    - 아이디어 좋았던 것 같은데 막상 제출하고 나니 주최측에서 사전공지 없이 데모 버전을 만든 팀만 예선 합격시킴... 억울함 이제 만드려했는데 ㅠㅠ
+  
 
 ---
-## 2025-05-01 ~ 05-15
-- 토익 VOCA Day 1~19 복습
+## 2025-06-01 ~ 06-13
+- 토익 VOCA Day 26~30 반복
+- [PhysMamba2 오픈소스](https://github.com/ZhiXinChasingLight/PhysMamba) 리팩토링
+  - 진짜 너무 힘듬... WSL2가 아니라 완전 리눅스 듀얼부팅으로 돌아가서 rPPG-ToolBox로 돌아가기로
+  - 내가 뭔하는 Mamba2 기반 CA-SA Mamba Block이 없기에 일단 original Mamba Block으로 구현한 후 추후에 모델링하기로 함
+- **Paper Review : FreqMamba** (FreqMamba: Viewing Mamba from a Frequency Perspective for Image Deraining)
+
+---
+## 2025-06-19 ~ 06-24
+- 토익 VOCA Day 27~30 복습
+- 마지막학기 기말고사 기간 : All A+ 받았다!
+- 신호처리 FFT 추가 공부
+
+---
+## 2025-06-25 ~ 06-29
+- 토익 VOCA 전체 복습
+- 토익 첫 시험...
+  - 딱히 문법이나 영어듣기 문제 토익 유형 등 공부해본게 아니라 많이 어려웠음... 500 나오면 만족하고 다음 시험 750 목표해보기
+  - 막 새로 본 단어는 거의 없었던거에 만족 다만 복습이 더 필요할듯 많이 봤는데 기억 안나는 단어들이 많았음
+- 리눅스 셋팅
+- 꿈에 대해 더 고민해보고 연구실 서칭해봤음... 아직 내가 정말로 하고싶은 연구분야가 대한민국에는 오션이 없음...
+  - Casey Bennett 교수님께 메일로 고민 상담...
+  - DGIST 임성훈 교수님 첫 컨택 도전... 제일 가까운 것 같음
+
+---
+## 2025-06-30 ~ 07-00
+- Word Master 고등 Basic : Test하면서 처음부터 다시 확인
+- 언급했던 대로 WSL2 밀고 완전 LINUX 환경으로 듀얼부팅, [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox)로 환경설정부터!
+- **SW 중심대학 디지털 경진대회** 준비
+  - 비접촉 생체 신호 기반 분석 및 보험 연계 스마트 교통 시스템을
+    - 해당 모델을 통해 운전자의 졸음 패턴을 분석하고 점수화하여 신뢰도 높은 보험 데이터로 활용할 수 있도록 함
+    - rPPG로 생체 신호로 건강상태 확인 / MAR(눈 깜빡임 비율)과 Yaw/Pitch/Head-down 등을 통해 실시간 수집하여 운전 집중도 분석
+    - 해당 모델을 만들고 React 기반 웹 애플리케이션에 통합함
+
 
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
