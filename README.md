@@ -496,7 +496,7 @@
   
 
 ---
-## 2025-06-01 ~ 06-13
+## 2025-06-14 ~ 06-18
 - 토익 VOCA Day 26~30 반복
 - [PhysMamba2 오픈소스](https://github.com/ZhiXinChasingLight/PhysMamba) 리팩토링
   - 진짜 너무 힘듬... WSL2가 아니라 완전 리눅스 듀얼부팅으로 돌아가서 rPPG-ToolBox로 돌아가기로
