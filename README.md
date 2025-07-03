@@ -533,6 +533,7 @@
   - 07-01~07-03 : 한양대학교 이상욱 교수님, 『AI윤리란 무엇인가?』수강
   - 07-03~07-00 : KAIST 신진우 교수님, 『Mathematics for ML』 수강
     - Matrix Decomposition
+      - Determinant, Trace 개념, Cholesky Decomposition / Eigendecomposition / Diagonalization / Singular Value Decomposition
     - Convex Optimization
     - PCA
   - 07-00~07-00: 서울대학교 문일경 교수님,
