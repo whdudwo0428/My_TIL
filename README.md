@@ -538,7 +538,7 @@
     - Convex Optimization
       - Convex/Concave, GD Algorithm
       - Duality Theorem, Lagrange Multiplier, KKT Condition
-      - PCA
+    - PCA
    - 07-04~07-00: 연세대학교 노알버트 교수님, 『지도학습』 수강
      - Supervised Learning Overview
      - Linear Regression
