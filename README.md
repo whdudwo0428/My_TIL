@@ -531,11 +531,13 @@
     - 해당 모델을 만들고 React 기반 웹 애플리케이션에 통합함
 - LG AImers Academy:
   - 07-01~07-03 : 한양대학교 이상욱 교수님, 『AI윤리란 무엇인가?』수강
-  - 07-03~07-00 : KAIST 신진우 교수님, 『Mathematics for ML』 수강
+  - 07-03~07-04 : KAIST 신진우 교수님, 『Mathematics for ML』 수강
     - Matrix Decomposition
       - Determinant, Trace 개념 / Spectral Theorem
       - Cholesky Decomposition / Eigendecomposition / Diagonalization / Singular Value Decomposition
     - Convex Optimization
+      - Convex/Concave, GD Algorithm
+      - Duality Theorem, Lagrange Multiplier, KKT Condition
     - PCA
   - 07-00~07-00: 서울대학교 문일경 교수님,
   - 07.00~07-00: 서울대학교 이상학 교수님,
