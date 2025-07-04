@@ -538,8 +538,16 @@
     - Convex Optimization
       - Convex/Concave, GD Algorithm
       - Duality Theorem, Lagrange Multiplier, KKT Condition
-    - PCA
-  - 07-04~07-00: 서울대학교 문일경 교수님, 『SCM과 수요 예측』 수강
+      - PCA
+   - 07-04~07-00: 연세대학교 노알버트 교수님, 『지도학습』 수강
+     - Supervised Learning Overview
+     - Linear Regression
+     - Gradient Descent
+     - Classification
+     - Logistic Regression
+     - More On Supervised Learning Beyond
+      
+  - 07-00~07-00: 서울대학교 문일경 교수님, 『SCM과 수요 예측』 수강
     - 공급망 관리 기본 개념
     - 수요 예측 기법
     - 수요 예측 실습 및 사례 분석
