@@ -550,7 +550,8 @@
      - Logistic Regression
      - More On Supervised Learning Beyond
       
-  - 07-06~07-00: 고려대학교 이병준 교수님, 『강화학습』 수강
+    - 07-06~07-00: 고려대학교 이병준 교수님, 『강화학습』 수강
+      - 정규학기 수업 강화학습 인강 복습
       - MDP and Planning
       - Model-Free Policy Evaluation
       - Model-Free Control
