@@ -529,8 +529,10 @@
     - 해당 모델을 통해 운전자의 졸음 패턴을 분석하고 점수화하여 신뢰도 높은 보험 데이터로 활용할 수 있도록 함
     - rPPG로 생체 신호로 건강상태 확인 / MAR(눈 깜빡임 비율)과 Yaw/Pitch/Head-down 등을 통해 실시간 수집하여 운전 집중도 분석
     - 해당 모델을 만들고 React 기반 웹 애플리케이션에 통합함
+      
 - LG AImers Academy:
   - 07-01~07-03 : 한양대학교 이상욱 교수님, 『AI윤리란 무엇인가?』수강
+    
   - 07-03~07-04 : KAIST 신진우 교수님, 『Mathematics for ML』 수강
     - Matrix Decomposition
       - Determinant, Trace 개념 / Spectral Theorem
@@ -539,7 +541,8 @@
       - Convex/Concave, GD Algorithm
       - Duality Theorem, Lagrange Multiplier, KKT Condition
     - PCA
-   - 07-04~07-00: 연세대학교 노알버트 교수님, 『지도학습』 수강
+      
+   - 07-04~07-06: 연세대학교 노알버트 교수님, 『지도학습』 수강
      - Supervised Learning Overview
      - Linear Regression
      - Gradient Descent
@@ -547,13 +550,25 @@
      - Logistic Regression
      - More On Supervised Learning Beyond
       
+  - 07-06~07-00: 고려대학교 이병준 교수님, 『강화학습』 수강
+      - MDP and Planning
+      - Model-Free Policy Evaluation
+      - Model-Free Control
+      - Function Approximation
+      - Deep Q Learning
+      - Policy Gradient
+
   - 07-00~07-00: 서울대학교 문일경 교수님, 『SCM과 수요 예측』 수강
     - 공급망 관리 기본 개념
     - 수요 예측 기법
     - 수요 예측 실습 및 사례 분석
+
+
+ 
+  
   - 07.00~07-00: 서울대학교 이상학 교수님,
   - 07-00~07-00: 연세대학교 노알버트 교수님,
-  - 07-00~07-00: 고려대학교 이병준 교수님,
+  
   - 07-00~07-00: 서울대학교 강필성 교수님,
 
 
