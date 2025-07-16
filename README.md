@@ -426,7 +426,7 @@
 ## 2025-04-16 ~ 04-17
 - 토익 VOCA Day 11
 - [충북대 컴공 CBNU DL 세미나](https://sites.google.com/view/dl-keep-up/) 참고해서 트랜스포머~후속모델 공부
-  - Batch/Layer/RMS Normalization 완벽하게 공부해냄!
+- Batch/Layer/RMS Normalization 완벽하게 공부해냄!
  
 ---
 ## 2025-04-18 ~ 04-23
