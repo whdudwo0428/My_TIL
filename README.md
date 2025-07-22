@@ -521,7 +521,7 @@
   - DGIST 임성훈 교수님 첫 컨택 도전... 제일 가까운 것 같음
 
 ---
-## 2025-06-30 ~ 07-00
+## 2025-06-30 ~ 07-22
 - Word Master 고등 Basic : Test하면서 처음부터 다시 확인
 - 언급했던 대로 WSL2 밀고 완전 LINUX 환경으로 듀얼부팅, [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox)로 환경설정부터!
 - **제 10회 AI/SW 융합 해커톤**, **SW 중심대학 디지털 경진대회** 준비
@@ -532,7 +532,7 @@
         - 입상 못함... 심사위원들이 교수직이 아니라 회사 대표님들이라 그런지 rPPG Bobust에 자꾸 의문을 가진다던가 이해를 못하심... 입상도 무슨 2017년 task들이 받았음... 억울해 죽겠음 / 하지만 칭찬도 많이 받아서 SW 중심대학 디지털 경진대회에서는 더 발전시켜보자 함
       - 2025 SW중심대학 디지털 경진대회 : 07-01~07-06 / 07-14~07-15
       
-- LG AImers Academy:
+- LG AImers Academy : [AI Essential Course]
   - 07-01~07-03 : 한양대학교 이상욱 교수님, 『AI윤리란 무엇인가?』수강
     
   - 07-03~07-04 : KAIST 신진우 교수님, 『Mathematics for ML』 수강
@@ -580,6 +580,14 @@
     - 07-22 : D&O 김남우 팀장, 최정훈 매니저,『D&O 해커톤 문제 및 도메인 지식 소개』
       - 해커톤 Data domain 지식 쌓기, 해커톤 팀 디렉토리 구조 구상
 
+- 07-22 : 고려대학교 인공지능대학원 컨택 이메일 작성
+  
+---
+## 2025-07-22 ~ 07-00
+- LG AImers Academy : [Optional Course]
+  - 07-22~07-24 : 기초수학
+    - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+    - ㅁㅁㅁ
 ---
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
