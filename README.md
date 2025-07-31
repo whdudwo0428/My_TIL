@@ -584,11 +584,15 @@
 - 07-22 : 고려대학교 인공지능대학원 컨택 이메일 작성
   
 ---
-## 2025-07-22 ~ 07-00
+## 2025-07-22 ~ 07-31
 - LG AImers Academy : [Optional Course]
-  - 07-22~07-24 : 기초수학
-    - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-    - ㅁㅁㅁ
+  - Linear Algebra, Calculus
+  - 세종대학교 곽관웅 교수님,『로보틱스』수강
+ 
+---
+## 2025-08-01 ~ 2025-08-00
+- LG AImers Academy : 해커톤 시작
+  
 ---
 LangGraph agent 공부하구시펑
 https://www.youtube.com/watch?v=98nVdepA42s
