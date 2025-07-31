@@ -593,7 +593,8 @@
 - LG AImers Academy : [Optional Course]
   - 세종대학교 곽관웅 교수님,『로보틱스』수강
     - [온라인 강의 링크](http://www.kocw.net/home/search/kemView.do?kemId=1358399)
-- LG AImers Academy : 해커톤 시작
+- LG AImers Academy : [식음업장 메뉴 수요 예측 AI 온라인 해커톤](https://dacon.io/competitions/official/236559/overview/description)
+  - 리조트 식음업장에서 수집된 과거의 메뉴별 판매 데이터를 기반으로, 향후 1주일간 각 메뉴의 예상 판매량을 예측하는 AI 모델을 개발
   
 ---
 LangGraph agent 공부하구시펑
