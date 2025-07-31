@@ -587,10 +587,12 @@
 ## 2025-07-22 ~ 07-31
 - LG AImers Academy : [Optional Course]
   - Linear Algebra, Calculus
-  - 세종대학교 곽관웅 교수님,『로보틱스』수강
  
 ---
 ## 2025-08-01 ~ 2025-08-00
+- LG AImers Academy : [Optional Course]
+  - 세종대학교 곽관웅 교수님,『로보틱스』수강
+    - [온라인 강의 링크](http://www.kocw.net/home/search/kemView.do?kemId=1358399)
 - LG AImers Academy : 해커톤 시작
   
 ---
