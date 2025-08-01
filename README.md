@@ -594,7 +594,7 @@
   - 세종대학교 곽관웅 교수님,『로보틱스』수강 : 08-01~08:00
     - [온라인 강의 링크](http://www.kocw.net/home/search/kemView.do?kemId=1358399)
 - LG AImers Academy : [식음업장 메뉴 수요 예측 AI 온라인 해커톤](https://dacon.io/competitions/official/236559/overview/description)
-  - 08-01 : (디렉토리 구축)[https://github.com/whdudwo0428/lg-aimers-sales-predictor] 및 회의, 팀장을 맡게 되었다...
+  - 08-01 : [디렉토리 구축](https://github.com/whdudwo0428/lg-aimers-sales-predictor) 및 회의, 팀장을 맡게 되었다...
     - model baseline code 리팩토링하고 GPT agent
   - 08-02 : 
   
