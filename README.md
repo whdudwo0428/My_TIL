@@ -14,7 +14,7 @@
 
 ---
 
-## 2025-01-13
+## 2025-01-13https://github.com/whdudwo0428/lg-aimers-sales-predictor
 - 포트폴리오 구성 및 Git 활용 연습
 - TIL, Project 정리 등 포트폴리오 준비 구성
 - Git 사용법 공부
@@ -591,10 +591,12 @@
 ---
 ## 2025-08-01 ~ 2025-08-00
 - LG AImers Academy : [Optional Course]
-  - 세종대학교 곽관웅 교수님,『로보틱스』수강
+  - 세종대학교 곽관웅 교수님,『로보틱스』수강 : 08-01~08:00
     - [온라인 강의 링크](http://www.kocw.net/home/search/kemView.do?kemId=1358399)
 - LG AImers Academy : [식음업장 메뉴 수요 예측 AI 온라인 해커톤](https://dacon.io/competitions/official/236559/overview/description)
-  - 리조트 식음업장에서 수집된 과거의 메뉴별 판매 데이터를 기반으로, 향후 1주일간 각 메뉴의 예상 판매량을 예측하는 AI 모델을 개발
+  - 08-01 : (디렉토리 구축)[https://github.com/whdudwo0428/lg-aimers-sales-predictor] 및 회의, 팀장을 맡게 되었다...
+    - model baseline code 리팩토링하고 GPT agent
+  - 08-02 : 
   
 ---
 LangGraph agent 공부하구시펑
