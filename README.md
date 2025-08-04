@@ -14,7 +14,7 @@
 
 ---
 
-## 2025-01-13https://github.com/whdudwo0428/lg-aimers-sales-predictor
+## 2025-01-13
 - 포트폴리오 구성 및 Git 활용 연습
 - TIL, Project 정리 등 포트폴리오 준비 구성
 - Git 사용법 공부
