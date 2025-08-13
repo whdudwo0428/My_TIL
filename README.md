@@ -596,6 +596,11 @@
   - LG AImers Academy : [식음업장 메뉴 수요 예측 AI 온라인 해커톤](https://dacon.io/competitions/official/236559/overview/description)
     - [Github 링크](https://github.com/whdudwo0428/lg-aimers-sales-predictor-)
 - 토익 VOCA Day 전체 복습
+- sparse attention
+- informer
+- **Paper Review : Autoformer** (Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting)
+- **Paper Review : FEDformer** (FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting)
+
 
 ---
 LangGraph agent 공부하구시펑
