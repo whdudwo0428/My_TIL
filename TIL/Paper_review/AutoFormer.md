@@ -25,7 +25,7 @@
 2. **Auto-Correlation Mechanism**
 
    * 기존 self-attention에서 Q·K 내적 기반 유사도 대신, **주기적 지연과의 상관도**를 계산.
-   * \*\*FFT(Fast Fourier Transform)\*\*를 사용하여 주파수 영역에서 상관 피크 위치를 탐색하고, 그 지연 시점의 값을 반복 복사해 예측.
+   * **FFT(Fast Fourier Transform)**를 사용하여 주파수 영역에서 상관 피크 위치를 탐색하고, 그 지연 시점의 값을 반복 복사해 예측.
    * 장기 패턴을 효율적으로 재사용하면서도 계산 복잡도를 줄임.
 
 3. **Decoder with Progressive Prediction**
