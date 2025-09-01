@@ -5,7 +5,7 @@
     - 3.1~3.2 : Methodology & Terminolohy of HRV analysis
     - 
 - **Paper Review : DeepPhys** (DeepPhys Video-Based Physiological Measurement Using Convolutional Attention Networks)
-- **Paper Review : MT-TSANr** (Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement)
+- **Paper Review : MT-TSAN** (Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement)
 - **Paper Review : BigSmall** (BigSmall Efficient Multi-Task Learning for Disparate Spatial and Temporal Physiological Measurements)
 
 ---
