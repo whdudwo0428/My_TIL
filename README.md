@@ -5,3 +5,4 @@
     - 3.1~3.2 : Methodology & Terminolohy of HRV analysis
     - 
 ---
+- **Paper Review : Autoformer** (Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting)
