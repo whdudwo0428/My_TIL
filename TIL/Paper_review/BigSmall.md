@@ -4,7 +4,7 @@
 
 ### Problem Statement
 
-* 기존 DeepPhys, TS-CAN, MTTS-CAN 등의 연구들은 rPPG 기반 \*\*심박수(HR)\*\*와 **호흡수(RR)** 같은 단일 또는 소수의 생체 신호를 추정하는 데 주로 집중했음.
+* 기존 DeepPhys, TS-CAN, MTTS-CAN 등의 연구들은 rPPG 기반 **심박수(HR)** **호흡수(RR)** 같은 단일 또는 소수의 생체 신호를 추정하는 데 주로 집중했음.
 * 그러나 실제 생체 신호는 서로 다른 시간적·공간적 특성을 가짐:
 
   * HR, SpO₂는 **고주파(high-frequency) 신호** → 빠른 temporal 변화가 중요.
@@ -44,7 +44,7 @@
 
 ### Recap
 
-BigSmall은 이질적인 temporal 스케일을 갖는 다양한 생체 신호를 동시에 추정하기 위해 \*\*Big branch (long window, low-frequency)\*\*와 \*\*Small branch (short window, high-frequency)\*\*를 병렬적으로 결합한 멀티태스크 학습 구조를 제안했다.
+BigSmall은 이질적인 temporal 스케일을 갖는 다양한 생체 신호를 동시에 추정하기 위해 **Big branch**(**long window, low-frequency**)와 **Small branch**(**short window, high-frequency**)를 병렬적으로 결합한 멀티태스크 학습 구조를 제안했다.
 이를 통해 HR, RR, SpO₂ 등 서로 다른 시간적 특성을 갖는 physiological measurement를 단일 모델로 추정할 수 있었으며, 모바일·엣지 환경에서도 효율적으로 동작할 수 있도록 설계되었다.
 
 ---
