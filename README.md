@@ -1,8 +1,9 @@
 ## 2025-08-30 ~ 09-00
 - **Cardiovascular Physiology & HRV Analysis** 
-  - Medicore_Clinical Information_Heart Rate Variability Analysis System
+  - [Medicore_Clinical Information_Heart Rate Variability Analysis System](2025_09~2025_12/Heart Rate Variability Analysis System.pdf)
     - 2.1~2.6 : HRV Background Information
     - 3.1~3.2 : Methodology & Terminolohy of HRV analysis
     - 
 ---
 - **Paper Review : Autoformer** (Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting)
+
