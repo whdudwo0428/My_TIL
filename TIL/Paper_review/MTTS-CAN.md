@@ -15,7 +15,7 @@
 * MTTS-CAN은 이 문제를 해결하기 위해 **Multi-Task Temporal Shift Attention Network**를 제안함.
 * 핵심 아이디어:
 
-  * \*\*Temporal Shift Module (TSM)\*\*을 적용하여 RNN/LSTM 없이도 효율적인 시계열 특징 학습을 가능하게 함.
+  * **Temporal Shift Module** (**TSM**)을 적용하여 RNN/LSTM 없이도 효율적인 시계열 특징 학습을 가능하게 함.
   * **Multi-task head**를 두어 HR, RR 같은 서로 다른 생체 지표를 동시에 예측.
   * **Attention mechanism**을 통해 motion stream에서 생체 신호와 관련된 영역만 강조.
 * 즉, 기존 CAN/TS-CAN의 강점을 유지하면서도 멀티태스크 + 저비용(on-device friendly) 학습을 실현.
