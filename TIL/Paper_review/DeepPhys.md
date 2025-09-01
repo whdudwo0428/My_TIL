@@ -10,7 +10,7 @@
 
 ### Solution Approach
 
-* DeepPhys는 이 문제를 해결하기 위해 \*\*Convolutional Attention Network (CAN)\*\*을 도입함.
+* DeepPhys는 이 문제를 해결하기 위해 **Convolutional Attention Network**(**CAN**)을 도입함.
 * 기본 아이디어는:
 
   * **Motion Representation**: Optical flow 대신 프레임 간 차분(difference)으로 동적 정보를 추출.
