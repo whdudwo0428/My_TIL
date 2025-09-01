@@ -47,7 +47,3 @@ DeepPhys는 영상 기반 심박수 추정에서 발생하는 조명 변화와 �
 
 이 논문은 이후 등장하는 TS-CAN, MTTS-CAN 등 attention 확장 모델들의 기반이 되었음.
 다만 초기 CNN 기반 구조라 sequence modeling 능력이 제한적이어서, 긴 temporal dependency를 다루는 데는 한계가 있었다.
-
----
-
-혹시 이어서 **MTTS-CAN**이나 **BigSmall** 같은 후속 연구 리뷰도 같은 형식으로 정리해드릴까요?
