@@ -4,9 +4,13 @@
     - 2.1~2.6 : HRV Background Information
     - 3.1~3.2 : Methodology & Terminolohy of HRV analysis
     - 
-- **Paper Review : DeepPhys** (DeepPhys Video-Based Physiological Measurement Using Convolutional Attention Networks)
-- **Paper Review : MT-TSAN** (Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement)
-- **Paper Review : BigSmall** (BigSmall Efficient Multi-Task Learning for Disparate Spatial and Temporal Physiological Measurements)
+- **Paper Review**
+  - **DeepPhys** (DeepPhys Video-Based Physiological Measurement Using Convolutional Attention Networks)
+  - **MTTS-CAN** (Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement)
+  - **BigSmall** (BigSmall Efficient Multi-Task Learning for Disparate Spatial and Temporal Physiological Measurements)
+- [rPPG-ToolBox](https://github.com/whdudwo0428/rPPG-Toolbox) Refactoring
+  - Environment Setting
+  - DeepPhys, TS-CAN, MTTS-CAN, BigSmall
 
 ---
 
