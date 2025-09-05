@@ -21,4 +21,4 @@
   - Medicore_Clinical Information [HRV Analysis System](https://github.com/whdudwo0428/My_TIL/blob/main/2025_09~2025_12/Heart%20Rate%20Variability%20Analysis%20System.pdf)
     - 4.1~4.2: Clinical Value of HRV Analysis
 - 호흡 움직임? 그거 코딩
-- 정보보안/대칭키암호/스트림암호/A5 공부,코딩
+- 정보보안/대칭키암호/스트림암호/A5 공부,[코딩](https://github.com/whdudwo0428/BaseLineCoding/blob/main/simple_a51_slide.py)
