@@ -587,7 +587,7 @@
 ## 2025-07-22 ~ 07-31
 - LG AImers Academy : [Optional Course]
   - Linear Algebra, Calculus
- 
+ - 외 수학 공부 많이 함
 ---
 ## 2025-08-01 ~ 2025-08-25
 - LG AImers Academy : [Optional Course]
@@ -600,6 +600,7 @@
   - 다양한 Sparse attention도 간단하게 학습 : Global Attention, Dilated Attention, Block Local Attention, Star Transformer, Longformer, ETC, BigBird 등....
 - **Paper Review : Autoformer** (Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting)
 - **Paper Review : FEDformer** (FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting)
+- 신호 및 시스템 자체 공부 깊게
 - 잡다한 여러 공부들....
   
 ---
