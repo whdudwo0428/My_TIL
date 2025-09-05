@@ -589,7 +589,7 @@
   - Linear Algebra, Calculus
  
 ---
-## 2025-08-01 ~ 2025-08-00
+## 2025-08-01 ~ 2025-08-25
 - LG AImers Academy : [Optional Course]
   - 세종대학교 곽관웅 교수님,『로보틱스』수강 : 08-01~08:00
     - [온라인 강의 링크](http://www.kocw.net/home/cview.do?cid=7da5751291d84584)
@@ -600,8 +600,7 @@
   - 다양한 Sparse attention도 간단하게 학습 : Global Attention, Dilated Attention, Block Local Attention, Star Transformer, Longformer, ETC, BigBird 등....
 - **Paper Review : Autoformer** (Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting)
 - **Paper Review : FEDformer** (FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting)
-
-
+- 잡다한 여러 공부들....
+  
 ---
-LangGraph agent 공부하구시펑
-https://www.youtube.com/watch?v=98nVdepA42s
+이렇게 경남대에서 8월동안 공부하게 됨... 뿌듯하다 울산대 가서도 열시미 해야징
