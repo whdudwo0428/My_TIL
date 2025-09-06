@@ -28,4 +28,4 @@
   - GQA : Grouped Query Attetnion - Meta, Llama 3
   - MLA : Multi Head Latent Attetnion - DeepSeek, R1
 - **Paper Review**
-  - **Scaling Laws_LNM** (DeepPhys Video-Based Physiological Measurement Using Convolutional Attention Networks)
+  - **Scaling Laws_LNM** (Scaling Laws for Neural Language Models)
