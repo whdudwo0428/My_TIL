@@ -31,3 +31,4 @@
   - **Scaling Laws_NLM** (Scaling Laws for Neural Language Models)
   - **Scaling Laws_AGM** (Scaling Laws for Autoregressive Generative Models)
   - **Compute Optimal_LLM** (Traning Compute-Optimal Large Language Models)
+  - Language Models are Fes-Shot Learners
