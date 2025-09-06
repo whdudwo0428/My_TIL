@@ -10,7 +10,7 @@
   - **BigSmall** (BigSmall Efficient Multi-Task Learning for Disparate Spatial and Temporal Physiological Measurements)
 - [rPPG-ToolBox](https://github.com/whdudwo0428/rPPG-Toolbox) Refactoring
   - Environment Setting
-  - DeepPhys, TS-CAN, MTTS-CAN, BigSmall
+  - DeepPhys, TS-CAN, MTTS-CAN
 - Lab Seminar
   - 1주차 : 기존 비접촉 호흡수 추정 기법들의 동작 원리와 한계점 분석 / DeepPhys, MTTS-CAN 논문 리뷰
 
