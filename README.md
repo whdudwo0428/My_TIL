@@ -22,5 +22,10 @@
     - 4.1~4.2: Clinical Value of HRV Analysis
 - 호흡 움직임? 그거 코딩
 - 정보보안/대칭키암호/스트림암호/A5 공부,[코딩](https://github.com/whdudwo0428/BaseLineCoding/blob/main/simple_a51_slide.py)
-- Multi-head Latent Attention 공부
-  - 딥시크r1 논문
+- About Attention...
+  - MHA : Multi Head Attention
+  - MQA : Multi Query Attention
+  - GQA : Grouped Query Attetnion - Meta, Llama 3
+  - MLA : Multi Head Latent Attetnion - DeepSeek, R1
+- **Paper Review**
+  - **Scaling Laws_LNM** (DeepPhys Video-Based Physiological Measurement Using Convolutional Attention Networks)
