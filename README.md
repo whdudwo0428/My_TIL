@@ -28,4 +28,4 @@
   - GQA : Grouped Query Attetnion - Meta, Llama 3
   - MLA : Multi Head Latent Attetnion - DeepSeek, R1
 - **Paper Review**
-  - **Scaling Laws_LNM** (Scaling Laws for Neural Language Models)
+  - **Scaling Laws_NLM** (Scaling Laws for Neural Language Models)
