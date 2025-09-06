@@ -29,3 +29,4 @@
   - MLA : Multi Head Latent Attetnion - DeepSeek, R1
 - **Paper Review**
   - **Scaling Laws_NLM** (Scaling Laws for Neural Language Models)
+  - **Scaling Laws_AGM** (Scaling Laws for Autoregressive Generative Models)
