@@ -28,7 +28,8 @@
   - GQA : Grouped Query Attetnion - Meta, Llama 3
   - MLA : Multi Head Latent Attetnion - DeepSeek, R1
 - **Paper Review**
-  - **Scaling Laws_NLM** (Scaling Laws for Neural Language Models)
-  - **Scaling Laws_AGM** (Scaling Laws for Autoregressive Generative Models)
-  - **Compute Optimal_LLM** (Traning Compute-Optimal Large Language Models)
-  - Language Models are Fes-Shot Learners
+  - **Scaling Laws for Neural Language Models**
+  - **Scaling Laws for Autoregressive Generative Models**
+  - **Traning Compute-Optimal Large Language Models**
+  - **Language Models are Few-Shot Learners**
+  - **Why Language Models Hallucinate** : 20250905에 공개한 OpenAI Paper
