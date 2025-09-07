@@ -1,7 +1,3 @@
-좋습니다. 이번에도 **굵게 쓰기 규칙**을 정확히 지켜서 다시 정리해드리겠습니다.
-
----
-
 ## Training Compute-Optimal Large Language Models
 
 #### 2025-09-07
