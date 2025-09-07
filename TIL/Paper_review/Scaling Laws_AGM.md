@@ -1,7 +1,3 @@
-알겠습니다. 이번에는 요청해주신 대로 **굵게 쓰기 오류** 없이, 규칙을 엄격히 지켜서 다시 작성해드릴게요.
-
----
-
 ## Scaling Laws for Autoregressive Generative Models
 
 #### 2025-09-07
