@@ -4,7 +4,7 @@
 
 ### Problem Statement
 
-* 기존의 \*\*Scaling Laws for Neural Language Models (Kaplan et al., 2020)\*\*는 언어 모델에 한정되어 있었다.
+* 기존의 **Scaling Laws for Neural Language Models** (**Kaplan et al., 2020**)는 언어 모델에 한정되어 있었다.
 * 그러나 생성 모델(generative models)은 언어뿐 아니라 이미지, 오디오, 멀티모달 데이터 등 다양한 도메인에 걸쳐 사용된다.
 * 따라서, **자원(모델 크기, 데이터 크기, 컴퓨트)과 성능의 관계가 언어 외 다른 생성 모델에도 보편적으로 적용되는지** 검증할 필요가 있었다.
 * 특히, **오토리그레시브(autoregressive) 구조**를 갖는 생성 모델 전반에 대해 scaling law가 성립하는지 탐구하는 것이 핵심 목표였다.
