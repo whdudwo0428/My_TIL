@@ -1,7 +1,3 @@
-네, 이번에도 **굵게 쓰기 규칙**을 지켜서 다시 작성해드리겠습니다.
-
----
-
 ## Language Models are Few-Shot Learners
 
 #### 2025-09-07
