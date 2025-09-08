@@ -33,10 +33,9 @@
   * 최종 손실 함수는 단순한 **MSE 기반 noise 예측**으로 정리된다:
 
   $$
-  L = \mathbb{E}_{x_0, \epsilon, t} 
-  \left[ \, \| \epsilon - \epsilon_\theta(x_t, t) \|^2 \, \right]
-  $$
-
+L = \mathbb{E}_{x_0, \epsilon, t} 
+\left[ (\epsilon - \epsilon_\theta(x_t, t))^2 \right]
+$$
 
 * **Sampling**:
 
