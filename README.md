@@ -16,11 +16,11 @@
 
 ---
 
-## 2025-09-05 ~ 09-00
+## 2025-09-05 ~ 09-07
 - **Cardiovascular Physiology & HRV Analysis** 
   - Medicore_Clinical Information [HRV Analysis System](https://github.com/whdudwo0428/My_TIL/blob/main/2025_09~2025_12/Heart%20Rate%20Variability%20Analysis%20System.pdf)
     - 4.1~4.2: Clinical Value of HRV Analysis
-- 호흡 움직임? 그거 코딩
+- 호흡 시 신체 기계적 움직임 공부 (해부학적)
 - 정보보안/대칭키암호/스트림암호/A5 공부, [Code](https://github.com/whdudwo0428/BaseLineCoding/blob/main/simple_a51_slide.py)
 - About Attention...
   - MHA : Multi Head Attention
@@ -33,3 +33,30 @@
   - **Traning Compute-Optimal Large Language Models**
   - **Language Models are Few-Shot Learners**
   - **Why Language Models Hallucinate** : 20250905에 공개한 OpenAI Paper
+
+---
+
+## 2025-09-08 ~ 09-00
+- About Holter Monitering / MIT-BIH Arrhythmia Database
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
