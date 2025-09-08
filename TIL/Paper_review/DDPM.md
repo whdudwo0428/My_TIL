@@ -32,9 +32,8 @@
   * Variational Inference 기반의 증분 KL divergence 최소화에서 유도된다.
   * 최종 손실 함수는 단순한 **MSE 기반 noise 예측**으로 정리된다:
 
-  $$
-L = \mathbb{E}_{x_0, \epsilon, t} 
-\left[ (\epsilon - \epsilon_\theta(x_t, t))^2 \right]
+$$
+L = E_{x_0, \epsilon, t}\; [ (\epsilon - \epsilon_\theta(x_t, t))^2 ]
 $$
 
 * **Sampling**:
