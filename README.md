@@ -1,5 +1,5 @@
 ## 2025-08-30 ~ 09-04
-- 슬기로운 울산대 라이프 시작
+- 슬기로운 울산대 라이프 시작!!
 - **Cardiovascular Physiology & HRV Analysis** 
   - Medicore_Clinical Information [HRV Analysis System](https://github.com/whdudwo0428/My_TIL/blob/main/2025_09~2025_12/Heart%20Rate%20Variability%20Analysis%20System.pdf)
     - 2.1~2.6 : HRV Background Information
@@ -36,9 +36,21 @@
 
 ---
 
-## 2025-09-08 ~ 09-00
-- About Holter Monitering / MIT-BIH Arrhythmia Database
-- 
+## 2025-09-08 ~ 09-18
+- HomesAI 과제를 위한 사전 조사: About Holter Monitering / MIT-BIH Arrhythmia Database
+- HomesAI 서버코드 리팩토링 : 기존 알고리즘 함수 동작시간 확인 및 코드 최적화
+- Lab Seminar
+  - 2주차: 광운대 수빈씨 rPPG 논문 리뷰 & 새로운 비접촉 호흡수 추정 알고리즘(V0) 초안구현 및 실험, 인사이트 공유
+  - 3주차: 광운대 수빈씨 rPPG 초기모델 논문 코드로 구현 & 호흡추정 알고리즘 V2까지 진행상황 공유
+- 호흡수 추정 알고리즘 검증을 위해 계속 실험...
+
+---
+
+## 2025-09-19 ~ 09-00
+- 본격적으로 논문 작업시작!!
+- 논문 작업
+  - 비접촉 호흡파형 시계열 회귀: 자세추정 기반 상체 운동학 활용 | Non-contact Time-series Regression of Respiratory Waveforms: from Upper-Torso Kinematics via Human Pose Estimation
+
 
 
 
