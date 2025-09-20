@@ -42,15 +42,16 @@
 - Lab Seminar
   - 2주차: 광운대 수빈씨 rPPG 논문 리뷰 & 새로운 비접촉 호흡수 추정 알고리즘(V0) 초안구현 및 실험, 인사이트 공유
   - 3주차: 광운대 수빈씨 rPPG 초기모델 논문 코드로 구현 & 호흡추정 알고리즘 V2까지 진행상황 공유
-- 호흡수 추정 알고리즘 검증을 위해 계속 실험...
+- 호흡수 추정 알고리즘 검증을 위해 계속 실험... 내가 고안한 Method가 실제로 Cohface 데이터셋을 통해 호흡 파형을 높은 corr로 복원 가능하다 확인
 
 ---
 
 ## 2025-09-19 ~ 09-00
-- 본격적으로 논문 작업시작!!
-- 논문 작업
-  - 비접촉 호흡파형 시계열 회귀: 자세추정 기반 상체 운동학 활용 | Non-contact Time-series Regression of Respiratory Waveforms: from Upper-Torso Kinematics via Human Pose Estimation
-
+- 논문 본격적으로 작업시작!!
+- 논문 작업 (Git주소는 학회 제출 후 공개)
+  - 요약본 작성, 논문명을 아주 애정을 담아 고민중... ㅋㅋㅋ
+  - 알고리즘 Window 최적화 관련 실험, window size, stride, Multi-window를 어떻게 구성해야 호흡을 잘 표현할 수 있을지...
+  - 
 
 
 
